@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;400;500;600;700");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --antonio-font: "Antonio", sans-serif;
+  --dark-grey: #1a1a1a;
+  // --background-color: #d3cedf;
+  --background-color: #e6e2c3;
+  --Soft-Red: #d72e3e;
+  --Soft-Blue: #3c80d1;
+  --Light-Teal: #00c2b0;
+  /* // --Medium-Grey	:#808080; */
+  --Medium-Grey: #423f3e;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--Soft-Blue);
+  border-radius: 12px;
+  transition: all 350ms linear;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--Soft-Red);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--antonio-font);
+  max-width: 800px;
+  margin: auto;
+  padding: 12px 15px;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+}
