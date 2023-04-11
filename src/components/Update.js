@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { CgArrowTopRight } from "react-icons/cg";
-import styles from "../styles/Updates.module.scss";
+import styles from "../styles/Updates.module.css";
 const Update = () => {
   return (
     <>

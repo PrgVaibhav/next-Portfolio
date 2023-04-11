@@ -1,4 +1,4 @@
-import styles from "../styles/Projects.module.scss";
+import styles from "../styles/Projects.module.css";
 import { CgArrowTopRight } from "react-icons/cg";
 import { ProjectData } from "../data/ProjectData";
 import { Fade } from "react-slideshow-image";

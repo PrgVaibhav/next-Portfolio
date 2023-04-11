@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/Home.module.css";
 import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";
 import Freelancing from "../components/Freelancing";

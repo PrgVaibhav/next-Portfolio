@@ -1,4 +1,4 @@
-import styles from "../styles/Blog.module.scss";
+import styles from "../styles/Blog.module.css";
 import { CgArrowTopRight } from "react-icons/cg";
 import Image from "next/image";
 const Blog = ({ title, coverImage, brief, slug, dateAdded }) => {

@@ -1,0 +1,29 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  outline: none;
+}
+.navbar_container .navbar_logo span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark-grey);
+}
+.navbar_container .nav_links ul {
+  display: flex;
+  gap: 1rem;
+}
+.navbar_container .nav_links ul li a {
+  color: var(--Medium-Grey);
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+}
+.navbar_container .nav_links ul li a:hover {
+  color: var(--Soft-Red);
+}
+.navbar_container .nav_links ul li .active {
+  color: var(--Soft-Red);
+}/*# sourceMappingURL=Navbar.module.css.map */

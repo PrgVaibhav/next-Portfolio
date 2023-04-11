@@ -1,5 +1,5 @@
 // import error from "../assets/error.gif";
-import styles from "../styles/Error.module.scss";
+import styles from "../styles/Error.module.css";
 import Image from "next/image";
 const Error = () => {
   return (

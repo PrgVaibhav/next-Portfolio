@@ -1,4 +1,4 @@
-import styles from "../styles/AboutMe.module.scss";
+import styles from "../styles/AboutMe.module.css";
 import hello from "../assets/hey hey hey.webp";
 import Image from "next/image";
 const AboutMe = () => {

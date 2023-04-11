@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;400;500;600;700");
-
 *,
 *::after,
 *::before {
@@ -13,10 +12,10 @@
 html {
   scroll-behavior: smooth;
 }
+
 :root {
   --antonio-font: "Antonio", sans-serif;
   --dark-grey: #1a1a1a;
-  // --background-color: #d3cedf;
   --background-color: #e6e2c3;
   --Soft-Red: #d72e3e;
   --Soft-Blue: #3c80d1;
@@ -24,6 +23,7 @@ html {
   /* // --Medium-Grey	:#808080; */
   --Medium-Grey: #423f3e;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -38,6 +38,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background: var(--Soft-Blue);
   border-radius: 12px;
+  -webkit-transition: all 350ms linear;
   transition: all 350ms linear;
 }
 
@@ -52,8 +53,9 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 12px 15px;
-
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+  body {
     max-width: 100%;
   }
-}
+}/*# sourceMappingURL=globals.css.map */

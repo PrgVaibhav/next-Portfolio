@@ -3,7 +3,7 @@ export const UpdateData = [
     id: 2,
     title: "Whole Website got updated to NextJS",
     description:
-      "I have updated the whole website to NextJS. Now, the website is much more faster and SEO friendly. Now every page have their own title. ",
+      "I have updated the whole website to NextJS. Now, the website is much more faster and SEO friendly. Now every page have their own title. Also changed SCSS to CSS modules. Now, the website is much more cleaner and easier to maintain.",
     date: "10th April 2023",
   },
   {

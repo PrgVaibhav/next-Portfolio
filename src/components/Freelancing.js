@@ -1,4 +1,4 @@
-import styles from "../styles/Freelancing.module.scss";
+import styles from "../styles/Freelancing.module.css";
 import { CgArrowTopRight } from "react-icons/cg";
 const Freelancing = () => {
   return (

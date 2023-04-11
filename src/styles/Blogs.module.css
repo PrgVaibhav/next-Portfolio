@@ -1,0 +1,22 @@
+.blogs_container h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.blogs_container p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--Medium-Grey);
+  line-height: 30px;
+}
+.blogs_container a {
+  color: var(--Soft-Blue);
+  text-decoration: none;
+  transition: all 350ms linear;
+  letter-spacing: 1px;
+}
+.blogs_container a:hover {
+  transform: scale(1.2);
+  color: var(--Soft-Red);
+}/*# sourceMappingURL=Blogs.module.css.map */

@@ -1,4 +1,4 @@
-import styles from "../styles/Blogs.module.scss";
+import styles from "../styles/Blogs.module.css";
 import Blog from "../components/Blog";
 import Head from "next/head";
 const Blogs = ({ blogs }) => {

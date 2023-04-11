@@ -1,4 +1,4 @@
-import styles from "../styles/Socials.module.scss";
+import styles from "../styles/Socials.module.css";
 import { FiGithub } from "react-icons/fi";
 import { CgArrowTopRight } from "react-icons/cg";
 import { CiTwitter } from "react-icons/ci";
