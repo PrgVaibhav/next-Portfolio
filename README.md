@@ -28,7 +28,7 @@ I regularly update my website with new content, blog posts, and projects, so ple
 
 The website was built using Next.js, a popular React framework for building server-side rendered websites. The website is hosted on Vercel, a cloud hosting platform for web applications. The website also utilizes various other technologies such as CSS, JavaScript, and HTML.
 
-## Author
+## Socials
 
 - Portfolio - [Website](https://kumarvaibhav.vercel.app/)
 - Twitter - [Connect with me](https://twitter.com/SyntaxError408)
