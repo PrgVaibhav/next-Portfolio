@@ -30,9 +30,9 @@ The website was built using Next.js, a popular React framework for building serv
 
 ## Author
 
-Portfolio - [Website](https://kumarvaibhav.vercel.app/)
-Twitter - [Connect with me](https://twitter.com/SyntaxError408)
-LinkedIn - [Connect with me](https://www.linkedin.com/in/devxvaibhav)
-Instagram - [Connect with me](https://www.instagram.com/codeewithme/)
-Hashnode- [Connect with me](https://vaibhavwrites.hashnode.dev/)
-YouTube - [Connect with me](https://www.youtube.com/channel/UCGbaw2zSU3QlqlGDC7gXmag)
+- Portfolio - [Website](https://kumarvaibhav.vercel.app/)
+- Twitter - [Connect with me](https://twitter.com/SyntaxError408)
+- LinkedIn - [Connect with me](https://www.linkedin.com/in/devxvaibhav)
+- Instagram - [Connect with me](https://www.instagram.com/codeewithme/)
+- Hashnode- [Connect with me](https://vaibhavwrites.hashnode.dev/)
+- YouTube - [Connect with me](https://www.youtube.com/channel/UCGbaw2zSU3QlqlGDC7gXmag)
