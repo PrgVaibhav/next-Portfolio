@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my personal portfolio website built using Next.js and hosted on Vercel. The website includes sections such as About, Projects, Experience, Updates, and Blogs.
 
-## Getting Started
+## About Section
 
-First, run the development server:
+The About section provides a brief overview of who I am, my background, and what I am passionate about.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Projects Section
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Projects section showcases some of the projects I have worked on web applications Each project includes a description of its purpose, technologies used, and a link to the GitHub repository or live demo.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Experience Section
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The Experience section lists my professional work experience, including my current and past roles, job responsibilities, and accomplishments.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Updates Section
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The Updates section provides a list of the latest updates and improvements to my website or other projects I am working on.
 
-## Learn More
+## Blogs Section
 
-To learn more about Next.js, take a look at the following resources:
+The Blogs section contains a list of blog posts I have written on various topics related to web development, technology, and personal growth.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Regular Updates
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I regularly update my website with new content, blog posts, and projects, so please check back frequently to stay up-to-date with my latest work.
 
-## Deploy on Vercel
+### Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website was built using Next.js, a popular React framework for building server-side rendered websites. The website is hosted on Vercel, a cloud hosting platform for web applications. The website also utilizes various other technologies such as CSS, JavaScript, and HTML.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+
+Portfolio - [Website](https://kumarvaibhav.vercel.app/)
+Twitter - [Connect with me](https://twitter.com/SyntaxError408)
+LinkedIn - [Connect with me](https://www.linkedin.com/in/devxvaibhav)
+Instagram - [Connect with me](https://www.instagram.com/codeewithme/)
+Hashnode- [Connect with me](https://vaibhavwrites.hashnode.dev/)
+YouTube - [Connect with me](https://www.youtube.com/channel/UCGbaw2zSU3QlqlGDC7gXmag)
