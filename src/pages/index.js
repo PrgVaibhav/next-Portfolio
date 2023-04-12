@@ -17,9 +17,6 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Vaibhav Kumar" />
         <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Vaibhav Kumar" />
-        <meta name="twitter:creator" content="@SyntaxError408" />
         <meta property="og:image" content="/preview.png" />
         <link rel="icon" href="/favicon.png" />
       </Head>

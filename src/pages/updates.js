@@ -7,11 +7,31 @@ const Update = () => {
     <>
       <Head>
         <title>Updates | Vaibhav Kumar</title>
-        <meta name="description" content="Update page of website" />
+        <meta name="title" content="Update Page" />
+        <meta name="description" content="Update page for Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Vaibhav Kumar" />
+        <meta name="description" content="Portfolio website of Vaibhav Kumar" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Update Page" />
+        <meta
+          property="og:description"
+          content="Portfolio website of Vaibhav Kumar"
+        />
+        <meta property="og:url" content="https://vaibhavkumar.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Vaibhav Kumar" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image" content="/preview.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.update_container}>
         <h2>Updates 💹</h2>
+        <p>
+          I'm learning everyday that's why whenever I learn any new thing I want
+          to add that stuff in my projects, and by doing this I build my muscle
+          memory, and I also get to implement all the new things which I learn.
+        </p>
         {UpdateData.map((update) => {
           return (
             <div className={styles.update} key={update.id}>

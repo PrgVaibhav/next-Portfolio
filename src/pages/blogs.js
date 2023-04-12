@@ -6,8 +6,23 @@ const Blogs = ({ blogs }) => {
     <>
       <Head>
         <title>Blogs | Vaibhav Kumar</title>
-        <meta name="description" content="Blogs page for Vaibhav" />
+        <meta name="title" content="Blog Page" />
+        <meta name="description" content="Blog page of Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Vaibhav Kumar" />
+        <meta name="description" content="Portfolio website of Vaibhav Kumar" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="BLog Page" />
+        <meta
+          property="og:description"
+          content="Portfolio website of Vaibhav Kumar"
+        />
+        <meta property="og:url" content="https://vaibhavkumar.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Vaibhav Kumar" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image" content="/preview.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.blogs_container}>
         <h2>Blogs</h2>
