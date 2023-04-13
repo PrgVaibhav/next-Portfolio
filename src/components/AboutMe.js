@@ -46,8 +46,9 @@ const AboutMe = () => {
           </ul>
         </div>
         <div className={styles.learning}>
-          <h2>🌠 Tools which I'm learning:</h2>
+          <h2>🌠 Tools which I'm learrning:</h2>
           <ul>
+            <li>Next Js</li>
             <li>NodeJS</li>
             <li>Express</li>
             <li>MongoDB</li>

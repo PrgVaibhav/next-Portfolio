@@ -4,45 +4,56 @@
   letter-spacing: 1px;
   margin-bottom: 2rem;
 }
+
 .projects_container .projects .project {
   border-left: 2px solid cadetblue;
   padding-left: 0.6rem;
   margin-bottom: 3rem;
+  transition: all 350ms linear;
 }
+
 .projects_container .projects .project:last-child {
   margin-bottom: 1rem;
 }
+
 .projects_container .projects .project:hover {
   border-left: 2px solid var(--Soft-Red);
+  transform: translateX(4px);
 }
+
 .projects_container .projects .project img {
   max-width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 350ms linear;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 .projects_container .projects .project img:hover {
   transform: scale(1.2);
 }
+
 @media (max-width: 768px) {
   .projects_container .projects .project img:hover {
     transform: scale(1.05);
   }
 }
+
 .projects_container .projects .project .project_title {
   display: flex;
   align-items: center;
   gap: 1.1rem;
   margin-top: 0.5rem;
 }
+
 .projects_container .projects .project .project_title h3 {
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
 }
+
 .projects_container .projects .project .project_title span {
   font-size: 0.8rem;
   font-weight: 600;
@@ -55,10 +66,12 @@
   border-radius: 4px;
   transition: all 350ms linear;
 }
+
 .projects_container .projects .project .project_title span:hover {
   background-color: var(--Soft-Red);
   color: #fff;
 }
+
 .projects_container .projects .project p {
   font-size: 1.1rem;
   font-weight: 600;
@@ -67,6 +80,7 @@
   color: var(--Medium-Grey);
   margin-bottom: 0.4rem;
 }
+
 .projects_container .projects .project a {
   font-size: 1.1rem;
   font-weight: 600;
@@ -75,11 +89,15 @@
   color: var(--Medium-Grey);
   text-decoration: underline;
 }
+
 .projects_container .projects .project a:hover .arrow {
   transform: scale(1.2);
   color: var(--Soft-Red);
 }
+
 .projects_container .projects .project .links {
   display: flex;
   gap: 1rem;
-}/*# sourceMappingURL=Projects.module.css.map */
+}
+
+/*# sourceMappingURL=Projects.module.css.map */

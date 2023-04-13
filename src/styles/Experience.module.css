@@ -1,12 +1,14 @@
 .experience_container {
   margin-top: 1rem;
 }
+
 .experience_container h2 {
   font-size: 1.3rem;
   margin-bottom: 1.3rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 .experience_container .experience {
   border-left: 2px solid cadetblue;
   height: 100%;
@@ -15,22 +17,28 @@
   transition: all 350ms linear;
   margin-bottom: 1rem;
 }
+
 .experience_container .experience:hover {
   border-left: 2px solid var(--Soft-Red);
+  transform: translateX(4px);
 }
+
 .experience_container .experience .experience_description {
   line-height: 30px;
 }
+
 .experience_container .experience .experience_description h3 {
   font-size: 1.15rem;
   font-weight: 600;
 }
+
 .experience_container .experience .experience_description p {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: var(--Medium-Grey);
 }
+
 .experience_container .experience .experience_description li {
   list-style: square;
   font-size: 0.9rem;
@@ -38,4 +46,6 @@
   letter-spacing: 1px;
   margin-left: 1rem;
   color: var(--Medium-Grey);
-}/*# sourceMappingURL=Experience.module.css.map */
+}
+
+/*# sourceMappingURL=Experience.module.css.map */

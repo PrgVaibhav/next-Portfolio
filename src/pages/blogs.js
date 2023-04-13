@@ -12,7 +12,7 @@ const Blogs = ({ blogs }) => {
         <meta name="title" content="Vaibhav Kumar" />
         <meta name="description" content="Portfolio website of Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="BLog Page" />
+        <meta property="og:title" content="Blog Page" />
         <meta
           property="og:description"
           content="Portfolio website of Vaibhav Kumar"

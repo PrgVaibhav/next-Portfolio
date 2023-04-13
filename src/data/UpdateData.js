@@ -1,5 +1,12 @@
 export const UpdateData = [
   {
+    id: 3,
+    title: "Changed some styles in the website",
+    description:
+      "Changed some styles in the website. Added small animation on Experience section, Projects Section and Update Section. Also added custom preview title, description and image for the website. Now, when you share the website link on social media, it will show the custom preview title, description and image. Previously, it was showing the default preview title, description and image. ",
+    date: "13th April 2023",
+  },
+  {
     id: 2,
     title: "Whole Website got updated to NextJS",
     description:
