@@ -10,22 +10,26 @@
   margin-bottom: 2rem;
   transition: all 0.3s ease-in-out;
 }
+
 .about_me_container .about_me_header:hover {
   box-shadow: 3px 3px 5px var(--Soft-Red);
 }
+
 .about_me_container .about_me_header h1 {
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 .about_me_container .about_me_header img {
   max-width: 120px;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   vertical-align: middle;
   border-radius: 50%;
 }
+
 .about_me_container .about_me_header p {
   font-size: 1.1rem;
   font-weight: 400;
@@ -34,11 +38,13 @@
   color: var(--Medium-Grey);
   line-height: 24px;
 }
+
 .about_me_container .about_me_body h2 {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 .about_me_container .about_me_body p {
   font-size: 1.1rem;
   font-weight: 400;
@@ -49,18 +55,21 @@
   color: var(--Medium-Grey);
   line-height: 30px;
 }
+
 .about_me_container .tools {
   display: flex;
   gap: 5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 @media (max-width: 768px) {
   .about_me_container .tools {
     flex-direction: column;
     gap: 2rem;
   }
 }
+
 .about_me_container .tools .daily h2,
 .about_me_container .tools .learning h2 {
   font-size: 1.5rem;
@@ -71,11 +80,13 @@
   line-height: 30px;
   margin-bottom: 0.5rem;
 }
+
 .about_me_container .tools .daily ul,
 .about_me_container .tools .learning ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .about_me_container .tools .daily ul li,
 .about_me_container .tools .learning ul li {
   list-style: square;
@@ -88,12 +99,15 @@
   color: var(--Medium-Grey);
   line-height: 40px;
 }
+
 .about_me_container .tools .daily ul li:hover,
 .about_me_container .tools .learning ul li:hover {
   color: var(--Soft-Red);
   font-weight: 500;
 }
+
 @media (max-width: 768px) {
+
   .about_me_container .tools .daily ul li,
   .about_me_container .tools .learning ul li {
     margin-left: 1rem;
@@ -103,4 +117,6 @@
 .special {
   color: var(--Soft-Red);
   transform: scale(5);
-}/*# sourceMappingURL=AboutMe.module.css.map */
+}
+
+/*# sourceMappingURL=AboutMe.module.css.map */

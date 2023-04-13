@@ -29,7 +29,7 @@ const Blogs = ({ blogs }) => {
         <p>
           I have recently started writing blogs on Hashnode, here are some of my
           blogs. I will be adding more blogs soon. You can also check out my
-          blogs on Hashnode. Here you can see my last 5 blogs.
+          blogs on Hashnode. Here you can see my last 6 blogs.
         </p>
         <p>
           Visit my Hashnode profile{" "}
