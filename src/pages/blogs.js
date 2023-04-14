@@ -4,12 +4,11 @@ import Head from "next/head";
 const Blogs = ({ blogs }) => {
   return (
     <>
-      <Head>
+      <Head lang="en">
         <title>Blogs | Vaibhav Kumar</title>
         <meta name="title" content="Blog Page" />
         <meta name="description" content="Blog page of Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="title" content="Vaibhav Kumar" />
         <meta name="description" content="Portfolio website of Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Blog Page" />

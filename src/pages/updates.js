@@ -5,12 +5,11 @@ import Head from "next/head";
 const Update = () => {
   return (
     <>
-      <Head>
+      <Head lang="en">
         <title>Updates | Vaibhav Kumar</title>
         <meta name="title" content="Update Page" />
         <meta name="description" content="Update page for Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="title" content="Vaibhav Kumar" />
         <meta name="description" content="Portfolio website of Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Update Page" />

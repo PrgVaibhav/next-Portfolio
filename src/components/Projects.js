@@ -30,55 +30,46 @@ const Projects = () => {
                   <Image
                     src={project.image1}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image2}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image3}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image4}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image5}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image6}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image7}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image8}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                   <Image
                     src={project.image9}
                     alt={project.alt}
-                    priority
                     placeholder="blur"
                   />
                 </Fade>
@@ -86,7 +77,6 @@ const Projects = () => {
                 <Image
                   src={project.image1}
                   alt={project.alt}
-                  priority
                   placeholder="blur"
                 />
               )}

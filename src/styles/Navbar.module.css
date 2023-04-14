@@ -34,26 +34,3 @@
 }
 
 /*# sourceMappingURL=Navbar.module.css.map */
-
-.greeting {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: var(--Soft-Red);
-  max-width: max-content;
-  margin: auto auto 1rem auto;
-  padding: 6px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.greeting.close {
-  display: none;
-}
-
-.greeting p {
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: white;
-  margin: 0;
-}

@@ -3,7 +3,7 @@ import HomePage from "./home";
 export default function Home() {
   return (
     <>
-      <Head>
+      <Head lang="en">
         <title>Vaibhav Kumar</title>
         <meta name="title" content="Vaibhav Kumar" />
         <meta name="description" content="Portfolio website of Vaibhav Kumar" />
@@ -15,7 +15,6 @@ export default function Home() {
         />
         <meta property="og:url" content="https://vaibhavkumar.vercel.app/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Vaibhav Kumar" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:image" content="/preview.png" />
         <link rel="icon" href="/favicon.png" />

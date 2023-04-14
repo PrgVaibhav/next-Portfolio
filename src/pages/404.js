@@ -5,12 +5,11 @@ import Image from "next/image";
 const Error = () => {
   return (
     <>
-      <Head>
+      <Head lang="en">
         <title>404 Error | Vaibhav Kumar</title>
         <meta name="title" content="404 Error Page" />
         <meta name="description" content="404 Error" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="title" content="Vaibhav Kumar" />
         <meta name="description" content="Portfolio website of Vaibhav Kumar" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Error Page" />

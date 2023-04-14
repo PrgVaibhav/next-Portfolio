@@ -1,29 +1,13 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 import { useRouter } from "next/router";
+import Greeting from "./Greeting";
 const Navbar = () => {
   const router = useRouter();
 
-  const time = new Date();
-  const hour = time.getHours();
-  const greeting = () => {
-    if (hour <= 12) {
-      return "Good Morning Visitor 👋, Happy Coding 🚀";
-    } else if (hour <= 16) {
-      return "Good Afternoon Visitor 👋, Happy Coding 🚀";
-    } else if (hour <= 20) {
-      return "Good Evening Visitor 👋, Happy Coding 🚀";
-    } else {
-      return "Good Night Visitor 👋, Happy Coding 🚀";
-    }
-  };
-
-  console.log(hour);
   return (
     <>
-      <div className={styles.greeting}>
-        <p>{greeting()} </p>
-      </div>
+      <Greeting />
       <nav className={styles.navbar_container}>
         <div className={styles.navbar_logo}>
           <span>{`</Vaibhav>`}</span>
