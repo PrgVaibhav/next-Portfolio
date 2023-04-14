@@ -20,6 +20,7 @@ export default function Home() {
         <meta property="og:image" content="/preview.png" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+
       <div id="main">
         <HomePage />
       </div>

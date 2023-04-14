@@ -7,17 +7,19 @@ import Socials from "../components/Socials";
 import Updates from "../components/Update";
 const HomePage = () => {
   return (
-    <div className={styles.home_container} id="main">
-      <div className={styles.greeting}>
-        <span>नमस्ते 🙏 </span>
+    <>
+      <div className={styles.home_container} id="main">
+        <div className={styles.greeting}>
+          <span>नमस्ते 🙏 </span>
+        </div>
+        <AboutMe />
+        <Experience />
+        <Freelancing />
+        <Projects />
+        <Updates />
+        <Socials />
       </div>
-      <AboutMe />
-      <Experience />
-      <Freelancing />
-      <Projects />
-      <Updates />
-      <Socials />
-    </div>
+    </>
   );
 };
 

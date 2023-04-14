@@ -100,4 +100,9 @@
   gap: 1rem;
 }
 
+.projects_container .projects .project .links a {
+  font-size: .9rem;
+  transition: all 350ms linear;
+}
+
 /*# sourceMappingURL=Projects.module.css.map */

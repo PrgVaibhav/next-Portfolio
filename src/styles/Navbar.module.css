@@ -5,15 +5,18 @@
   margin-bottom: 2rem;
   outline: none;
 }
+
 .navbar_container .navbar_logo span {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--dark-grey);
 }
+
 .navbar_container .nav_links ul {
   display: flex;
   gap: 1rem;
 }
+
 .navbar_container .nav_links ul li a {
   color: var(--Medium-Grey);
   font-size: 1.1rem;
@@ -21,9 +24,36 @@
   transition: all 0.3s ease-in-out;
   letter-spacing: 1px;
 }
+
 .navbar_container .nav_links ul li a:hover {
   color: var(--Soft-Red);
 }
+
 .navbar_container .nav_links ul li .active {
   color: var(--Soft-Red);
-}/*# sourceMappingURL=Navbar.module.css.map */
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */
+
+.greeting {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--Soft-Red);
+  max-width: max-content;
+  margin: auto auto 1rem auto;
+  padding: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.greeting.close {
+  display: none;
+}
+
+.greeting p {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0;
+}
