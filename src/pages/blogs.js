@@ -23,7 +23,7 @@ const Blogs = ({ blogs }) => {
         <meta property="og:image" content="/preview.png" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className={styles.blogs_container}>
+      <div className={styles.blogs_container} id="main">
         <h2>Blogs</h2>
         <p>
           I have recently started writing blogs on Hashnode, here are some of my

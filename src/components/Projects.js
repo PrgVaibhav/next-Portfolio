@@ -14,7 +14,6 @@ const Projects = () => {
             <div
               className={styles.project}
               key={project.id}
-              role="Image"
               aria-label="All images  priority of my projects"
             >
               {project.image1 &&

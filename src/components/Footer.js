@@ -7,7 +7,11 @@ const Footer = () => {
         <p className={styles.footer__text}>
           Made with <span className={styles.emoji}>❤</span> by Vaibhav
         </p>
-        <a className={styles.go_up} href="#main">
+        <a
+          className={styles.go_up}
+          href="#main"
+          aria-label="Link to go on the front page"
+        >
           <BsArrowUpCircleFill />
         </a>
       </div>

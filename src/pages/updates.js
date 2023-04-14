@@ -24,7 +24,7 @@ const Update = () => {
         <meta property="og:image" content="/preview.png" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className={styles.update_container}>
+      <div className={styles.update_container} id="main">
         <h2>Updates 💹</h2>
         <p>
           I'm learning everyday that's why whenever I learn any new thing I want
