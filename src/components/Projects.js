@@ -25,58 +25,108 @@ const Projects = () => {
               project.image7 &&
               project.image8 &&
               project.image9 ? (
-                <Fade indicators={true} arrows={false}>
+                <Fade indicators={true} arrows={false} duration={1000}>
                   <Image
                     src={project.image1}
                     alt={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    aria-label={project.alt}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image2}
                     alt={project.alt}
+                    aria-label={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image3}
+                    aria-label={project.alt}
                     alt={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image4}
                     alt={project.alt}
+                    aria-label={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image5}
                     alt={project.alt}
                     placeholder="blur"
+                    aria-label={project.alt}
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image6}
                     alt={project.alt}
+                    aria-label={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image7}
                     alt={project.alt}
+                    aria-label={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image8}
                     alt={project.alt}
+                    aria-label={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                   <Image
                     src={project.image9}
                     alt={project.alt}
+                    aria-label={project.alt}
                     placeholder="blur"
+                    width={100}
+                    height={100}
+                    sizes="(max-width: 100%) 100%, 100%"
+                    style={{ height: "auto", width: "100%" }}
                   />
                 </Fade>
               ) : (
                 <Image
                   src={project.image1}
                   alt={project.alt}
+                  aria-label={project.alt}
                   placeholder="blur"
+                  width={100}
+                  height={100}
+                  sizes="(max-width: 100%) 100%, 100%"
+                  style={{ height: "auto", width: "100%" }}
                 />
               )}
               <div className={styles.project_title}>
