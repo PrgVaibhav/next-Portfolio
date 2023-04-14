@@ -35,6 +35,7 @@ const Projects = () => {
                     aria-label={project.alt}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image2}
@@ -45,6 +46,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image3}
@@ -55,6 +57,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image4}
@@ -65,6 +68,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image5}
@@ -75,6 +79,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image6}
@@ -85,6 +90,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image7}
@@ -95,6 +101,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image8}
@@ -105,6 +112,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                   <Image
                     src={project.image9}
@@ -115,6 +123,7 @@ const Projects = () => {
                     height={100}
                     sizes="(max-width: 100%) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
+                    loading="lazy"
                   />
                 </Fade>
               ) : (
@@ -127,6 +136,7 @@ const Projects = () => {
                   height={100}
                   sizes="(max-width: 100%) 100%, 100%"
                   style={{ height: "auto", width: "100%" }}
+                  loading="lazy"
                 />
               )}
               <div className={styles.project_title}>

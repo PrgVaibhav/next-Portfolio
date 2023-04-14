@@ -2,7 +2,6 @@ import styles from "../styles/AboutMe.module.css";
 import hello from "../assets/hey hey hey.webp";
 import Image from "next/image";
 const AboutMe = () => {
-
   return (
     <div className={styles.about_me_container}>
       <div className={styles.about_me_header}>
@@ -10,8 +9,8 @@ const AboutMe = () => {
           src={hello}
           alt="user saying hello"
           aria-label="user saying hello"
-          priority={true}
           placeholder="blur"
+          loading="lazy"
         />
         <div className={styles.about_me_description}>
           <h1>I'm Vaibhav</h1>

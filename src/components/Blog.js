@@ -16,6 +16,7 @@ const Blog = ({ title, coverImage, brief, slug, dateAdded }) => {
             aria-label={title}
             style={{ height: "auto", width: "100%" }}
             placeholder="blur"
+            loading="lazy"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAA"
           />
         </div>
