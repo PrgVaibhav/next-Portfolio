@@ -33,7 +33,7 @@ const Projects = () => {
                     width={100}
                     height={100}
                     aria-label={project.alt}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -44,7 +44,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -55,7 +55,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -66,7 +66,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -77,7 +77,7 @@ const Projects = () => {
                     aria-label={project.alt}
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -88,7 +88,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -99,7 +99,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -110,7 +110,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -121,7 +121,7 @@ const Projects = () => {
                     placeholder="blur"
                     width={100}
                     height={100}
-                    sizes="(max-width: 100%) 100%, 100%"
+                    sizes="(max-width: 768px) 100%, 100%"
                     style={{ height: "auto", width: "100%" }}
                     loading="lazy"
                   />
@@ -134,7 +134,7 @@ const Projects = () => {
                   placeholder="blur"
                   width={100}
                   height={100}
-                  sizes="(max-width: 100%) 100%, 100%"
+                  sizes="(max-width: 768px) 100%, 100%"
                   style={{ height: "auto", width: "100%" }}
                   loading="lazy"
                 />

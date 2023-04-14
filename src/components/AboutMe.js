@@ -10,7 +10,7 @@ const AboutMe = () => {
           alt="user saying hello"
           aria-label="user saying hello"
           placeholder="blur"
-          loading="lazy"
+          priority={true}
         />
         <div className={styles.about_me_description}>
           <h1>I'm Vaibhav</h1>
