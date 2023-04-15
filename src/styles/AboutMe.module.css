@@ -115,8 +115,10 @@
 }
 
 .special {
-  color: var(--Soft-Red);
-  transform: scale(5);
+  background-color: var(--Soft-Red);
+  color: #fff;
+  padding: 2px;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=AboutMe.module.css.map */

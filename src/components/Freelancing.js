@@ -9,7 +9,10 @@ const Freelancing = () => {
       </p>
       <p>
         You can drop a message on my mail{" "}
-        <a href="mailto:vaibhav.pandey1508@gmail.com">
+        <a
+          href="mailto:vaibhav.pandey1508@gmail.com"
+          aria-label="Mail me at vaibhav.pandey1508@gmail.com"
+        >
           here
           <CgArrowTopRight className={styles.arrow} />
         </a>

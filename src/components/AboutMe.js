@@ -23,11 +23,8 @@ const AboutMe = () => {
         <p>
           Hey, I'm a{" "}
           <strong className={styles.special}>FrontEnd developer</strong>, I love
-          creating things that live on the web. I specialize in
-          <strong className={styles.special}>
-            {" "}
-            creating websites
-          </strong> and{" "}
+          creating things that live on the web. I specialize in{" "}
+          <strong className={styles.special}> Creating websites</strong> and{" "}
           <strong className={styles.special}>web applications</strong>. I'm a{" "}
           <strong className={styles.special}>fast learner</strong> and I love to
           learn new things.
@@ -56,9 +53,6 @@ const AboutMe = () => {
           </ul>
         </div>
       </div>
-      {/* <div className="about-hobbies">
-        <h2>🎮 Hobbies:</h2>
-      </div> */}
     </div>
   );
 };

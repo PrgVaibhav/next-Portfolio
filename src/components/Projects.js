@@ -150,10 +150,20 @@ const Projects = () => {
               <p>{project.description}</p>
               {project.liveLink && (
                 <div className={styles.links}>
-                  <a href={project.liveLink} target="_blank" rel="noreferrer">
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="See Live preview for this website "
+                  >
                     Live Preview <CgArrowTopRight className={styles.arrow} />
                   </a>
-                  <a href={project.gitHubLink} target="_blank" rel="noreferrer">
+                  <a
+                    href={project.gitHubLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="See GitHub repository for this website "
+                  >
                     GitHub <CgArrowTopRight className={styles.arrow} />
                   </a>
                 </div>
