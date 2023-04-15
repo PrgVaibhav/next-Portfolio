@@ -115,9 +115,7 @@
 }
 
 .special {
-  background-color: var(--Soft-Red);
-  color: #fff;
-  padding: 2px;
+  color: var(--Soft-Red);
   text-transform: capitalize;
 }
 
