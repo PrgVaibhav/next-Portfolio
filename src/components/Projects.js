@@ -7,7 +7,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <div className={styles.projects_container}>
-      <h2>Projects</h2>
+      <h2>Projects.</h2>
       <div className={styles.projects}>
         {ProjectData.map((project) => {
           return (

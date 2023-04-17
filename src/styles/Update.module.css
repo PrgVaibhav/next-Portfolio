@@ -12,6 +12,7 @@
   color: var(--Medium-Grey);
   line-height: 26px;
   margin-bottom: 1.3rem;
+  text-transform: capitalize;
 }
 
 .update_container .update {

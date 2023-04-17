@@ -1,5 +1,12 @@
 export const UpdateData = [
   {
+    id: 4,
+    title: "Changed About me section and also added a greeting section",
+    description:
+      "Changed some styling in About me section and added a greeting section. Now, the website will greet you according to the time. If it's morning, it will greet you with 'Good Morning'. If it's afternoon, it will greet you with 'Good Afternoon'. If it's evening, it will greet you with 'Good Evening'. If it's night, it will greet you with 'Good Night'.",
+    date: "17th April 2023",
+  },
+  {
     id: 3,
     title: "Changed some styles in the website",
     description:

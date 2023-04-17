@@ -11,7 +11,7 @@ import { TbBrandFiverr } from "react-icons/tb";
 const Socials = () => {
   return (
     <div className={styles.social_container}>
-      <h2>Connect With Me</h2>
+      <h2>Connect With Me.</h2>
       <div className={styles.socials}>
         <div className={styles.social}>
           <FiGithub className={styles.social_icons} />

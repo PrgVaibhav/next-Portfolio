@@ -13,9 +13,12 @@ const AboutMe = () => {
           priority={true}
         />
         <div className={styles.about_me_description}>
-          <h1>I'm Vaibhav</h1>
-          <p>FrontEnd Developer From Bihar, India</p>
-          <p>20</p>
+          <h1>Hey I'm Vaibhav</h1>
+          <p>
+            FrontEnd Developer From India. Love to make things alive by code and
+            design.
+          </p>
+          <p>20 years old.</p>
         </div>
       </div>
       <div className={styles.about_me_body}>

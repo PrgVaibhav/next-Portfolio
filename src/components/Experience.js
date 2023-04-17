@@ -27,7 +27,7 @@ const Experience = () => {
   ];
   return (
     <div className={styles.experience_container}>
-      <h2>Experience</h2>
+      <h2>Experience.</h2>
       {experienceData.map((experience) => {
         return (
           <div className={styles.experience} key={experience.id}>
