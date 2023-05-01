@@ -1,28 +1,41 @@
 import Head from "next/head";
-import HomePage from "./home";
-export default function Home() {
+import styles from "../styles/Home.module.scss";
+import AboutMe from "../components/AboutMe";
+import Experience from "../components/Experience";
+import Freelancing from "../components/Freelancing";
+import Projects from "../components/Projects";
+import Socials from "../components/Socials";
+import Updates from "../components/Update";
+import Seo from "@/components/Seo";
+export default function Home({ projects }) {
   return (
     <>
-      <Head lang="en">
-        <title>Vaibhav Kumar</title>
-        <meta name="title" content="Vaibhav Kumar" />
-        <meta name="description" content="Portfolio website of Vaibhav Kumar" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Vaibhav Kumar" />
-        <meta
-          property="og:description"
-          content="Portfolio website of Vaibhav Kumar"
-        />
-        <meta property="og:url" content="https://vaibhavkumar.vercel.app/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content="/preview.png" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
-
+      <Seo title="Vaibhav Kumar" />
       <div id="main">
-        <HomePage />
+        <div className={styles.home_container}>
+          <div className={styles.greeting}>
+            <blockquote>नमस्ते 🙏 </blockquote>
+          </div>
+          <AboutMe />
+          <Experience />
+          <Freelancing />
+          <Projects projects={projects} />
+          <Updates />
+          <Socials />
+        </div>
       </div>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const { projects } = await import("../data/ProjectData.json");
+  const sortedProjectsByDate = projects.sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
+  return {
+    props: {
+      projects: sortedProjectsByDate,
+    }, // will be passed to the page component as props
+  };
 }

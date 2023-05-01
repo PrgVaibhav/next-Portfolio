@@ -1,0 +1,212 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "CatchUp",
+      "description": "This project has been created using React, NodeJs, ExpressJs, MySql. Project aim was to create a social media website where users can create their own account, post their thoughts, like and comment on other posts.",
+      "date": "2023-01-01",
+      "completed": false,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/home.webp",
+          "alt": "Social media website front page"
+        },
+        {
+          "id": 2,
+          "name": "/login.webp",
+          "alt": "Social media website login page"
+        },
+        {
+          "id": 3,
+          "name": "/register-1.webp",
+          "alt": "Social media website register page"
+        },
+        {
+          "id": 4,
+          "name": "/register-2.webp",
+          "alt": "Social media website register page"
+        },
+        {
+          "id": 5,
+          "name": "/home-1.webp",
+          "alt": "Social media website front page"
+        },
+        {
+          "id": 6,
+          "name": "/comment-1.webp",
+          "alt": "Social media website comment page"
+        },
+        {
+          "id": 7,
+          "name": "/comment-2.webp",
+          "alt": "Social media website comment page"
+        },
+        {
+          "id": 8,
+          "name": "/profile.webp",
+          "alt": "Social media website profile page"
+        },
+        {
+          "id": 9,
+          "name": "/update.webp",
+          "alt": "Social media website update page"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "Portfolio V-1",
+      "description": "This was my first portfolio website. I have created this website using HTML, CSS, JavaScript. Creating this website was a great learning experience for me. I have learned a lot about HTML, CSS, JavaScript and how to use them to create a website.",
+      "date": "2021-03-01",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/VaibhavKumar.webp",
+          "alt": "Portfolio website front page"
+        }
+      ],
+      "liveLink": "https://prgvaibhav.github.io/index.html",
+      "gitHubLink": "https://github.com/PrgVaibhav/prgVaibhav.github.io"
+    },
+    {
+      "id": 3,
+      "title": "NewsFlashh",
+      "description": "NewsFlashh is a news website where users can read the latest news. This website has been created using React and designed using css. I have used Inshot API to fetch the latest news.",
+      "date": "2022-04-10",
+      "completed": "true",
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/NewsFlash.webp",
+          "alt": "News website front page"
+        }
+      ],
+      "liveLink": "https://newsflashh.netlify.app/",
+      "gitHubLink": "https://kumarvaibhav.netlify.app/"
+    },
+    {
+      "id": 4,
+      "title": "StayFit",
+      "description": "StayFit is a website where users can find the best GYM. Its just a front end work.This website has been created using React and designed using css. ",
+      "date": "2022-04-01",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/StayFit1.webp",
+          "alt": "Gym website front page"
+        },
+        {
+          "id": 2,
+          "name": "/StayFit2.webp",
+          "alt": "Gym website front page"
+        },
+        {
+          "id": 3,
+          "name": "/StayFit3.webp",
+          "alt": "Gym website front page"
+        },
+        {
+          "id": 4,
+          "name": "/StayFit4.webp",
+          "alt": "Gym website front page"
+        },
+        {
+          "id": 5,
+          "name": "/StayFit5.webp",
+          "alt": "Gym website front page"
+        }
+      ],
+      "liveLink": "https://prgvaibhav.github.io/StayFit/",
+      "gitHubLink": "https://github.com/PrgVaibhav/StayFit"
+    },
+    {
+      "id": 5,
+      "title": "Edible Oil",
+      "description": "Edible Oil is a website which I created for an oil company. This website has been created using React and designed using css. This website was part of my freelancing work. ",
+      "date": "2022-03-12",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/EdibleOil1.webp",
+          "alt": "Edible oil website front page"
+        },
+        {
+          "id": 2,
+          "name": "/EdibleOil2.webp",
+          "alt": "Edible oil website front page"
+        },
+        {
+          "id": 3,
+          "name": "/EdibleOil3.webp",
+          "alt": "Edible oil website front page"
+        },
+        {
+          "id": 4,
+          "name": "/EdibleOil4.webp",
+          "alt": "Edible oil website front page"
+        },
+        {
+          "id": 5,
+          "name": "/EdibleOil5.webp",
+          "alt": "Edible oil website front page"
+        }
+      ],
+      "liveLink": "https://prgvaibhav.github.io/Oil-Manufacturing/",
+      "gitHubLink": "https://github.com/PrgVaibhav/Oil-Manufacturing"
+    },
+    {
+      "id": 6,
+      "title": "Musifyy",
+      "description": "Musifyy is a frontend landing page for a music streaming website. This website has been created using React and designed using css. This website was part of my freelancing work.",
+      "date": "2022-01-15",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/musifyy.webp",
+          "alt": "Edible oil website front page"
+        }
+      ],
+      "liveLink": "https://prgvaibhav.github.io/Musifyy/",
+      "gitHubLink": "https://github.com/PrgVaibhav/Musifyy"
+    },
+    {
+      "id": 7,
+      "title": "DevFort",
+      "description": "Dev Fort is the ultimate destination for web developers seeking the most comprehensive and up-to-date resources to enhance their productivity.",
+      "date": "2023-04-30",
+      "completed": false,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/DevFortCommunity.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 2,
+          "name": "/DevFortCommunity1.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 3,
+          "name": "/DevFortCommunity2.webp",
+          "alt": "DevFort website front page"
+        }
+      ],
+      "liveLink": "https://devfort.vercel.app/",
+      "gitHubLink": "https://github.com/PrgVaibhav/devFort"
+    }
+  ]
+}

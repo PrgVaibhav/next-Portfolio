@@ -1,0 +1,57 @@
+.experience_container {
+  margin-top: 1rem;
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 4px solid var(--Soft-Red);
+    width: max-content;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+  .experience {
+    border-left: 2px solid cadetblue;
+    height: 100%;
+    max-width: 100%;
+    padding-left: 1rem;
+    transition: all 350ms linear;
+    margin-bottom: 1rem;
+    &:hover {
+      border-left: 2px solid var(--Soft-Red);
+      transform: translateX(4px);
+    }
+    .experience_description {
+      line-height: 27px;
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: var(--Medium-Grey);
+
+        @media screen and (max-width: 768px) {
+          font-size: 0.9rem;
+        }
+      }
+
+      li {
+        list-style: square;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-left: 1rem;
+        color: var(--Medium-Grey);
+
+        @media screen and (max-width: 768px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

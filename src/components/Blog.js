@@ -1,4 +1,4 @@
-import styles from "../styles/Blog.module.css";
+import styles from "../styles/Blog.module.scss";
 import { CgArrowTopRight } from "react-icons/cg";
 import Image from "next/image";
 const Blog = ({ title, coverImage, brief, slug, dateAdded }) => {
@@ -16,7 +16,6 @@ const Blog = ({ title, coverImage, brief, slug, dateAdded }) => {
             aria-label={title}
             style={{ height: "auto", width: "100%" }}
             placeholder="blur"
-            loading="lazy"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAA"
           />
         </div>

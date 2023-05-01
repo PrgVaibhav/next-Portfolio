@@ -1,28 +1,15 @@
-import styles from "../styles/Blogs.module.css";
+import styles from "../styles/Blogs.module.scss";
 import Blog from "../components/Blog";
 import Head from "next/head";
+import Seo from "../components/Seo";
 const Blogs = ({ blogs }) => {
   return (
     <>
-      <Head lang="en">
-        <title>Blogs | Vaibhav Kumar</title>
-        <meta name="title" content="Blog Page" />
-        <meta name="description" content="Blog page of Vaibhav Kumar" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Portfolio website of Vaibhav Kumar" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Blog Page" />
-        <meta
-          property="og:description"
-          content="Portfolio website of Vaibhav Kumar"
-        />
-        <meta property="og:url" content="https://vaibhavkumar.vercel.app/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Vaibhav Kumar" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content="/preview.png" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <Seo
+        title="Blogs | Vaibhav Kumar"
+        description="Blogs by Vaibhav Kumar on Hashnode."
+      />
+
       <div className={styles.blogs_container} id="main">
         <h2>Blogs</h2>
         <p>
@@ -48,7 +35,7 @@ const Blogs = ({ blogs }) => {
   );
 };
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const query = `
     {
       user(username: "devXvaibhav"){

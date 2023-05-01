@@ -1,0 +1,21 @@
+.home_container {
+  .greeting {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  blockquote {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--dark-grey);
+    background-color: rgba(61, 128, 209, 0.3);
+    padding: 6px 12px;
+    border-radius: 12px;
+    vertical-align: middle;
+    transition: all 350ms linear;
+  }
+}

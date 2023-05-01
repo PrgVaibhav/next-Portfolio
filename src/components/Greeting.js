@@ -1,4 +1,4 @@
-import styles from "../styles/Greeting.module.css";
+import styles from "../styles/Greeting.module.scss";
 const Greeting = () => {
   const time = new Date();
   const hour = time.getHours();

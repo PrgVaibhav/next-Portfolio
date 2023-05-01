@@ -1,4 +1,4 @@
-import styles from "../styles/Update.module.css";
+import styles from "../styles/Update.module.scss";
 import { UpdateData } from "../data/UpdateData";
 import { BiTime } from "react-icons/bi";
 import Head from "next/head";

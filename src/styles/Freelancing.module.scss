@@ -1,0 +1,41 @@
+.freelancing_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #8d8daa;
+  background-color: rgba(61, 128, 209, 0.3);
+  max-width: -moz-max-content;
+  width: max-content;
+  margin: 4rem auto 4rem auto;
+  padding: 12px 10px;
+  box-shadow: 6px 6px 0px var(--Soft-Red);
+  transition: all 0.3s ease-in-out;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 0px var(--Soft-Red);
+  }
+
+  p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: justify;
+
+    a {
+      color: white;
+      text-decoration: underline;
+
+      .arrow {
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover .arrow {
+        transform: scale(1.25);
+        color: var(--Soft-Red);
+      }
+    }
+  }
+}

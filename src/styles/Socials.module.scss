@@ -1,0 +1,51 @@
+.social_container {
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid var(--Soft-Red);
+    width: max-content;
+    @media screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  .socials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.3rem;
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      span {
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 0.9rem;
+        }
+      }
+      a {
+        color: var(--Medium-Grey);
+        transition: all 350ms linear;
+        text-decoration: underline;
+        &:hover .arrow {
+          transform: scale(1.2);
+          color: var(--Soft-Red);
+        }
+      }
+      .social_icons {
+        font-size: 1.3rem;
+        transition: all 350ms linear;
+        &:hover {
+          color: var(--Soft-Red);
+          transform: translateY(-4px);
+        }
+      }
+    }
+  }
+}

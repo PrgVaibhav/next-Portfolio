@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { CgArrowTopRight } from "react-icons/cg";
-import styles from "../styles/Updates.module.css";
+import styles from "../styles/Updates.module.scss";
 const Update = () => {
   return (
     <>
@@ -9,7 +9,8 @@ const Update = () => {
           If you're interested you can see the updates I am making in my
           portfolio from this{" "}
           <Link href="/updates">
-            Update <CgArrowTopRight className={styles.arrow} />
+            Update
+            <CgArrowTopRight className={styles.arrow} />
           </Link>{" "}
           section
         </p>
