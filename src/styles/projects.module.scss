@@ -4,11 +4,23 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
-
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      border-bottom: 4px solid var(--Soft-Red);
+      width: max-content;
+      margin-bottom: 0.7rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.3rem;
+      }
+    }
     a {
       text-decoration: none;
       color: #fff;
-
+      @media screen and (max-width: 768px) {
+        font-size: 0.9rem;
+      }
       .arrow {
         transition: all 0.3s ease-in-out;
         vertical-align: middle;
