@@ -4,24 +4,24 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
-      title: "Graduation",
+      title: "Graduation.",
       description:
         "I have completed my graduation in Bachelors of Computer Applications.",
-      place: "At Anugrah Narayan College, Patna",
+      place: "From Anugrah Narayan College, Patna",
       learnings: [
-        "Learned many important technical stuffs and things",
-        "Learned how to interact with people",
+        "Learned many important technical stuffs and things.",
+        "Learned how to interact with people.",
       ],
     },
     {
       id: 2,
-      title: "Freelancing",
+      title: "Freelancing.",
       description:
         "Currently I am a freelancer,and I'm working on some side projects.",
       place: "At Fiverr",
       learnings: [
-        "Learned how to work with clients and their requirements",
-        "Learned how to work with deadlines and time management",
+        "Learned how to work with clients and their requirements.",
+        "Learned how to work with deadlines and time management.",
       ],
     },
   ];

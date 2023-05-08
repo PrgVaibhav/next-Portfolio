@@ -94,7 +94,7 @@
 
       li {
         list-style: square;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 400;
         letter-spacing: 1px;
         word-spacing: 1px;
@@ -134,7 +134,7 @@
 
       li {
         list-style: square;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 400;
         letter-spacing: 1px;
         word-spacing: 1px;
@@ -157,8 +157,15 @@
 }
 
 .special {
-  color: var(--Soft-Red);
+  // color: var(--Soft-Red);
+  border-bottom: 2px solid var(--Soft-Red);
   text-transform: capitalize;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    border-bottom: 2px solid var(--Soft-Blue);
+  }
 }
 
 /*# sourceMappingURL=AboutMe.module.css.map */

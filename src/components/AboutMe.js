@@ -26,11 +26,12 @@ const AboutMe = () => {
         <p>
           Hey, I'm a{" "}
           <strong className={styles.special}>FrontEnd developer</strong>, I love
-          creating things that live on the web. I specialize in{" "}
+          creating things that live on the web. I am specialize in{" "}
           <strong className={styles.special}> Creating websites</strong> and{" "}
           <strong className={styles.special}>web applications</strong>. I'm a{" "}
-          <strong className={styles.special}>fast learner</strong> and I love to
-          learn new things.
+          <strong className={styles.special}>fast learner</strong> and I love to{" "}
+          <strong className={styles.special}>Craft digital experiences</strong>{" "}
+          with code.
         </p>
       </div>
       <div className={styles.tools}>
