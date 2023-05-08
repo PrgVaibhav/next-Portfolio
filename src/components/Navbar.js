@@ -10,7 +10,7 @@ const Navbar = () => {
       <Greeting />
       <nav className={styles.navbar_container}>
         <div className={styles.navbar_logo}>
-          <span>{`</Vaibhav>`}</span>
+          <span>{`<Vaibhav />`}</span>
         </div>
         <div className={styles.nav_links}>
           <ul>
