@@ -4,7 +4,8 @@
     margin-bottom: 0.5rem;
     font-weight: 600;
     letter-spacing: 1px;
-
+    border-bottom: 4px solid var(--Soft-Red);
+    max-width: max-content;
     @media screen and (max-width: 768px) {
       font-size: 1.4rem;
     }

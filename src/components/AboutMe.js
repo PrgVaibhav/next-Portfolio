@@ -15,8 +15,7 @@ const AboutMe = () => {
         <div className={styles.about_me_description}>
           <h1>Hey I'm Vaibhav</h1>
           <p>
-            FrontEnd Developer From India. Love to make things alive by code and
-            design.
+            FrontEnd Developer From India. Love to make things alive by code.
           </p>
           <p>20 years old.</p>
         </div>

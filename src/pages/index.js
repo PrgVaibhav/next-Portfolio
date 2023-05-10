@@ -1,4 +1,3 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";

@@ -8,6 +8,16 @@
     margin-bottom: 2rem;
     transition: all 0.3s ease-in-out;
 
+    img {
+      max-width: 100px;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .about_me_description {
     h1 {
       font-size: 1.6rem;
       font-weight: 600;
@@ -17,20 +27,12 @@
         font-size: 1.3rem;
       }
     }
-    img {
-      max-width: 100px;
-      height: 100%;
-      -o-object-fit: cover;
-      object-fit: cover;
-      border-radius: 50%;
-    }
+
     p {
       font-size: 1rem;
       font-weight: 500;
-      margin-top: 0.5rem;
       letter-spacing: 1px;
       color: var(--Medium-Grey);
-      line-height: 24px;
       text-transform: capitalize;
 
       @media screen and (max-width: 768px) {
@@ -104,7 +106,7 @@
         line-height: 40px;
 
         @media screen and (max-width: 768px) {
-          font-size: 1rem;
+          font-size: 0.9rem;
         }
 
         &:hover {
@@ -149,7 +151,7 @@
         }
 
         @media (max-width: 768px) {
-          margin-left: 1rem;
+          margin-left: 0.9rem;
         }
       }
     }
