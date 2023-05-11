@@ -207,6 +207,28 @@
       ],
       "liveLink": "https://devfort.vercel.app/",
       "gitHubLink": "https://github.com/PrgVaibhav/devFort"
+    },
+    {
+      "id": 8,
+      "title": "QR Code Generator",
+      "description": "QR Code Generator is a website where users can generate QR code for any text, links, numbers for their fun. This website has been created using React and designed using css. I have used QR code API to generate QR code.",
+      "date": "2023-06-09",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/QR.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 2,
+          "name": "/QR-1.webp",
+          "alt": "DevFort website front page"
+        }
+      ],
+      "liveLink": "https://qr-generator-devxvaibhav.vercel.app/",
+      "gitHubLink": "https://github.com/PrgVaibhav/QR_Code_Generator"
     }
   ]
 }
