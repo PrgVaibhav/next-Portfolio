@@ -2,41 +2,53 @@
   .about_me_header {
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    // justify-content: center;
     margin: auto;
-    padding: 12px;
     margin-bottom: 2rem;
     transition: all 0.3s ease-in-out;
+    gap: 0.7rem;
+
+    @media screen and (max-width: 768px) {
+    }
 
     img {
-      max-width: 100px;
-      height: 100%;
+      max-width: 85px;
+      height: auto;
       -o-object-fit: cover;
       object-fit: cover;
       border-radius: 50%;
-    }
-  }
-
-  .about_me_description {
-    h1 {
-      font-size: 1.6rem;
-      font-weight: 600;
-      letter-spacing: 1px;
-
+      border: 2px solid var(--Soft-Red);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        filter: grayscale(100%);
+      }
       @media screen and (max-width: 768px) {
-        font-size: 1.3rem;
+        max-width: 70px;
       }
     }
 
-    p {
-      font-size: 1rem;
-      font-weight: 500;
-      letter-spacing: 1px;
-      color: var(--Medium-Grey);
-      text-transform: capitalize;
+    .about_me_description {
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 1px;
 
-      @media screen and (max-width: 768px) {
-        font-size: 0.9rem;
+        @media screen and (max-width: 768px) {
+          font-size: 1.4rem;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--Medium-Grey);
+        text-transform: capitalize;
+
+        @media screen and (max-width: 768px) {
+          font-size: 0.9rem;
+          letter-spacing: 0;
+        }
       }
     }
   }

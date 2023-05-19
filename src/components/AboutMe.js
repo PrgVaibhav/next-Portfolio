@@ -1,5 +1,6 @@
 import styles from "../styles/AboutMe.module.scss";
-import hello from "../../public/hey hey hey.webp";
+// import hello from "../../public/hey hey hey.webp";
+import hello from "../../public/profile-pic.webp";
 import Image from "next/image";
 const AboutMe = () => {
   return (
@@ -14,10 +15,8 @@ const AboutMe = () => {
           style={{ height: "auto", width: "100%" }}
         />
         <div className={styles.about_me_description}>
-          <h1>Hey I am Vaibhav</h1>
-          <p>
-            FrontEnd Developer From India. Love to make things alive by code.
-          </p>
+          <h1>Hey, I am Vaibhav</h1>
+          <p>FrontEnd Developer From Bihar, India.</p>
           <p>20 years old.</p>
         </div>
       </div>
