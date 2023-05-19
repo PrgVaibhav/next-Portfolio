@@ -1,5 +1,12 @@
 export const UpdateData = [
   {
+    id: 6,
+    title: "Added New Projects with some changes in website style",
+    description:
+      "Added 2 new projects in the website. Also added some animation when page loads. Added box shadow to the project images. Now, the project images will look more attractive.",
+    date: "19th May 2023",
+  },
+  {
     id: 5,
     title: "Changed almost everything in the website",
     description:

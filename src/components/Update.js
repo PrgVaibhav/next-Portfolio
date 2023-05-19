@@ -6,7 +6,7 @@ const Update = () => {
     <>
       <div className={styles.updates_container}>
         <p>
-          If you're interested you can see the updates I am making in my
+          If you are interested you can see the updates I am making in my
           portfolio from this{" "}
           <Link href="/updates">
             Update

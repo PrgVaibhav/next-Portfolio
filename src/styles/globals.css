@@ -67,7 +67,9 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 12px 15px;
+
 }
+
 
 @media (max-width: 768px) {
   body {

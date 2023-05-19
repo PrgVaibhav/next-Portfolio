@@ -1,6 +1,18 @@
 .blog_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  animation: slideUp 0.7s ease-in-out;
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
   .blog {
     padding-left: 1rem;
     border-left: 2px solid var(--Soft-Blue);

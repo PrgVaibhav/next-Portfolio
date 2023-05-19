@@ -1,4 +1,17 @@
 .home_container {
+  animation: slideUp 0.8s ease-in-out;
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
   .greeting {
     margin-bottom: 2rem;
     display: flex;

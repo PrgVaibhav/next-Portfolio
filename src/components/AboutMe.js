@@ -11,9 +11,10 @@ const AboutMe = () => {
           aria-label="user saying hello"
           placeholder="blur"
           priority={true}
+          style={{ height: "auto", width: "100%" }}
         />
         <div className={styles.about_me_description}>
-          <h1>Hey I'm Vaibhav</h1>
+          <h1>Hey I am Vaibhav</h1>
           <p>
             FrontEnd Developer From India. Love to make things alive by code.
           </p>
@@ -23,11 +24,10 @@ const AboutMe = () => {
       <div className={styles.about_me_body}>
         <h2>About me.</h2>
         <p>
-          Hey, I'm a{" "}
-          <strong className={styles.special}>FrontEnd developer</strong>, I love
-          creating things that live on the web. I specialize in{" "}
+          I am a <strong className={styles.special}>FrontEnd developer</strong>,
+          I love creating things that live on the web. I specialize in{" "}
           <strong className={styles.special}> Creating websites</strong> and{" "}
-          <strong className={styles.special}>web applications</strong>. I'm a{" "}
+          <strong className={styles.special}>web applications</strong>. I am a{" "}
           <strong className={styles.special}>fast learner</strong> and I love to{" "}
           <strong className={styles.special}>Craft digital experiences</strong>{" "}
           with code.
@@ -46,7 +46,7 @@ const AboutMe = () => {
           </ul>
         </div>
         <div className={styles.learning}>
-          <h2>🌠 Tools which I'm learrning:</h2>
+          <h2>🌠 Tools which I am learning:</h2>
           <ul>
             <li>Next Js</li>
             <li>NodeJS</li>

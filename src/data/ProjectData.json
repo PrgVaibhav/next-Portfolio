@@ -60,7 +60,7 @@
       "id": 2,
       "title": "Portfolio V-1",
       "description": "This was my first portfolio website. I have created this website using HTML, CSS, JavaScript. Creating this website was a great learning experience for me. I have learned a lot about HTML, CSS, JavaScript and how to use them to create a website.",
-      "date": "2021-03-01",
+      "date": "2021-03-01", 
       "completed": true,
 
       "images": [
@@ -78,7 +78,7 @@
       "title": "NewsFlashh",
       "description": "NewsFlashh is a news website where users can read the latest news. This website has been created using React and designed using css. I have used Inshot API to fetch the latest news.",
       "date": "2022-04-10",
-      "completed": "true",
+      "completed": true,
 
       "images": [
         {
@@ -185,7 +185,7 @@
       "id": 7,
       "title": "DevFort",
       "description": "Dev Fort is the ultimate destination for web developers seeking the most comprehensive and up-to-date resources to enhance their productivity.",
-      "date": "2023-04-30",
+      "date": "2023-05-18",
       "completed": false,
 
       "images": [
@@ -212,7 +212,7 @@
       "id": 8,
       "title": "QR Code Generator",
       "description": "QR Code Generator is a website where users can generate QR code for any text, links, numbers for their fun. This website has been created using React and designed using css. I have used QR code API to generate QR code.",
-      "date": "2023-06-09",
+      "date": "2023-03-09",
       "completed": true,
 
       "images": [
@@ -229,6 +229,70 @@
       ],
       "liveLink": "https://qr-generator-devxvaibhav.vercel.app/",
       "gitHubLink": "https://github.com/PrgVaibhav/QR_Code_Generator"
+    },
+    {
+      "id": 9,
+      "title": "Roll The Dice",
+      "description": "Roll The Dice is a fun game where users can play with their friends. This website has been created using HTML, CSS and JavaScript. ",
+      "date": "2023-05-15",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/Roll-The-Dice.webp",
+          "alt": "Roll the dice game"
+        },
+        {
+          "id": 2,
+          "name": "/Roll-The-Dice-2.webp",
+          "alt": "Roll the dice game"
+        },
+        {
+          "id": 3,
+          "name": "/Roll-The-Dice-3.webp",
+          "alt": "Roll the dice game"
+        }
+      ],
+      "liveLink": "https://prgvaibhav.github.io/Roll_The_Dice/",
+      "gitHubLink": "https://github.com/PrgVaibhav/Roll_The_Dice"
+    },
+    {
+      "id": 10,
+      "title": "Guess The Number",
+      "description": "Guess The Number is a fun game where users can play with their friends. This website has been created using HTML, CSS and JavaScript. ",
+      "date": "2023-05-14",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/gtn-1.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 2,
+          "name": "/gtn-2.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 3,
+          "name": "/gtn-3.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 4,
+          "name": "/gtn-4.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 5,
+          "name": "/gtn-5.webp",
+          "alt": "DevFort website front page"
+        }
+      ],
+      "liveLink": "https://prgvaibhav.github.io/Guess_the_number/",
+      "gitHubLink": "https://github.com/PrgVaibhav/Guess_the_number"
     }
   ]
 }

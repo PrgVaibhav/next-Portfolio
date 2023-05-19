@@ -10,9 +10,10 @@ const Update = () => {
       <div className={styles.update_container} id="main">
         <h2>Updates.</h2>
         <p>
-          I'm learning everyday that's why whenever I learn any new thing I want
-          to add that stuff in my projects, and by doing this I build my muscle
-          memory, and I also get to implement all the new things which I learn.
+          I am learning everyday that is why whenever I learn any new thing I
+          want to add that stuff in my projects, and by doing this I build my
+          muscle memory, and I also get to implement all the new things which I
+          learn.
         </p>
         {UpdateData.map((update) => {
           return (
