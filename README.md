@@ -26,7 +26,7 @@ I regularly update my website with new content, blog posts, and projects, so ple
 
 ### Technologies Used
 
-The website was built using Next.js, a popular React framework for building server-side rendered websites. The website is hosted on Vercel, a cloud hosting platform for web applications. The website also utilizes various other technologies such as CSS, JavaScript, and HTML.
+The website was built using Next.js, a popular React framework for building server-side rendered websites and designed using CSS. The website is hosted on Vercel, a cloud hosting platform for web applications.
 
 ## Socials
 
