@@ -2,21 +2,15 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #8d8daa;
-  background-color: rgba(61, 128, 209, 0.3);
+  background-color: var(--Soft-Blue);
   max-width: -moz-max-content;
   width: max-content;
   margin: 4rem auto 4rem auto;
   padding: 12px 10px;
-  box-shadow: 6px 6px 0px var(--Soft-Red);
   transition: all 0.3s ease-in-out;
-
+  border: 1px solid var(--Soft-Red);
   @media screen and (max-width: 768px) {
     max-width: 100%;
-  }
-
-  &:hover {
-    box-shadow: 0px 0px 5px var(--Soft-Red);
   }
 
   p {

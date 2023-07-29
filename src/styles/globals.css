@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *,
@@ -27,13 +24,10 @@ html {
 
 :root {
   --antonio-font: "Poppins", sans-serif;
-
-  /* --dark-grey: #1a1a1a; */
   --dark-grey: #fff;
-  /* --background-color: #e6e2c3; */
-  --background-color: #1a1f2e;
+  --background-color: #12151E;
   --Soft-Red: #d72e3e;
-  --Soft-Blue: #3c80d1;
+  --Soft-Blue: #19212B;
   --Light-Teal: #00c2b0;
   --Medium-Grey: #d1d1d1;
 }

@@ -25,9 +25,9 @@
     font-weight: 600;
     letter-spacing: 1px;
     color: var(--dark-grey);
-    background-color: rgba(61, 128, 209, 0.3);
+    background-color: var(--Soft-Blue);
+    border: 1px solid var(--Soft-Red);
     padding: 6px 12px;
-    border-radius: 12px;
     vertical-align: middle;
     transition: all 350ms linear;
   }

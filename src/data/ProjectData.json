@@ -293,6 +293,38 @@
       ],
       "liveLink": "https://prgvaibhav.github.io/Guess_the_number/",
       "gitHubLink": "https://github.com/PrgVaibhav/Guess_the_number"
+    },
+    {
+      "id": 11,
+      "title": "Movie Gyaaan",
+      "description": "This website provides comprehensive details about various movies, including ratings, languages, genres, revenue, budget, and release dates. Whether you're a movie enthusiast, critic, or just looking for something new to watch, this platform has got you covered.",
+      "date": "2023-07-28",
+      "completed": true,
+
+      "images": [
+        {
+          "id": 1,
+          "name": "/movieGyaaan-1.webp",
+          "alt": "Movie Gyaaan website page"
+        },
+        {
+          "id": 2,
+          "name": "/movieGyaaan-2.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 3,
+          "name": "/movieGyaaan-3.webp",
+          "alt": "DevFort website front page"
+        },
+        {
+          "id": 4,
+          "name": "/movieGyaaan-4.webp",
+          "alt": "DevFort website front page"
+        }
+      ],
+      "liveLink": "https://moviegyaaan.netlify.app/",
+      "gitHubLink": "https://github.com/PrgVaibhav/moviezone"
     }
   ]
 }
