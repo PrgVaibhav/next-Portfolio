@@ -299,7 +299,7 @@
       "title": "Movie Gyaaan",
       "description": "This website provides comprehensive details about various movies, including ratings, languages, genres, revenue, budget, and release dates. Whether you're a movie enthusiast, critic, or just looking for something new to watch, this platform has got you covered.",
       "date": "2023-07-28",
-      "completed": true,
+      "completed": false,
 
       "images": [
         {
