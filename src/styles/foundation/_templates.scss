@@ -1,0 +1,112 @@
+@use "./basics" as basics;
+@mixin flex(
+  $justify: flex-start,
+  $align: flex-start,
+  $gap: 1rem,
+  $direction: row,
+  $wrap: nowrap
+) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin button(
+  $bg-color: #fff,
+  $text-color: #333,
+  $border: none,
+  $shadow: inset 0 0 1px rgba(0, 0, 0, 0.2),
+  $padding: 0.5rem 1rem,
+  $border-radius: 10px,
+  $font-size: 1rem,
+  $font-weight: 500,
+  $cursor: pointer
+) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: $border;
+  padding: $padding;
+  border-radius: $border-radius;
+  box-shadow: $shadow;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  cursor: $cursor;
+  transition: all 0.3s ease-in-out;
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+@mixin cardWrapper() {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  // flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  border: 2px solid black;
+  @media screen and (max-width: 768px) {
+    // justify-content: center;
+  }
+}
+
+@mixin overlay() {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+@mixin portal() {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 50%;
+  height: 100vh;
+  background-color: basics.$bg-color;
+  overflow-x: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+@mixin highlightedText(
+  $font-size: 2rem,
+  $weight: 800,
+  $color: basics.$text-color,
+  $small-font: 1.5rem,
+  $height: 15px,
+  $bg-color: basics.$secondary-color
+) {
+  font-size: $font-size;
+  font-weight: $weight;
+  color: $color;
+  text-align: start;
+  @media screen and (max-width: 768px) {
+    font-size: $small-font;
+  }
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $height;
+    z-index: -1;
+    background-color: basics.$secondary-color;
+    transition: all 0.3s ease-in-out;
+  }
+}

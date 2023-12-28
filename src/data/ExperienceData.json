@@ -1,0 +1,79 @@
+{
+    "experience" : [
+        {
+            "id": 1,
+            "title": "Intermediate (+2)",
+            "company": "St. Anne's High School",
+            "location": "Patna, Bihar",
+            "duration": "March 2018 - March 2020",
+            "current": false,
+            "learnings": [
+                {
+                    "id": 1,
+                    "title": "My school life.",
+                    "description": "Looking back on my school years, I see them as a time of immense personal and intellectual growth (maybe 😁). I actively engaged in my studies (yeah sometimes 😂), built strong friendships with some of my classmates, and acquired essential knowledge that has become the foundation for my accomplishments."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Bachelor of Computer Applications",
+            "company": "Anugrah Narayan College",
+            "location": "Patna, Bihar",
+            "duration": "Aug 2020 - Aug 2023",
+            "current": false,
+            "learnings": [
+                {
+                    "id": 1,
+                    "title": "Learned about the basics of programming.",
+                    "description": "So I started my coding journey in college, consider me the opening batsman in the game of programming. Started my innings with the basics, faced some tricky googlies in loops, dodged bouncers with variables, and executed a perfect cover drive with conditionals. Still working on my reverse sweep with recursion, but hey, even Sir Don Bradman had to practice! "
+                },
+                {
+                    "id": 2,
+                    "title": "Learned how to deal with real life problems.",
+                    "description": "Back in college, my professor dropped truth bombs that hit harder than a punchline at a comedy show: 'If you can't handle challenges, life will treat you like a stand-up routine – full of unexpected twists!' And you know what? Surviving college was like being the lead character in a sitcom, facing daily plot twists and unexpected pop quizzes. It turns out, my professor wasn't just teaching, they were preparing us for the ultimate sitcom called life. So here's to acing the punchlines and laughing our way through challenges!"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Frontend Developer (Intern)",
+            "company": "Gray Acumen",
+            "location": "Ahmedabad, Gujarat",
+            "duration": "Feb 2023 - Aug 2023",
+            "current": false,
+            "learnings": [
+                {
+                    "id": 1,
+                    "title": "Learned about the basics of how to work as a team member.",
+                    "description": "My exposure to diverse teams and projects has been an invaluable learning experience. I've actively engaged in collaborative efforts, developing effective communication, time management, and task prioritization skills. This allows me to contribute effectively to team success and navigate complex projects with confidence, ensuring client satisfaction and achieving desired outcomes."
+                },
+                {
+                    "id": 2,
+                    "title": "Worked on a real project with several other developers.",
+                    "description": "The project was to fix and create some UI for client side. And by doing this I learned how to work on a real project with several other developers. Learned about how to use Git and GitHub for version control, how to use GitHub's issue tracker, etc."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Frontend Developer (Intern)",
+            "company": "24th Mile",
+            "location": "Pune, Maharashtra",
+            "duration": "Nov 2023 - working",
+            "current": true,
+            "learnings": [
+                {
+                    "id": 1,
+                    "title": "Learned about how to properly use Bootstrap for creating responsive websites.",
+                    "description": "Learned about how to properly use Bootstrap for creating responsive websites. Learned about how to use Bootstrap's grid system, how to use Bootstrap's components, how to use Bootstrap's utilities, how to use Bootstrap's JavaScript plugins etc."
+                },
+                {
+                    "id": 2,
+                    "title": "Also started learning about backend (MERN stack) development.",
+                    "description": "Started learning about backend (MERN stack) development. Learned about how to create REST APIs using Node.js and Express.js, how to connect to MySQL database, how to create models, how to create controllers, how to create routes, how to create middlewares, etc."
+                }
+            ]
+        }   
+    ]
+}

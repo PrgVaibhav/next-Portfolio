@@ -1,0 +1,67 @@
+@use "./foundation/basics" as basics;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: basics.$font-family;
+  background-color: basics.$bg-color;
+  color: basics.$text-color;
+  max-width: 1100px;
+  margin: auto;
+  width: 100%;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: basics.$text-color;
+  transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+button,
+input,
+textarea {
+  font-family: basics.$font-family;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}

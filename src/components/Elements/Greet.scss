@@ -1,0 +1,43 @@
+@use "../../styles/foundation/basics" as basics;
+@use "../../styles/foundation/templates" as templates;
+
+.greet {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background-color: basics.$secondary-color;
+  padding: 10px;
+  max-width: 100%;
+  z-index: 99999;
+  border-radius: 10px;
+  animation: slideIn 0.5s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+
+  .greet-content {
+    p {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: basics.$text-color;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

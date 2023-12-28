@@ -1,0 +1,42 @@
+@use "../../styles/foundation/basics" as basics;
+@use "../../styles/foundation/templates" as template;
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: basics.$text-color;
+  padding: 20px;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 10px;
+  color: basics.$bg-color;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+  transition: animation-play-state 0.5s ease; /* Added transition for smooth hover effect */
+
+  @media screen and (max-width: 768px) {
+    animation: marquee 30s linear infinite;
+  }
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+
+.marquee-content:hover {
+  animation-play-state: paused; /* Pause the animation on hover */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

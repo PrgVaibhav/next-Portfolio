@@ -1,0 +1,115 @@
+@use "../../styles/foundation/basics" as basics;
+@use "../../styles/foundation/templates" as template;
+
+.experience {
+  @include template.flex(
+    $justify: center,
+    $align: flex-start,
+    $gap: 2rem,
+    $direction: column
+  );
+  min-height: 70vh;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .experience_header {
+    .top {
+      h2 {
+        @include template.highlightedText(
+          $font-size: 2rem,
+          $weight: 800,
+          $color: basics.$text-color,
+          $small-font: 1.5rem,
+          $height: 15px,
+          $bg-color: basics.$secondary-color
+        );
+        max-width: max-content;
+      }
+
+      p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-top: 10px;
+        color: basics.$light-color;
+      }
+    }
+  }
+  .card {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .card-top {
+      @include template.flex(
+        $justify: flex-start,
+        $align: flex-start,
+        $gap: 10px,
+        $direction: column
+      );
+
+      h2 {
+        @include template.highlightedText(
+          $font-size: 1.5rem,
+          $weight: 800,
+          $color: basics.$text-color,
+          $small-font: 1.5rem,
+          $height: 15px,
+          $bg-color: basics.$secondary-color
+        );
+
+        @media screen and (max-width: 480px) {
+          font-size: 1.2rem;
+        }
+      }
+      p {
+        font-size: 0.92rem;
+        font-weight: 500;
+        color: basics.$light-color;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        .icon {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .controls {
+      margin-top: 10px;
+      button {
+        @include template.button(
+          $bg-color: transparent,
+          $text-color: basics.$text-color,
+          $border: 1px solid basics.$light-color,
+          $shadow: 0 0 2px rgba(0, 0, 0, 0.5),
+          $padding: 5px,
+          $border-radius: 7px,
+          $font-size: 0.9rem,
+          $font-weight: 500,
+          $cursor: pointer
+        );
+      }
+    }
+    .card-body {
+      margin-top: 10px;
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: basics.$text-color;
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
