@@ -1,5 +1,5 @@
 import React from "react";
-import "./Marquee.scss"; // Import your CSS file
+import "./Marquee.scss";
 import { SectionWrapper } from "../helpers/SectionWrapper";
 
 export const Marquee = () => {
