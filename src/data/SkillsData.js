@@ -1,17 +1,17 @@
-import html from "../assets/skills/html.png";
-import css from "../assets/skills/css.png";
-import js from "../assets/skills/js.png";
-import scss from "../assets/skills/sass.png";
-import react from "../assets/skills/react.png";
-import bootstrap from "../assets/skills/bootstrap.png";
-import github from "../assets/skills/github.png";
-import npm from "../assets/skills/npm.png";
-import node from "../assets/skills/node.png";
-import express from "../assets/skills/express.png";
-import mongo from "../assets/skills/mongo.png";
-import mysql from "../assets/skills/mysql.png";
-import next from "../assets/skills/next.png";
-import typescript from "../assets/skills/typescript.png";
+import html from "../assets/skills/html.webp";
+import css from "../assets/skills/css.webp";
+import js from "../assets/skills/js.webp";
+import scss from "../assets/skills/sass.webp";
+import react from "../assets/skills/react.webp";
+import bootstrap from "../assets/skills/bootstrap.webp";
+import github from "../assets/skills/github.webp";
+import npm from "../assets/skills/npm.webp";
+import node from "../assets/skills/node.webp";
+import express from "../assets/skills/express.webp";
+import mongo from "../assets/skills/mongo.webp";
+import mysql from "../assets/skills/mysql.webp";
+import next from "../assets/skills/next.webp";
+import typescript from "../assets/skills/typescript.webp";
 
 export const SKILLS = [
   {
