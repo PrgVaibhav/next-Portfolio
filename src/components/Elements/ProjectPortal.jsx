@@ -20,6 +20,7 @@ export const ProjectPortal = ({ project, close }) => {
         <div className="project-portal-images">
           <Carousel
             autoPlay={true}
+            showThumbs={false}
             ariaLabel="Project Images Carousel"
             infiniteLoop={true}
             interval={2000}

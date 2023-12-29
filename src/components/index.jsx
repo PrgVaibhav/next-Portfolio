@@ -9,3 +9,4 @@ export { Company } from "./Elements/Company";
 export { Skills } from "./Elements/Skills";
 export { Projects } from "./Elements/Projects";
 export { Greet } from "./Elements/Greet";
+export { Error } from "./UI/Error";
