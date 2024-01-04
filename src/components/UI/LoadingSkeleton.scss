@@ -20,6 +20,11 @@
   border-radius: 10px 10px / 100px;
   display: flex;
   gap: 10px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
   .skeleton-right {
     max-width: 100%;
     .skeleton-img {
