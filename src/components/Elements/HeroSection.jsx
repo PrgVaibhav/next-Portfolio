@@ -45,7 +45,7 @@ export const HeroSection = () => {
           </div>
           <div className="controls">
             <a
-              href="https://drive.google.com/drive/folders/1YZVGoJwheEHeFqWbQscCxfbIPgFO5vzz?usp=drive_link"
+              href="https://drive.google.com/file/d/1hmPjBS7vauJdu8ykVAylDoYhqoqzmmPK/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               aria-label="resume link"
