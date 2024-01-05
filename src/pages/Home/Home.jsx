@@ -12,7 +12,7 @@ export const Home = () => {
   useTitle({ title: "Home" });
 
   return (
-    <>
+    <main aria-label="Main content of the website.">
       {/* HEADER OF MAIN PAGE */}
       <HeroSection />
       {/* ABOUT ME OF MAIN PAGE */}
@@ -21,6 +21,6 @@ export const Home = () => {
       <Experience />
       <Skills />
       <Projects featured={true} />
-    </>
+    </main>
   );
 };

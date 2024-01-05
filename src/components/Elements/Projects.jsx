@@ -6,8 +6,8 @@ import { ProjectData } from "../../data/ProjectData.js";
 import { FaLink, FaGithub } from "react-icons/fa";
 import { Button } from "../UI/Button";
 import { SectionWrapper } from "../helpers/SectionWrapper";
-import "./Projects.scss";
 import { ProjectPortal } from "./ProjectPortal.jsx";
+import "./Projects.scss";
 export const Projects = ({ header, featured }) => {
   const [selectedProject, setSelectedProject] = useState([]);
   const [show, setShow] = useState(false);
@@ -27,11 +27,17 @@ export const Projects = ({ header, featured }) => {
     : sortDataOnGreaterSeenId.slice(0, 3);
 
   const closePortal = () => {
-    setShow(false);
+    setShow((prev) => !prev);
   };
   return (
     <>
-      {show && <ProjectPortal project={selectedProject} close={closePortal} />}
+      {show ? (
+        <ProjectPortal
+          project={selectedProject}
+          close={closePortal}
+          show={show}
+        />
+      ) : null}
       <SectionWrapper label="Projects section">
         <div className="projects_section">
           {header && (
@@ -91,7 +97,7 @@ export const Projects = ({ header, featured }) => {
                     <Button
                       className={"read_more_btn"}
                       onClick={() => clickHandler(project.id)}
-                      aria-label="Read More"
+                      label={`Read More about ${project.title} project`}
                     >
                       Read More
                     </Button>

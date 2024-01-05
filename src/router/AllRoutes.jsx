@@ -30,9 +30,7 @@ export const AllRoutes = () => {
   ]);
   return (
     <>
-      <main aria-label="Main content of the website.">
-        <RouterProvider router={router} />
-      </main>
+      <RouterProvider router={router} />
     </>
   );
 };

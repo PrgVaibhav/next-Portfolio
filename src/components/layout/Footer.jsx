@@ -5,7 +5,10 @@ import "./Footer.scss";
 import { ContactForm } from "../UI/ContactForm";
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer
+      className="footer"
+      aria-label="Footer for the website. Contains contact form and social links."
+    >
       <div className="top-footer">
         <div className="contact-form" id="contact">
           <div className="contact-form-header">

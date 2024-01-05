@@ -1,0 +1,6 @@
+@use "../../styles/foundation/basics" as basics;
+@use "../../styles/foundation/templates" as template;
+
+.overlay {
+  @include template.overlay();
+}

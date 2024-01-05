@@ -6,12 +6,14 @@ import { FaCode, FaGithub } from "react-icons/fa";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./ProjectPortal.scss";
-export const ProjectPortal = ({ project, close }) => {
+import { Overlay } from "../UI/Overlay";
+export const ProjectPortal = ({ project, close, show }) => {
   const techStacks = project?.techStack?.map((item) => `${item}, `);
+  const classes = ["project-portal", show ? "open" : "close"];
 
   return ReactDOM.createPortal(
-    <div className="overlay">
-      <div className="project-portal">
+    <Overlay>
+      <div className={classes.join(" ")}>
         <div className="controls">
           <p onClick={close}>
             <MdKeyboardDoubleArrowRight className="icon" />
@@ -98,7 +100,7 @@ export const ProjectPortal = ({ project, close }) => {
           </p>
         </div>
       </div>
-    </div>,
+    </Overlay>,
     document.getElementById("project-portal")
   );
 };

@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 export const Socials = () => {
   return (
-    <div className="socials">
+    <div className="socials" aria-label="Socials section">
       <p title="Twitter">
         <a
           href="https://twitter.com/SyntaxError408"
@@ -46,20 +46,3 @@ export const Socials = () => {
     </div>
   );
 };
-
-// .socials {
-//   display: flex;
-//   align-items: center;
-//   gap: 10px;
-//   margin-top: 10px;
-//   @media screen and (max-width: 768px) {
-//     display: none;
-//   }
-//   p {
-//     a {
-//       font-size: 1.4rem;
-//       font-weight: 500;
-//       color: basics.$text-color;
-//     }
-//   }
-// }

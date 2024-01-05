@@ -36,7 +36,7 @@ export const HeroSection = () => {
               <span>🎮 Gamer.</span>
             </p>
             <p>
-              <span>🙎‍♂️ Dreamer.</span>
+              <span>🙎‍♂️ Writer.</span>
             </p>
           </div>
 
@@ -50,10 +50,14 @@ export const HeroSection = () => {
               rel="noreferrer"
               aria-label="resume link"
             >
-              <Button className={"resume"}>Resume.</Button>
+              <Button className={"resume"} label={"Button to view resume"}>
+                Resume.
+              </Button>
             </a>
             <a href="#contact">
-              <Button className={"talk"}>Let's Talk.</Button>
+              <Button className={"talk"} label={"Button to contact me"}>
+                Let's Talk.
+              </Button>
             </a>
           </div>
         </div>

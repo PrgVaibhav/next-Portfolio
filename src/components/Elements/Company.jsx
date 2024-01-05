@@ -6,9 +6,10 @@ import { BsCalendar2DateFill } from "react-icons/bs";
 
 import { Learning } from "./Learning";
 import "./Company.scss";
+import { Overlay } from "../UI/Overlay";
 export const Company = ({ data, close }) => {
   return ReactDOM.createPortal(
-    <div className="overlay">
+    <Overlay>
       <div className="company-portal">
         <div className="controls">
           <p onClick={close}>
@@ -40,7 +41,7 @@ export const Company = ({ data, close }) => {
           </p>
         </div>
       </div>
-    </div>,
+    </Overlay>,
     document.getElementById("company-portal")
   );
 };
