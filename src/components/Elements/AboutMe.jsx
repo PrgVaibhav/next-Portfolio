@@ -12,7 +12,7 @@ export const AboutMe = () => {
         </div>
         <div className="details">
           <p>
-            Hello, I'm Vaibhav, a Frontend Developer with a passion for building
+            Hello, I'm Vaibhav, a ReactJS Developer with a passion for building
             responsive and beautiful websites. I completed my graduation in 2023
             with BCA (Bachelor's in Computer Application).
           </p>

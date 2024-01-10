@@ -13,7 +13,7 @@ export const HeroSection = () => {
         <div className="hero_section_details">
           <h3>Hello,</h3>
           <h2>
-            I'm Vaibhav, a <span>Frontend Developer.</span>
+            I'm Vaibhav, a <span>ReactJS Developer.</span>
           </h2>
 
           <div className="small_details">

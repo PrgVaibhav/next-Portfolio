@@ -34,7 +34,9 @@ export const Experience = () => {
 
   return (
     <>
-      {show && <Company data={selectedCompany} close={closeHandler} />}
+      {show && (
+        <Company data={selectedCompany} close={closeHandler} show={show} />
+      )}
       <SectionWrapper label="Experience section">
         <div className="experience">
           <div className="experience_header">
