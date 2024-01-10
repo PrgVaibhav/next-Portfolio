@@ -10,10 +10,21 @@
     $wrap: nowrap
   );
   position: sticky;
-  top: 0;
+  top: 0.5%;
   z-index: 99;
-  padding: 20px 10px;
+  padding: 15px 10px;
   background-color: basics.$bg-color;
+  max-width: 1100px;
+  margin: 1rem auto auto auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  @media screen and (max-width: 480px) {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
   .logo {
     h1 {
@@ -26,10 +37,10 @@
   .navbar {
     @media screen and (max-width: 768px) {
       position: absolute;
-      top: 100%;
+      top: 110%;
       left: 0;
       width: 100%;
-      min-height: 50vh;
+      min-height: 15vh;
       background: basics.$bg-color;
       display: flex;
       flex-direction: column;
@@ -38,13 +49,18 @@
       gap: 20px;
       transition: all 0.5s ease-in-out;
       transform: translateY(-100%);
-      box-shadow: 0px 0px 3px;
-      opacity: 0;
-      visibility: hidden;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      border-radius: 10px;
+      // opacity: 0;
+      // visibility: hidden;
+      display: none;
       &.active {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
+        // opacity: 1;
+        // visibility: visible;
+        // transform: translateY(0);
+        display: flex;
+        animation: slideIn 0.5s ease-in-out forwards;
       }
     }
   }
@@ -78,5 +94,18 @@
         }
       }
     }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
 }

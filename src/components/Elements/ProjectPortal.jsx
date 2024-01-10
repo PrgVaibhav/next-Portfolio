@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { MdSlowMotionVideo, MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaCode, FaGithub } from "react-icons/fa";
@@ -10,6 +10,20 @@ import { Overlay } from "../UI/Overlay";
 export const ProjectPortal = ({ project, close, show }) => {
   const techStacks = project?.techStack?.map((item) => `${item}, `);
   const classes = ["project-portal", show ? "open" : "close"];
+
+  useEffect(() => {
+    // Add or remove 'modal-open' class to body based on the modal state
+    if (show) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+
+    // Cleanup: remove the class when the component is unmounted
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, [show]);
 
   return ReactDOM.createPortal(
     <Overlay>
