@@ -101,28 +101,32 @@ export const Projects = ({ header, featured }) => {
                     >
                       Read More
                     </Button>
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaLink
-                        className="icon"
-                        title="Live Link"
-                        aria-label="Live Link"
-                      />
-                    </a>
-                    <a
-                      href={project.gitHubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaGithub
-                        className="icon"
-                        title="Github Link"
-                        aria-label="Github Link"
-                      />
-                    </a>
+                    {project.liveLink && (
+                      <a
+                        href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaLink
+                          className="icon"
+                          title="Live Link"
+                          aria-label="Live Link"
+                        />
+                      </a>
+                    )}
+                    {project.gitHubLink && (
+                      <a
+                        href={project.gitHubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub
+                          className="icon"
+                          title="Github Link"
+                          aria-label="Github Link"
+                        />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

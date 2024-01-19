@@ -61,8 +61,6 @@ import { MdOutlineSportsGymnastics } from "react-icons/md";
 import { TbPasswordFingerprint } from "react-icons/tb";
 import { lazy } from "react";
 
-// const catchupHome = lazy(() => import("../assets/home.webp);
-
 export const ProjectData = [
   {
     id: 1,

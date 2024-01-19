@@ -57,31 +57,35 @@ export const ProjectPortal = ({ project, close, show }) => {
                 <FaCode className="icon" /> Stack: {techStacks}
               </span>
             </div>
-            <div>
-              <span>
-                <MdSlowMotionVideo className="icon" /> Live:{" "}
-                <a
-                  href={project.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.title}
-                </a>
-              </span>
-            </div>
+            {project.liveLink && (
+              <div>
+                <span>
+                  <MdSlowMotionVideo className="icon" /> Live:{" "}
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.title}
+                  </a>
+                </span>
+              </div>
+            )}
 
-            <div>
-              <span>
-                <FaGithub className="icon" /> Github:{" "}
-                <a
-                  href={project.gitHubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.title} Github
-                </a>
-              </span>
-            </div>
+            {project.gitHubLink && (
+              <div>
+                <span>
+                  <FaGithub className="icon" /> Github:{" "}
+                  <a
+                    href={project.gitHubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.title} Github
+                  </a>
+                </span>
+              </div>
+            )}
           </div>
         </div>
 

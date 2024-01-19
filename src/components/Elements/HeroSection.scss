@@ -137,35 +137,17 @@
         @include templates.button(
           $bg-color: transparent,
           $text-color: basics.$text-color,
-          $padding: 0.5rem 1rem,
-          $border-radius: 10px,
-          $font-size: 1rem,
-          $font-weight: 500,
-          $cursor: pointer,
-          $shadow: none
+          $shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px,
+          $border: 1px solid #333
         );
-        border: 1px solid #333;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
-        &:hover {
-          box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
-        }
       }
 
       .talk {
         @include templates.button(
           $bg-color: basics.$secondary-color,
           $text-color: basics.$text-color,
-          $padding: 0.5rem 1rem,
-          $border-radius: 10px,
-          $font-size: 1rem,
-          $font-weight: 500,
-          $cursor: pointer
+          $shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
         );
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        &:hover {
-          box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
-        }
       }
     }
   }
