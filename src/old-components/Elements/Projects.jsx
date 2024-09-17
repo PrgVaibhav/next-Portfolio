@@ -4,8 +4,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { ProjectData } from "../../data/ProjectData.js";
 import { FaLink, FaGithub } from "react-icons/fa";
-import { Button } from "../UI/Button";
-import { SectionWrapper } from "../helpers/SectionWrapper";
+import { Button } from "../UI/Button.jsx";
+import { SectionWrapper } from "../helpers/SectionWrapper.jsx";
 import { ProjectPortal } from "./ProjectPortal.jsx";
 import "./Projects.scss";
 export const Projects = ({ header, featured }) => {
