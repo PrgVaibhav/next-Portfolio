@@ -12,8 +12,6 @@
 }
 
 body {
-    /* background-color: #2d2c28; */
-    /* background: #1b1b1b; */
     background-color: var(--primary-color);
     background-color: #161616;
     color: #0a0a0a;
@@ -23,8 +21,7 @@ body {
 .gradient-hr {
     border: none;
     height: 1px;
-    /* background: linear-gradient(to right, #3b3c36, #1b1b1b); */
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(148, 148, 148);
     width: 100%;
     margin: 20px auto;
     border-radius: 5px;
@@ -38,18 +35,16 @@ body {
 
 .nav-font {
     font-family: var(--rale);
-    /* font-weight: 600; */
 }
 
 .nav-link {
     position: relative;
-    padding: 10px;
     text-decoration: none;
     color: #999999;
     transition: color 0.3s ease, background-color 0.3s ease;
     border-radius: 12px;
     z-index: 1;
-    padding: 8px 24px;
+    padding: 8px 12px;
 }
 
 .nav-link:hover {
@@ -155,7 +150,6 @@ body {
 
 .experience-card-bs:hover {
     box-shadow: 10px 5px 15px rgba(0, 0, 0, .3);
-    transform: scale(.95);
 }
 
 @keyframes bounce-flash {

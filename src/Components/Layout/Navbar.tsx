@@ -31,7 +31,7 @@ export const Navbar = () => {
         </span>
       </div>
       <ul
-        className={`md:flex flex-col md:flex-row items-center justify-center gap-4 fixed md:static top-0 left-0 h-screen md:h-auto w-full md:w-auto bg-[#2e2e2e] md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out ${
+        className={`md:flex flex-col md:flex-row items-center justify-center gap-1 fixed md:static top-0 left-0 h-screen md:h-auto w-full md:w-auto bg-[#2e2e2e] md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out ${
           isOpen ? "menu-open" : "menu-closed"
         }`}
       >
@@ -48,7 +48,9 @@ export const Navbar = () => {
               <NavLink
                 to={link.url}
                 className={({ isActive }) =>
-                  `nav-link flex items-center gap-4 ${isActive ? "active" : ""}`
+                  `nav-link flex items-center gap-2 text-md ${
+                    isActive ? "active" : ""
+                  }`
                 }
                 onClick={handleToggle}
               >

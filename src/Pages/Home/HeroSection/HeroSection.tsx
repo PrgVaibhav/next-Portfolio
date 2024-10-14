@@ -30,7 +30,7 @@ const socialLinks = [
 export const HeroSection = () => {
   return (
     <section
-      className="flex justify-center items-start flex-col w-full p-3 md:w-3/4 md:m-auto mt-4 mb-4 mx-auto gap-7 md:h-screen"
+      className="flex justify-center items-start flex-col w-full p-3 md:w-3/4 md:m-auto mt-4 mb-4 mx-auto gap-7 md:h-screen relative"
       aria-labelledby="hero-heading"
     >
       <h1
@@ -75,7 +75,7 @@ export const HeroSection = () => {
             </a>
           ))}
         </div>
-        <div className="flex items-center justify-start gap-3">
+        <div className="flex items-center justify-start gap-3 flex-wrap">
           <span
             className="bg-[#212121] px-2 py-1 rounded-md text-white animate-fallInBounce"
             style={{ animationDelay: "1.2s" }}
@@ -100,7 +100,7 @@ export const HeroSection = () => {
               <BsFillFilePdfFill aria-hidden="true" /> Resume
             </a>
           </span>
-          <AvailableToWork />
+          <AvailableToWork isAvailable={true} />
         </div>
       </div>
     </section>
