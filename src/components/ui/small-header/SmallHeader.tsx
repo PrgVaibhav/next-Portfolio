@@ -21,7 +21,7 @@ export const SmallHeader: React.FC<SMALL_HEADER_PROPS> = ({
     <div className="flex justify-between items-center ">
       <div className="flex items-center gap-2 sm:gap-[.5vw]">
         <Sparkles className="light-color" size={18} />
-        <h1 className="text-[#dfdfdf] font-bold text-lg sm:text-[clamp(1rem,1.4vw,3rem)]">
+        <h1 className="text-[#dfdfdf] font-bold text-md sm:text-[clamp(1rem,1.4vw,3rem)]">
           {primaryTitle}
         </h1>
       </div>

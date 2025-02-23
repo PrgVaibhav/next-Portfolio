@@ -16,6 +16,10 @@ export const UserRoute = () => {
           path: "experience",
           element: <h1>About</h1>,
         },
+        {
+          path: "company/:id",
+          element: <h1>Company</h1>,
+        },
 
         {
           path: "contact",
