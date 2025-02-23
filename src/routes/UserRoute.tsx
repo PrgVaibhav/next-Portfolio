@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "../components";
+import { Home } from "../pages";
 
 export const UserRoute = () => {
   const router = createBrowserRouter([
@@ -9,10 +10,10 @@ export const UserRoute = () => {
       children: [
         {
           index: true,
-          element: <h1>Home Page</h1>,
+          element: <Home />,
         },
         {
-          path: "about",
+          path: "experience",
           element: <h1>About</h1>,
         },
 
@@ -23,6 +24,10 @@ export const UserRoute = () => {
         {
           path: "projects",
           element: <h1>Projects</h1>,
+        },
+        {
+          path: "blogs",
+          element: <h1>Blogs</h1>,
         },
         {
           path: "updates",
