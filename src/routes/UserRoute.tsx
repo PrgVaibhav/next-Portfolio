@@ -13,8 +13,12 @@ export const UserRoute = () => {
           element: <Home />,
         },
         {
-          path: "experience",
+          path: "about",
           element: <h1>About</h1>,
+        },
+        {
+          path: "experience",
+          element: <h1>experience</h1>,
         },
         {
           path: "company/:id",
@@ -27,6 +31,10 @@ export const UserRoute = () => {
         },
         {
           path: "projects",
+          element: <h1>Projects</h1>,
+        },
+        {
+          path: "project/:id",
           element: <h1>Projects</h1>,
         },
         {
