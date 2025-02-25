@@ -15,8 +15,6 @@ export const ProjectsSection = () => {
           name: "PodHead",
           description:
             "A podcast app that allows users to listen to their favorite podcasts, create playlists, and share them with friends.",
-          role: "Frontend Developer",
-          duration: "Dec 2024 - Present",
           isTagAvailable: true,
           tag: "Ongoing",
         }}
@@ -27,8 +25,6 @@ export const ProjectsSection = () => {
           name: "QuickIdGen",
           description:
             "An NPM package that generates unique IDs for your projects. It is easy to use and has a lot of customization options.",
-          role: "Creator",
-          duration: "Oct 2024 - Present",
           isTagAvailable: true,
           tag: "Completed",
         }}

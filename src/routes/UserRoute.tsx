@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "../components";
-import { Home } from "../pages";
+import { About, Experience, Home, Projects } from "../pages";
 
 export const UserRoute = () => {
   const router = createBrowserRouter([
@@ -14,11 +14,11 @@ export const UserRoute = () => {
         },
         {
           path: "about",
-          element: <h1>About</h1>,
+          element: <About />,
         },
         {
           path: "experience",
-          element: <h1>experience</h1>,
+          element: <Experience />,
         },
         {
           path: "company/:id",
@@ -31,7 +31,7 @@ export const UserRoute = () => {
         },
         {
           path: "projects",
-          element: <h1>Projects</h1>,
+          element: <Projects />,
         },
         {
           path: "project/:id",

@@ -1,4 +1,5 @@
 import { Github, Linkedin, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const SOCIALS = [
   { id: 1, icon: <Github />, link: "", name: "Github" },
@@ -8,7 +9,7 @@ const SOCIALS = [
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full flex items-center justify-between card-color border border-neutral-700 rounded-lg sm:rounded-[.7vw] mt-2 sm:mt-[2vh] p-4 sm:p-[1.2vw] mb-2 sm:mb-[2vh]">
+    <footer className="w-full flex flex-col gap-4 sm:gap-[1vh] items-center justify-between card-color border border-neutral-700 rounded-lg sm:rounded-[.7vw] mt-2 sm:mt-[2vh] p-4 sm:p-[1.2vw] mb-2 sm:mb-[2vh]">
       <div className="flex justify-between items-center w-full bg-[#363736] p-4 sm:p-[.8vw] rounded-lg sm:rounded-[.8vw]">
         <h2>Stay Connected 😇</h2>
         <div className="flex gap-4 sm:gap-[.4vw] ">
@@ -19,7 +20,7 @@ export const Footer: React.FC = () => {
                 href={social.link}
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b5b5b5] hover:text-[#408f52] transition-all hover:bg-[#21382e] rounded-lg p-1 sm:p-[.3vw] "
+                className="text-[#b5b5b5] hover:text-[#408f52] transition-all hover:bg-[#21382e] rounded-lg p-1 sm:p-[.3vw] bg:[#2d2d2d] border border-[#2d2d2d] "
               >
                 {social.icon}
               </a>
@@ -28,6 +29,19 @@ export const Footer: React.FC = () => {
               </p>
             </div>
           ))}
+        </div>
+      </div>
+      <div className="flex flex-col gap-4 sm:gap-[1vh] justify-between items-center w-full bg-[#363736] p-4 sm:p-[.8vw] rounded-lg sm:rounded-[.8vw] text-[#a1a1a0]">
+        <h2>© 2025 Made with ❤️</h2>
+        <div className="flex gap-3 sm:gap-[.8vw] text-md sm:text-[clamp(.8rem,1vw,2rem)]">
+          <span>Explore More</span>
+          <ul>
+            <li>
+              <Link to="/updates" className="text-white underline">
+                Updates
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
