@@ -18,7 +18,7 @@ interface LongCardProps {
 export const LongCard: React.FC<LongCardProps> = ({ data }) => {
   return (
     <Link to={data.url ? data.url : "/"} className="w-full">
-      <div className="flex flex-col gap-4 sm:gap-[.5vw]  text-[#b5b5b5]">
+      <div className="flex flex-col gap-4 sm:gap-[.5vw]  text-[#b5b5b5]  hover:shadow-lg transition-all duration-200 ease-in-out">
         <div className="bg-[#363736] p-4 sm:p-[1vw] rounded-lg sm:rounded-[.8vw] flex flex-col sm:flex-row gap-[1vw] ">
           <div className="bg-black/30 backdrop-blur-lg border border-white/10 rounded-lg sm:rounded-[1vw] p-2 sm:p-[.4vw] w-max sm:min-w-max  h-max ">
             <img
@@ -39,7 +39,7 @@ export const LongCard: React.FC<LongCardProps> = ({ data }) => {
                   </span>
                 )}
                 <span>
-                  <ChevronRight />
+                  <ChevronRight className="text-[#b5b5b5]" />
                 </span>
               </div>
             </div>

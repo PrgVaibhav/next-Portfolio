@@ -14,7 +14,7 @@ import git from "../../assets/images/github.webp";
 import postman from "../../assets/images/postman.webp";
 import hosting from "../../assets/images/hosting.webp";
 import vscode from "../../assets/images/vscoode.webp";
-
+import nextJs from "../../assets/images/nextjs.webp";
 const ABOUT = [
   {
     id: 1,
@@ -66,6 +66,7 @@ const SKILLS = [
     name: "Frontend Frameworks & State Management",
     skills: [
       { id: 1, name: "ReactJS", img: react },
+      { id: 4, name: "NextJS", img: nextJs },
       { id: 2, name: "Redux/Context API", img: redux },
       { id: 3, name: "React-query" },
     ],

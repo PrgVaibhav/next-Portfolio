@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "../components";
-import { About, Experience, Home, Projects } from "../pages";
+import { About, Experiences, Home, Project, Projects } from "../pages";
+import { Experience } from "../pages/experiences/experience/Experience";
 
 export const UserRoute = () => {
   const router = createBrowserRouter([
@@ -18,11 +19,11 @@ export const UserRoute = () => {
         },
         {
           path: "experience",
-          element: <Experience />,
+          element: <Experiences />,
         },
         {
           path: "company/:id",
-          element: <h1>Company</h1>,
+          element: <Experience />,
         },
 
         {
@@ -35,7 +36,7 @@ export const UserRoute = () => {
         },
         {
           path: "project/:id",
-          element: <h1>Projects</h1>,
+          element: <Project />,
         },
         {
           path: "blogs",
