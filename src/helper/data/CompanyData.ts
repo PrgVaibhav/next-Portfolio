@@ -100,7 +100,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
         id: 3,
         header: "Enhanced API Performance",
         description:
-          "Integrated React Query & Redux Toolkit for optimized state management and API caching, leading to a 35% faster page load time. This significantly reduced unnecessary network requests, enhancing overall performance.",
+          "Integrated Redux and ContextAPI for optimized state management and API caching, leading to a 35% faster page load time. This significantly reduced unnecessary network requests, enhancing overall performance.",
       },
       {
         id: 4,
@@ -109,27 +109,13 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
           "Implemented a robust Role-Based Access Control (RBAC) system to enhance security, ensuring that different user roles have appropriate permissions for managing pet data and platform functionalities.",
       },
       {
-        id: 5,
-        header: "Real-Time Updates",
-        description:
-          "Integrated WebSockets to provide real-time updates across the platform, ensuring synchronized data for all users without requiring page refreshes. This improved live tracking of pet adoption requests and pet status updates.",
-      },
-      {
         id: 6,
         header: "UI/UX Collaboration",
         description:
           "Worked closely with UI/UX designers to refine and enhance interface elements, improving accessibility and engagement by 20%. The updated design ensures a seamless user experience across all devices.",
       },
     ],
-    tech: [
-      "React.js",
-      "Redux Toolkit",
-      "TailwindCSS",
-      "Axios",
-      "React Query",
-      "WebSockets",
-      "Firebase",
-    ],
+    tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
   },
   {
     id: 2,
@@ -159,12 +145,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
         description:
           "Refactored existing React components to eliminate unnecessary re-renders, reducing memory usage and boosting overall application performance by 25%.",
       },
-      {
-        id: 4,
-        header: "Form Validation",
-        description:
-          "Integrated Formik & Yup for form validation, ensuring accurate and complete submissions while providing real-time feedback to users, preventing incorrect data entry.",
-      },
+
       {
         id: 5,
         header: "Seamless API Integration",
@@ -172,15 +153,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
           "Collaborated closely with backend developers to integrate and optimize REST API calls, ensuring efficient data fetching and reducing API response time.",
       },
     ],
-    tech: [
-      "React.js",
-      "Bootstrap",
-      "SCSS",
-      "Axios",
-      "Formik",
-      "Yup",
-      "REST APIs",
-    ],
+    tech: ["React.js", "Bootstrap", "SCSS", "Axios", "REST APIs"],
   },
   {
     id: 3,
@@ -223,7 +196,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
           "Worked with backend engineers to optimize API response handling, reducing load times by 20% and ensuring efficient data management.",
       },
     ],
-    tech: ["React.js", "TailwindCSS", "SCSS", "Webpack", "ARIA", "REST APIs"],
+    tech: ["React.js", "TailwindCSS", "SCSS", "REST APIs"],
   },
   {
     id: 4,
@@ -260,6 +233,6 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
           "Applied Redux and Context API to optimize state management, improving data handling and user experience within the application.",
       },
     ],
-    tech: ["React.js", "SCSS", "Git", "Redux", "REST APIs"],
+    tech: ["React.js", "SCSS", "Git", "REST APIs"],
   },
 ];

@@ -30,20 +30,20 @@ export const Experience = () => {
             className="flex flex-col gap-4 sm:gap-[1vh] text-sm sm:text-[clamp(.8rem,1vw,2rem)]"
           >
             <div className="flex gap-4 sm:gap-[1vw] ">
-              <p className="text-[#b5b5b5] w-[35vw] sm:w-[5vw]">Role</p>
+              <p className="text-[#b5b5b5] w-[12vw] sm:w-[5vw]">Role</p>
               <span>{project.role}</span>
             </div>
             <div className="flex gap-4 sm:gap-[1vw] ">
-              <p className="text-[#b5b5b5] w-[35vw] sm:w-[5vw]">Location</p>
+              <p className="text-[#b5b5b5] w-[12vw] sm:w-[5vw]">Location</p>
               <span>{project.location}</span>
             </div>
 
             <div className="flex gap-4 sm:gap-[1vw] ">
-              <p className="text-[#b5b5b5] w-[35vw] sm:w-[5vw]">Year</p>
+              <p className="text-[#b5b5b5] w-[12vw] sm:w-[5vw]">Year</p>
               <span>{project.duration}</span>
             </div>
             <div className="flex gap-4 sm:gap-[1vw] ">
-              <p className="text-[#b5b5b5] w-[35vw] sm:w-[5vw]">Tech</p>
+              <p className="text-[#b5b5b5] w-[12vw] sm:w-[5vw]">Tech</p>
               <ul className="flex gap-4 sm:gap-[1vw] items-center flex-wrap">
                 {project.tech.map((t, index) => (
                   <li key={t + index} className="text-wrap">

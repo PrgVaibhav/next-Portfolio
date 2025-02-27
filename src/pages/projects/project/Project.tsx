@@ -31,16 +31,6 @@ export const Project = () => {
             key={project.id}
             className="flex flex-col gap-4 sm:gap-[1vh] text-sm sm:text-[clamp(.8rem,1vw,2rem)]"
           >
-            <div className="flex gap-4 sm:gap-[1vw] ">
-              <p className="text-[#b5b5b5]">Tech</p>
-              <ul className="flex gap-4 sm:gap-[1vw] items-center flex-wrap">
-                {project.tech.map((t, index) => (
-                  <li key={t + index} className="text-wrap">
-                    {t}
-                  </li>
-                ))}
-              </ul>
-            </div>
             {project.type && (
               <div className="flex gap-4 sm:gap-[1vw] ">
                 <p className="text-[#b5b5b5]">Type</p>
@@ -54,6 +44,16 @@ export const Project = () => {
                 <span>{project.duration}</span>
               </div>
             )}
+            <div className="flex gap-4 sm:gap-[1vw] ">
+              <p className="text-[#b5b5b5]">Tech</p>
+              <ul className="flex gap-4 sm:gap-[1vw] items-center flex-wrap">
+                {project.tech.map((t, index) => (
+                  <li key={t + index} className="text-wrap">
+                    {t}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         ))}
       </div>

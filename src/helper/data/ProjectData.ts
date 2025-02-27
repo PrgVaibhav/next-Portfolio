@@ -36,7 +36,7 @@ export const ProjectData: PROJECT_DATA[] = [
     description:
       "PodHead is a platform that aggregates podcasts from YouTube, Spotify, and more, offering a seamless listening experience in one place",
     image: PodHead,
-    tech: ["React", "Node", "MongoDB", "Express"],
+    tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
     tag: "Ongoing",
   },
   {
@@ -46,29 +46,29 @@ export const ProjectData: PROJECT_DATA[] = [
     description:
       "PodHead is a platform that aggregates podcasts from YouTube, Spotify, and more, offering a seamless listening experience in one place",
     image: PodHead,
-    tech: ["React", "Node", "MongoDB", "Express"],
+    tech: ["ReactJS", "Node", "MongoDB", "Express", "Axios"],
     tag: "Ongoing",
   },
   {
     id: 3,
-    name: "DevFort",
+    name: "Dev Fort",
     duration: "Oct 2023 - Jan 2024",
     description:
       "Dev Fort is a dedicated platform designed as the ultimate destination for web developers, offering a comprehensive collection of resources to enhance productivity and skill development.",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
-    tech: ["React", "Node", "MongoDB", "Express"],
+    tech: ["ReactJS", "SCSS"],
     tag: "Completed",
   },
   {
     id: 4,
-    name: "Roll the dice",
+    name: "Roll The Dice",
     duration: "Jan 2024 - Apr 2024",
     description:
       "The game simulates the rolling of dice, adding an element of chance and excitement to the experience. ",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
-    tech: ["React", "Node", "MongoDB", "Express"],
+    tech: ["HTML", "CSS", "JavaScript"],
     tag: "Completed",
   },
 
@@ -80,7 +80,7 @@ export const ProjectData: PROJECT_DATA[] = [
       "Movie Gyaaan is a comprehensive website dedicated to providing in-depth details about a vast array of movies. ",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
-    tech: ["React", "Node", "MongoDB ", "Express"],
+    tech: ["ReactJS", "SCSS", "TMDB API"],
     tag: "Completed",
   },
   {
@@ -91,7 +91,7 @@ export const ProjectData: PROJECT_DATA[] = [
       "The application empowers users to generate passwords based on their preferences, ensuring a balance between security and usability.",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
-    tech: ["React", "Node", "MongoDB ", "Express"],
+    tech: ["ReactJS", "SCSS"],
     tag: "Completed",
   },
 ];
@@ -99,7 +99,7 @@ export const ProjectData: PROJECT_DATA[] = [
 export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
   {
     id: 1,
-    tech: ["React", "Node", "MongoDB", "Express"],
+    tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
     type: "Company Project",
     name: "PetEye",
     link: "https://peteye.pet",
@@ -154,7 +154,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
   },
   {
     id: 2,
-    tech: ["React", "TailwindCSS", "Node.js", "Express", "MongoDB"],
+    tech: ["ReactJS", "Node", "MongoDB", "Express", "Axios"],
     type: "Personal Project",
     name: "PodHead",
     link: "https://podhead.netlify.app",
@@ -215,7 +215,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
   },
   {
     id: 3,
-    tech: ["React", "CSS"],
+    tech: ["ReactJS", "SCSS"],
     type: "Personal Project",
     name: "Dev Fort",
     link: "https://devfort.vercel.app",
@@ -295,7 +295,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     id: 5,
     tech: ["React", "TailwindCSS", "TMDB API"],
     type: "Personal Project",
-    name: "Movie Gyaan",
+    name: "Movie Gyaaan",
     link: "https://moviegyaaan.netlify.app/",
     projectDescription:
       "Movie Gyaan is a go-to platform for movie enthusiasts, offering detailed insights into a wide range of films. From ratings to budgets, this site provides everything you need to explore the world of cinema.",
@@ -324,7 +324,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
 
   {
     id: 6,
-    tech: ["React", "CSS"],
+    tech: ["ReactJS", "CSS"],
     type: "Personal Project",
     name: "Password Generator",
     link: "https://generate-pass-word.vercel.app/",
