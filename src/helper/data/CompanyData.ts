@@ -6,6 +6,7 @@ interface COMPANY_DATA {
   duration: string;
   description: string;
   image: string;
+  url: string;
 }
 
 interface DETAILED_COMPANY_DATA {
@@ -38,6 +39,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
       "Assisted in front-end development, gaining hands-on experience in React, state management, and responsive design.",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    url: "/company/Gray%20Acumen",
   },
   {
     id: 3,
@@ -49,6 +51,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
       "Designed and developed interactive, accessible, and performance-optimized UI components for various web projects.",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    url: "/company/24thMile",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
       "Contributed to the front-end of an ERP system, enhancing UI/UX, optimizing form validation, and improving API efficiency.",
     image:
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    url: "/company/InfozIT",
   },
   {
     id: 5,
@@ -70,6 +74,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     description:
       "Developing and optimizing a scalable pet management platform using React.js, improving user experience, performance, and real-time data handling.",
     image: petEye,
+    url: "/company/PetEye",
   },
 ];
 

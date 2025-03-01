@@ -23,7 +23,7 @@ export const Button: React.FC<BUTTON_PROPS> = ({
 }) => {
   return (
     <button
-      className={`${cn} inter flex gap-2 sm:gap-[.5vw] items-center text-sm sm:text-[clamp(.8rem,1vw,2rem)] px-2 py-2 rounded-lg sm:px-[.5vw] sm:py-[.3vw] sm:rounded-[.5vw] cursor-pointer hover:shadow active:scale-90 transition-all duration-300`}
+      className={`${cn} inter flex gap-2 sm:gap-[.5vw] items-center text-sm sm:text-[clamp(.8rem,1vw,2rem)] rounded-lg  sm:rounded-[.5vw] cursor-pointer hover:shadow active:scale-90 transition-all duration-300`}
       type={type}
       disabled={disabled}
       onClick={onClick}

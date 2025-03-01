@@ -29,7 +29,10 @@ export const AboutSection = () => {
         ))}
 
         <Link to={"/about"}>
-          <Button cn="bg-[#202021]" rightIcon={<MoveRight />}>
+          <Button
+            cn="bg-[#202021]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            rightIcon={<MoveRight />}
+          >
             Read More
           </Button>
         </Link>

@@ -36,7 +36,10 @@ export const SmallHeader: React.FC<SMALL_HEADER_PROPS> = ({
       {isButton &&
         url && ( // Only render the Link if isButton is true and url is provided
           <Link to={url}>
-            <Button cn="bg-[#393839]" rightIcon={<MoveRight />}>
+            <Button
+              cn="bg-[#393839] px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+              rightIcon={<MoveRight />}
+            >
               View All
             </Button>
           </Link>

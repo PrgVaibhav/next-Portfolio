@@ -91,7 +91,10 @@ export const Navbar = () => {
         </div> */}
         <div>
           <Link to={"/contact"}>
-            <Button leftIcon={<Sparkles size={15} />} cn="bg-[#393839]">
+            <Button
+              leftIcon={<Sparkles size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
               Hire Me
             </Button>
           </Link>

@@ -7,6 +7,8 @@ interface PROJECT_DATA {
   image: string;
   tech: string[];
   tag?: "Current" | "Ongoing" | "Completed";
+
+  url: string;
 }
 
 interface DETAILED_PROJECT_DATA {
@@ -38,6 +40,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: PodHead,
     tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
     tag: "Ongoing",
+    url: "/project/PetEye",
   },
   {
     id: 2,
@@ -48,6 +51,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: PodHead,
     tech: ["ReactJS", "Node", "MongoDB", "Express", "Axios"],
     tag: "Ongoing",
+    url: "/project/PodHead",
   },
   {
     id: 3,
@@ -59,6 +63,7 @@ export const ProjectData: PROJECT_DATA[] = [
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
     tech: ["ReactJS", "SCSS"],
     tag: "Completed",
+    url: "/project/Dev%20Fort",
   },
   {
     id: 4,
@@ -70,6 +75,7 @@ export const ProjectData: PROJECT_DATA[] = [
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
     tech: ["HTML", "CSS", "JavaScript"],
     tag: "Completed",
+    url: "/project/Roll%20The%20Dice",
   },
 
   {
@@ -82,6 +88,7 @@ export const ProjectData: PROJECT_DATA[] = [
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
     tech: ["ReactJS", "SCSS", "TMDB API"],
     tag: "Completed",
+    url: "/project/Movie%20Gyaaan",
   },
   {
     id: 6,
@@ -93,6 +100,7 @@ export const ProjectData: PROJECT_DATA[] = [
       "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
     tech: ["ReactJS", "SCSS"],
     tag: "Completed",
+    url: "/project/Password%20Generator",
   },
 ];
 

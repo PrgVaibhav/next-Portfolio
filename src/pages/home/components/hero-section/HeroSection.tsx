@@ -15,18 +15,27 @@ export const HeroSection = () => {
         </div>
         <div className="flex gap-4 sm:gap-[.7vw]">
           <Link to={"/contact"}>
-            <Button leftIcon={<Sparkles size={15} />} cn="bg-[#393839]">
+            <Button
+              leftIcon={<Sparkles size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
               Hire Me
             </Button>
           </Link>
           <Link to={"/contact"}>
-            <Button leftIcon={<FileUser size={15} />} cn="bg-[#393839]">
+            <Button
+              leftIcon={<FileUser size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
               Resume
             </Button>
           </Link>
 
           <Link to={"/contact"}>
-            <Button leftIcon={<Unplug size={15} />} cn="bg-[#393839]">
+            <Button
+              leftIcon={<Unplug size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
               Let's Connect
             </Button>
           </Link>
