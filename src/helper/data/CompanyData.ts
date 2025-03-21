@@ -27,6 +27,9 @@ interface DETAILED_COMPANY_DATA {
 }
 
 import petEye from "../../assets/images/peteye.webp";
+import GrayAcumen from "../../assets/images/assets/GrayAcumen.png";
+import mile from "../../assets/images/assets/24thMile.png";
+import infozIT from "../../assets/images/assets/infozit.png";
 
 export const SmallCompanyData: COMPANY_DATA[] = [
   {
@@ -37,8 +40,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     duration: "May 2023 - Oct 2023",
     description:
       "Assisted in front-end development, gaining hands-on experience in React, state management, and responsive design.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: GrayAcumen,
     url: "/company/Gray%20Acumen",
   },
   {
@@ -49,8 +51,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     duration: "Oct 2023 - Jan 2024",
     description:
       "Designed and developed interactive, accessible, and performance-optimized UI components for various web projects.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: mile,
     url: "/company/24thMile",
   },
   {
@@ -61,8 +62,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     duration: "Jan 2024 - Apr 2024",
     description:
       "Contributed to the front-end of an ERP system, enhancing UI/UX, optimizing form validation, and improving API efficiency.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: infozIT,
     url: "/company/InfozIT",
   },
   {

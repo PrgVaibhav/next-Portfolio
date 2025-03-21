@@ -28,7 +28,14 @@ interface DETAILED_PROJECT_DATA {
   }[];
 }
 
-import PodHead from "../../assets/images/logo.png";
+import PodHead from "../../assets/images/assets/podhead.png";
+import peteye from "../../assets/images/assets/peteye.png";
+import cultui from "../../assets/images/assets/cultui.png";
+import devfort from "../../assets/images/assets/devfort.png";
+import dice from "../../assets/images/assets/dice.png";
+import moviegyaan from "../../assets/images/assets/moviegyaan.png";
+import password from "../../assets/images/assets/password.png";
+import quickidgen from "../../assets/images/assets/quickidgen.png";
 
 export const ProjectData: PROJECT_DATA[] = [
   {
@@ -37,13 +44,13 @@ export const ProjectData: PROJECT_DATA[] = [
     duration: "May 2024 - Present",
     description:
       "PodHead is a platform that aggregates podcasts from YouTube, Spotify, and more, offering a seamless listening experience in one place",
-    image: PodHead,
+    image: peteye,
     tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
     tag: "Ongoing",
     url: "/project/PetEye",
   },
   {
-    id: 2,
+    id: 1,
     name: "PodHead",
     duration: "May 2023 - Oct 2023",
     description:
@@ -54,13 +61,36 @@ export const ProjectData: PROJECT_DATA[] = [
     url: "/project/PodHead",
   },
   {
+    id: 112,
+    name: "CultUI",
+    duration: "2024 - Present",
+    description:
+      "CultUI is a modern component library offering a collection of reusable and customizable UI components, designed to help developers build elegant and responsive user interfaces effortlessly.",
+    image: cultui,
+    tech: ["ReactJS", "TailwindCSS", "TypeScript", "Framer Motion"],
+    tag: "Ongoing",
+    url: "/project/CultUI",
+  },
+
+  {
+    id: 2324,
+    name: "QuickIDGen",
+    duration: "Oct 2023 - Present",
+    description:
+      "quickidgen is a lightweight, customizable, and easy-to-use JavaScript utility for generating short and random unique IDs with various customization options.",
+    image: quickidgen, // Replace with the actual image variable
+    tech: ["JavaScript", "Node.js", "ES6", "NPM"],
+    tag: "Completed",
+    url: "/project/QuickIDGen",
+  },
+
+  {
     id: 3,
     name: "Dev Fort",
     duration: "Oct 2023 - Jan 2024",
     description:
       "Dev Fort is a dedicated platform designed as the ultimate destination for web developers, offering a comprehensive collection of resources to enhance productivity and skill development.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: devfort,
     tech: ["ReactJS", "SCSS"],
     tag: "Completed",
     url: "/project/Dev%20Fort",
@@ -71,8 +101,7 @@ export const ProjectData: PROJECT_DATA[] = [
     duration: "Jan 2024 - Apr 2024",
     description:
       "The game simulates the rolling of dice, adding an element of chance and excitement to the experience. ",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: dice,
     tech: ["HTML", "CSS", "JavaScript"],
     tag: "Completed",
     url: "/project/Roll%20The%20Dice",
@@ -84,8 +113,7 @@ export const ProjectData: PROJECT_DATA[] = [
     duration: "May 2024 - Present",
     description:
       "Movie Gyaaan is a comprehensive website dedicated to providing in-depth details about a vast array of movies. ",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: moviegyaan,
     tech: ["ReactJS", "SCSS", "TMDB API"],
     tag: "Completed",
     url: "/project/Movie%20Gyaaan",
@@ -96,8 +124,7 @@ export const ProjectData: PROJECT_DATA[] = [
     duration: "May 2024 - Present",
     description:
       "The application empowers users to generate passwords based on their preferences, ensuring a balance between security and usability.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHBldCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    image: password,
     tech: ["ReactJS", "SCSS"],
     tag: "Completed",
     url: "/project/Password%20Generator",
@@ -221,6 +248,63 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
       },
     ],
   },
+
+  {
+    id: 10,
+    tech: ["ReactJS", "TypeScript", "TailwindCSS", "ShadCN/UI"],
+    type: "Personal Project",
+    name: "CultUI",
+    link: "https://cultui.vercel.app",
+    projectDescription:
+      "CultUI is a modern, developer-friendly component library designed to streamline the UI development process. It offers a collection of high-quality, customizable, and accessible React components built with TailwindCSS and ShadCN/UI. The library aims to provide developers with a seamless experience, enabling them to integrate sleek UI elements with minimal effort.",
+    thumbnail: "",
+    duration: "2024 - Present",
+    aboutProject: [
+      {
+        id: 1,
+        header: "My Contributions",
+        description:
+          "I designed and developed the entire CultUI component library, focusing on accessibility, responsiveness, and ease of integration. I implemented reusable, well-structured components while ensuring seamless customization through props and Tailwind utilities. The project also includes proper documentation to guide developers in adopting and utilizing CultUI efficiently.",
+        image: "",
+      },
+      {
+        id: 2,
+        header: "Component Library",
+        description:
+          "I built a wide range of UI components, including buttons, modals, input fields, dropdowns, and complex elements like data tables and multi-step forms. Each component is optimized for performance and follows best practices for UI development, ensuring a smooth user experience.",
+        image: "",
+      },
+      {
+        id: 3,
+        header: "Dark Mode & Theming",
+        description:
+          "I implemented a fully responsive dark mode and theming system, allowing users to switch between light and dark themes effortlessly. The theme is dynamically managed and provides a consistent experience across all components, enhancing user flexibility.",
+        image: "",
+      },
+      {
+        id: 4,
+        header: "Interactive Component Previews",
+        description:
+          "I developed an interactive component preview system that allows users to test and customize UI elements before integrating them into their projects. This enhances developer experience by providing real-time visual feedback and configuration options.",
+        image: "",
+      },
+      {
+        id: 5,
+        header: "Component Documentation",
+        description:
+          "I created a well-structured documentation site that provides detailed usage instructions, code snippets, and customization guides for each component. The documentation ensures that developers can quickly understand and implement CultUI components with minimal effort.",
+        image: "",
+      },
+      {
+        id: 6,
+        header: "Optimized Performance & Best Practices",
+        description:
+          "I focused on performance optimization by implementing lazy loading, tree shaking, and efficient state management. CultUI follows best practices for React development, ensuring minimal re-renders and improved responsiveness.",
+        image: "",
+      },
+    ],
+  },
+
   {
     id: 3,
     tech: ["ReactJS", "SCSS"],
@@ -357,6 +441,55 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
         header: "Lightweight and User-Friendly",
         description:
           "Designed with a clean and minimal UI, the tool makes password generation quick and hassle-free. Built using React, it delivers a smooth and responsive experience.",
+      },
+    ],
+  },
+
+  {
+    id: 4334,
+    tech: ["JavaScript", "ES6", "NPM"],
+    type: "Open-Source Project",
+    name: "quickidgen",
+    link: "https://www.npmjs.com/package/quickidgen", // Replace with your actual link
+    projectDescription:
+      "quickidgen is a lightweight and customizable JavaScript utility for generating short and unique random IDs. Designed for developers who need efficient ID generation without relying on heavy dependencies, it offers flexibility in customization, including length, character sets, and prefixes.",
+    thumbnail: "",
+    duration: "2023 - Present",
+    aboutProject: [
+      {
+        id: 1,
+        header: "Core Development",
+        description:
+          "I designed and developed quickidgen as an open-source package to simplify unique ID generation in JavaScript applications. The library is optimized for speed and efficiency, making it ideal for web applications, databases, and other use cases requiring random identifiers.",
+        image: "",
+      },
+      {
+        id: 2,
+        header: "Customization Features",
+        description:
+          "I implemented various customization options, allowing developers to specify ID length, include/exclude certain characters, and add custom prefixes. This ensures that quickidgen adapts to different project needs while maintaining simplicity.",
+        image: "",
+      },
+      {
+        id: 3,
+        header: "Performance Optimization",
+        description:
+          "To ensure optimal performance, I wrote the package with minimal dependencies and focused on execution speed. quickidgen generates IDs efficiently, making it well-suited for real-time applications where speed is crucial.",
+        image: "",
+      },
+      {
+        id: 4,
+        header: "Publishing & Documentation",
+        description:
+          "I published quickidgen on npm and created clear, beginner-friendly documentation to help developers integrate it effortlessly. The documentation covers installation, usage examples, and best practices.",
+        image: "",
+      },
+      {
+        id: 5,
+        header: "Community & Open-Source Growth",
+        description:
+          "Since its launch, I have actively maintained the package, addressing issues, adding new features, and engaging with the open-source community to improve its usability and reach.",
+        image: "",
       },
     ],
   },

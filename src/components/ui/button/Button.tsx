@@ -28,7 +28,7 @@ export const Button: React.FC<BUTTON_PROPS> = ({
       disabled={disabled}
       onClick={onClick}
     >
-      {leftIcon && <span>{leftIcon}</span>}
+      {!isLoading && leftIcon && <span>{leftIcon}</span>}
 
       {isLoading && (
         <span>
@@ -36,7 +36,7 @@ export const Button: React.FC<BUTTON_PROPS> = ({
         </span>
       )}
       {children}
-      {rightIcon && <span>{rightIcon}</span>}
+      {!isLoading && rightIcon && <span>{rightIcon}</span>}
     </button>
   );
 };

@@ -22,14 +22,18 @@ export const HeroSection = () => {
               Hire Me
             </Button>
           </Link>
-          <Link to={"/contact"}>
+          <a
+            href="https://drive.google.com/file/d/1xAOFurUIVjT0UVclxI9INu_U1kb0UX3J/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               leftIcon={<FileUser size={15} />}
               cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
             >
               Resume
             </Button>
-          </Link>
+          </a>
 
           <Link to={"/contact"}>
             <Button

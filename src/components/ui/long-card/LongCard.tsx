@@ -24,7 +24,7 @@ export const LongCard: React.FC<LongCardProps> = ({ data }) => {
             <img
               src={data.image}
               alt=""
-              className="w-[15vw]  h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg  sm:rounded-[1vw] bg-black"
+              className="w-[15vw]  h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg  sm:rounded-[1vw] object-contain bg-black/30 p-2"
             />
           </div>
           <div className="flex flex-col gap-2 sm:gap-[.5vw]">

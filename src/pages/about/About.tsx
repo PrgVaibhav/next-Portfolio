@@ -1,5 +1,5 @@
 import React from "react";
-import { SmallHeader } from "../../components";
+import { Button, SmallHeader } from "../../components";
 // import AboutImage from "../../assets/images/welcome-img.svg";
 import Javascript from "../../assets/images/javascript.webp";
 import TypeScript from "../../assets/images/typescript.webp";
@@ -15,6 +15,8 @@ import postman from "../../assets/images/postman.webp";
 import hosting from "../../assets/images/hosting.webp";
 import vscode from "../../assets/images/vscoode.webp";
 import nextJs from "../../assets/images/nextjs.webp";
+import { Link } from "react-router-dom";
+import { FileUser, Sparkles, Unplug } from "lucide-react";
 const ABOUT = [
   {
     id: 1,
@@ -108,7 +110,39 @@ export const About = () => {
             </p>
           </div>
         ))}
+        <div className="flex gap-4 sm:gap-[.7vw]">
+          <Link to={"/contact"}>
+            <Button
+              leftIcon={<Sparkles size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
+              Hire Me
+            </Button>
+          </Link>
+          <a
+            href="https://drive.google.com/file/d/1I9yynpY_Fu7V2Tb2oinJzKUhYeSGZ_w-/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              leftIcon={<FileUser size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
+              Resume
+            </Button>
+          </a>
+
+          <Link to={"/contact"}>
+            <Button
+              leftIcon={<Unplug size={15} />}
+              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+            >
+              Let's Connect
+            </Button>
+          </Link>
+        </div>
       </section>
+
       <div className="flex flex-col gap-4 sm:gap-[.5vw]  text-[#b5b5b5]">
         <SmallHeader
           primaryTitle="Tech Stack & Expertise"

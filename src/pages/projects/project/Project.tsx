@@ -74,7 +74,7 @@ export const Project = () => {
             <div className="flex items-center  gap-4 sm:gap-[1vw]  border-b-[.1vw] border-neutral-700 w-full pb-4 sm:pb-[2vh]">
               <a href={project.link} target="_blank" rel="noreferrer">
                 <Button
-                  cn="bg-[#393839] text-sm sm:text-[clamp(.8rem,1vw,2rem)]"
+                  cn="bg-[#393839] text-sm sm:text-[clamp(.8rem,1vw,2rem)] px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
                   rightIcon={<MoveRight />}
                 >
                   Visit Website
@@ -82,7 +82,7 @@ export const Project = () => {
               </a>
               <a href={project.link} target="_blank" rel="noreferrer">
                 <Github
-                  className="rounded-lg p-1 sm:p-[.3vw] bg:[#2d2d2d] border border-[#2d2d2d] "
+                  className="rounded-lg px-2 py-2 sm:px-[.4vw] sm:py-[.4vw] bg:[#2d2d2d] border border-[#2d2d2d] "
                   size={30}
                 />
               </a>
