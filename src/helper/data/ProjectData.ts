@@ -19,6 +19,7 @@ interface DETAILED_PROJECT_DATA {
   link: string;
   projectDescription: string;
   thumbnail: string;
+  githubLink?: string;
   duration?: string;
   aboutProject: {
     id: number;
@@ -36,6 +37,14 @@ import dice from "../../assets/images/assets/dice.png";
 import moviegyaan from "../../assets/images/assets/moviegyaan.png";
 import password from "../../assets/images/assets/password.png";
 import quickidgen from "../../assets/images/assets/quickidgen.png";
+
+// Project images
+import cultuiImage from "../../assets/companies/cultui/cultui.png";
+import devfortImage from "../../assets/companies/devfort/devfort.webp";
+import diceImage from "../../assets/companies/dice/dice.webp";
+import peteyeImage from "../../assets/companies/peteye/peteye.webp";
+import podheadImage from "../../assets/companies/podhead/podhead.webp";
+import passwordImage from "../../assets/companies/password/password.png";
 
 export const ProjectData: PROJECT_DATA[] = [
   {
@@ -140,7 +149,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     link: "https://peteye.pet",
     projectDescription:
       "PetEye is an all-in-one platform catering to pet owners, providing innovative solutions for pet data management, e-commerce, tracking, and community engagement. The platform is designed to streamline the pet care process by integrating document storage, online shopping, real-time tracking, and informative content all in one place.",
-    thumbnail: "",
+    thumbnail: peteye,
     duration: "2024",
     aboutProject: [
       {
@@ -148,7 +157,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
         header: "My Contributions",
         description:
           "I played a pivotal role in architecting and implementing the user interface using React, ensuring a seamless and responsive experience for all users. Additionally, I integrated backend APIs built with Node and Express, optimizing data flow and secure authentication. My contributions were critical in connecting the frontend to a robust MongoDB database, supporting smooth CRUD operations throughout the platform.",
-        image: "",
+        image: peteyeImage,
       },
       {
         id: 2,
@@ -193,16 +202,18 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     type: "Personal Project",
     name: "PodHead",
     link: "https://podhead.netlify.app",
+    githubLink: "",
+
     projectDescription:
       "PodHead is a web application designed to aggregate and curate podcasts from multiple platforms like YouTube, bringing them all into one place for a seamless and unified listening experience. Unlike API-based podcast aggregation, we manually curate high-quality podcasts across diverse genres to ensure an enriched listening experience.",
-    thumbnail: "",
+    thumbnail: PodHead,
     aboutProject: [
       {
         id: 1,
         header: "Team & Responsibilities",
         description:
           "PodHead is a collaborative project built by me and my friend. I handle the frontend development using React and TailwindCSS while also contributing to backend development with Node.js and Express to expand my backend skills. My friend focuses primarily on backend development, ensuring seamless data management and server-side functionalities.",
-        image: "",
+        image: podheadImage,
       },
       {
         id: 2,
@@ -255,9 +266,11 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     type: "Personal Project",
     name: "CultUI",
     link: "https://cultui.vercel.app",
+    githubLink: "",
+
     projectDescription:
       "CultUI is a modern, developer-friendly component library designed to streamline the UI development process. It offers a collection of high-quality, customizable, and accessible React components built with TailwindCSS and ShadCN/UI. The library aims to provide developers with a seamless experience, enabling them to integrate sleek UI elements with minimal effort.",
-    thumbnail: "",
+    thumbnail: cultui,
     duration: "2024 - Present",
     aboutProject: [
       {
@@ -265,7 +278,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
         header: "My Contributions",
         description:
           "I designed and developed the entire CultUI component library, focusing on accessibility, responsiveness, and ease of integration. I implemented reusable, well-structured components while ensuring seamless customization through props and Tailwind utilities. The project also includes proper documentation to guide developers in adopting and utilizing CultUI efficiently.",
-        image: "",
+        image: cultuiImage,
       },
       {
         id: 2,
@@ -311,15 +324,18 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     type: "Personal Project",
     name: "Dev Fort",
     link: "https://devfort.vercel.app",
+    githubLink: "",
+
     projectDescription:
       "Dev Fort is a dedicated platform for web developers, offering a rich collection of resources to boost productivity and skill development. It provides up-to-date tools, tutorials, and insights in one centralized place.",
-    thumbnail: "",
+    thumbnail: devfort,
     aboutProject: [
       {
         id: 1,
         header: "Purpose & Vision",
         description:
           "Dev Fort is built to be a go-to hub for developers, offering essential learning materials, coding challenges, and industry best practices. It ensures that both beginners and experienced developers have access to high-quality resources for continuous growth.",
+        image: devfortImage,
       },
       {
         id: 2,
@@ -353,15 +369,18 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     type: "Personal Project",
     name: "Roll The Dice",
     link: "https://prgvaibhav.github.io/Roll_The_Dice/",
+    githubLink: "",
+
     projectDescription:
       "Roll The Dice is a simple and fun dice game built using HTML, CSS, and JavaScript. It’s a great little project for anyone looking to add a bit of randomness and excitement to their day.",
-    thumbnail: "", // Add image URLs here
+    thumbnail: dice, // Add image URLs here
     aboutProject: [
       {
         id: 1,
         header: "What is Roll The Dice?",
         description:
           "This project is a small web-based dice game designed purely for fun. Whether you’re deciding who goes first in a board game or just feeling lucky, this game lets you roll the dice with a single click.",
+        image: diceImage,
       },
       {
         id: 2,
@@ -389,9 +408,11 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     type: "Personal Project",
     name: "Movie Gyaaan",
     link: "https://moviegyaaan.netlify.app/",
+    githubLink: "",
+
     projectDescription:
       "Movie Gyaan is a go-to platform for movie enthusiasts, offering detailed insights into a wide range of films. From ratings to budgets, this site provides everything you need to explore the world of cinema.",
-    thumbnail: "",
+    thumbnail: moviegyaan,
     aboutProject: [
       {
         id: 1,
@@ -420,15 +441,18 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     type: "Personal Project",
     name: "Password Generator",
     link: "https://generate-pass-word.vercel.app/",
+    githubLink: "",
+
     projectDescription:
       "A simple yet powerful password generator that helps users create strong and customizable passwords effortlessly. Built with React.js, this tool ensures security without compromising usability.",
-    thumbnail: "",
+    thumbnail: password,
     aboutProject: [
       {
         id: 1,
         header: "Generate Secure Passwords Instantly",
         description:
           "With just a few clicks, users can generate strong and random passwords tailored to their security needs. No more struggling to come up with unique passwords!",
+        image: passwordImage,
       },
       {
         id: 2,
@@ -449,11 +473,13 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
     id: 4334,
     tech: ["JavaScript", "ES6", "NPM"],
     type: "Open-Source Project",
-    name: "quickidgen",
+    name: "QuickIDGen",
     link: "https://www.npmjs.com/package/quickidgen", // Replace with your actual link
+    githubLink: "",
+
     projectDescription:
       "quickidgen is a lightweight and customizable JavaScript utility for generating short and unique random IDs. Designed for developers who need efficient ID generation without relying on heavy dependencies, it offers flexibility in customization, including length, character sets, and prefixes.",
-    thumbnail: "",
+    thumbnail: quickidgen,
     duration: "2023 - Present",
     aboutProject: [
       {

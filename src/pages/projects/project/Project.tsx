@@ -3,6 +3,7 @@ import { DetailedProjectData } from "../../../helper/data/ProjectData";
 import { Button } from "../../../components";
 import { Github, MoveRight } from "lucide-react";
 import React from "react";
+import { useTitle } from "../../../helper/hooks/useTitle";
 
 export const Project = () => {
   const { id } = useParams<string>();
@@ -10,6 +11,8 @@ export const Project = () => {
   const filterProjects = DetailedProjectData.filter(
     (project) => project.name === id
   );
+
+  useTitle({ title: filterProjects[0].name });
   console.log(filterProjects);
 
   if (filterProjects.length === 0) {
@@ -61,7 +64,11 @@ export const Project = () => {
         {filterProjects.map((project) => (
           <div className="flex flex-col gap-4 sm:gap-[2vh]  ">
             <div>
-              <img src={project.thumbnail} alt={project.name} />
+              <img
+                src={project.thumbnail}
+                alt={project.name}
+                className="w-[15vw]  h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg  sm:rounded-[1vw] object-contain bg-black/30 p-2"
+              />
             </div>
             <div className="flex  flex-col gap-4 sm:gap-[1vh] ">
               <h1 className="text-2xl font-bold sm:text-[clamp(1.4rem,2vw,4rem)]">
@@ -80,12 +87,14 @@ export const Project = () => {
                   Visit Website
                 </Button>
               </a>
-              <a href={project.link} target="_blank" rel="noreferrer">
-                <Github
-                  className="rounded-lg px-2 py-2 sm:px-[.4vw] sm:py-[.4vw] bg:[#2d2d2d] border border-[#2d2d2d] "
-                  size={30}
-                />
-              </a>
+              {project.githubLink && (
+                <a href={project.githubLink} target="_blank" rel="noreferrer">
+                  <Github
+                    className="rounded-lg px-2 py-2 sm:px-[.4vw] sm:py-[.4vw] bg:[#2d2d2d] border border-[#2d2d2d] "
+                    size={30}
+                  />
+                </a>
+              )}
             </div>
 
             <div className="flex flex-col gap-4 sm:gap-[1vh] ">
@@ -94,7 +103,14 @@ export const Project = () => {
                   <h1 className="text-xl sm:text-[clamp(1.4rem,1.5vw,3rem)] font-bold">
                     {about.header}
                   </h1>
-                  {about.image && <img src={about.image} alt={about.header} />}
+                  {about.image && (
+                    <img
+                      src={about.image}
+                      alt={about.header}
+                      className="shadow-lg mb-2"
+                      loading="lazy"
+                    />
+                  )}
                   <p className="text-sm sm:text-[clamp(.9rem,1vw,2rem)] leading-relaxed text-[#b5b5b5]">
                     {about.description}
                   </p>

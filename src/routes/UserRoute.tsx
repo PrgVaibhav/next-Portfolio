@@ -1,6 +1,14 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "../components";
-import { About, Contact, Experiences, Home, Project, Projects } from "../pages";
+import {
+  About,
+  Contact,
+  Experiences,
+  Home,
+  Project,
+  Projects,
+  Updates,
+} from "../pages";
 import { Experience } from "../pages/experiences/experience/Experience";
 
 export const UserRoute = () => {
@@ -38,13 +46,13 @@ export const UserRoute = () => {
           path: "project/:id",
           element: <Project />,
         },
-        {
-          path: "blogs",
-          element: <h1>Blogs</h1>,
-        },
+        // {
+        //   path: "blogs",
+        //   element: <h1>Blogs</h1>,
+        // },
         {
           path: "updates",
-          element: <h1>Updates</h1>,
+          element: <Updates />,
         },
       ],
     },

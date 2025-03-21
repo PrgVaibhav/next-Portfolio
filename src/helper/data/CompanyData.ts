@@ -87,7 +87,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
     duration: "May 2024 – Present",
     projectDescription:
       "Building a scalable pet management platform to enhance pet adoption and care by leveraging modern web technologies.",
-    thumbnail: "",
+    thumbnail: petEye,
     aboutProject: [
       {
         id: 1,
@@ -130,7 +130,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
     duration: "Jan 2024 – Apr 2024",
     projectDescription:
       "Contributed to a large-scale ERP system, focusing on UI enhancements, performance optimizations, and a seamless user experience.",
-    thumbnail: "",
+    thumbnail: infozIT,
     aboutProject: [
       {
         id: 1,
@@ -168,7 +168,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
     duration: "Oct 2023 – Jan 2024",
     projectDescription:
       "Developed multiple web-based solutions, focusing on UI/UX enhancements, accessibility, and performance optimizations.",
-    thumbnail: "",
+    thumbnail: mile,
     aboutProject: [
       {
         id: 1,
@@ -211,7 +211,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
     duration: "May 2023 – Oct 2023",
     projectDescription:
       "Gained hands-on experience in front-end development, collaborating with teams to build scalable web applications and improve UI consistency.",
-    thumbnail: "",
+    thumbnail: GrayAcumen,
     aboutProject: [
       {
         id: 1,

@@ -2,8 +2,10 @@ import { MessageSquareShare } from "lucide-react";
 import { Button, SmallHeader, Toast } from "../../components";
 import { useRef, useState, FormEvent, ChangeEvent, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import { useTitle } from "../../helper/hooks/useTitle";
 
 export const Contact = () => {
+  useTitle({ title: "Contact" });
   const form = useRef<HTMLFormElement>(null);
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");

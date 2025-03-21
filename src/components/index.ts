@@ -1,3 +1,5 @@
+export { ScrollToTop } from "./layout/scroll-to-top/ScrollToTop";
+
 export { RootLayout } from "./layout/root-layout/RootLayout";
 
 export { Button } from "./ui/button/Button";

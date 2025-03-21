@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { DetailedCompanyData } from "../../../helper/data/CompanyData";
 import React from "react";
+import { useTitle } from "../../../helper/hooks/useTitle";
 
 export const Experience = () => {
   const { id } = useParams<string>();
@@ -9,6 +10,7 @@ export const Experience = () => {
     (project) => project.name === id
   );
   console.log(filterProjects);
+  useTitle({ title: filterProjects[0].name });
 
   if (filterProjects.length === 0) {
     return (
@@ -59,7 +61,11 @@ export const Experience = () => {
         {filterProjects.map((project) => (
           <div className="flex flex-col gap-4 sm:gap-[2vh]  ">
             <div>
-              <img src={project.thumbnail} alt={project.name} />
+              <img
+                src={project.thumbnail}
+                alt={project.name}
+                className="w-[15vw]  h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg  sm:rounded-[1vw] object-contain bg-black/30 p-2"
+              />
             </div>
             <div className="flex  flex-col gap-4 sm:gap-[1vh] ">
               <h1 className="text-2xl font-bold sm:text-[clamp(1.4rem,2vw,4rem)]">

@@ -17,6 +17,7 @@ import vscode from "../../assets/images/vscoode.webp";
 import nextJs from "../../assets/images/nextjs.webp";
 import { Link } from "react-router-dom";
 import { FileUser, Sparkles, Unplug } from "lucide-react";
+import { useTitle } from "../../helper/hooks/useTitle";
 const ABOUT = [
   {
     id: 1,
@@ -95,6 +96,8 @@ const SKILLS = [
 ];
 
 export const About = () => {
+  useTitle({ title: "About" });
+
   return (
     <section className="card-color p-4 sm:p-[1.4vw] border border-neutral-700 rounded-lg sm:rounded-[.7vw] flex flex-col gap-8 sm:gap-[3vh]">
       <SmallHeader primaryTitle="About" isSecondaryTitle={false} />
