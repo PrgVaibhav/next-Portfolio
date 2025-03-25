@@ -41,7 +41,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     description:
       "Assisted in front-end development, gaining hands-on experience in React, state management, and responsive design.",
     image: GrayAcumen,
-    url: "/company/Gray%20Acumen",
+    url: "/experience/Gray%20Acumen",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     description:
       "Designed and developed interactive, accessible, and performance-optimized UI components for various web projects.",
     image: mile,
-    url: "/company/24thMile",
+    url: "/experience/24thMile",
   },
   {
     id: 4,
@@ -63,18 +63,18 @@ export const SmallCompanyData: COMPANY_DATA[] = [
     description:
       "Contributed to the front-end of an ERP system, enhancing UI/UX, optimizing form validation, and improving API efficiency.",
     image: infozIT,
-    url: "/company/InfozIT",
+    url: "/experience/InfozIT",
   },
   {
     id: 5,
     name: "PetEye",
     location: "Hyderabad, Telangana",
     role: "ReactJS Developer",
-    duration: "May 2024 - Present",
+    duration: "May 2024 - Feb 2025",
     description:
       "Developing and optimizing a scalable pet management platform using React.js, improving user experience, performance, and real-time data handling.",
     image: petEye,
-    url: "/company/PetEye",
+    url: "/experience/PetEye",
   },
 ];
 
@@ -84,7 +84,7 @@ export const DetailedCompanyData: DETAILED_COMPANY_DATA[] = [
     role: "React.js Developer",
     name: "PetEye",
     location: "Hyderabad, Telangana",
-    duration: "May 2024 – Present",
+    duration: "May 2024 – Feb 2025",
     projectDescription:
       "Building a scalable pet management platform to enhance pet adoption and care by leveraging modern web technologies.",
     thumbnail: petEye,

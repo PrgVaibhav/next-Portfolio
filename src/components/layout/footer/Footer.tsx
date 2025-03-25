@@ -9,7 +9,7 @@ const SOCIALS = [
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full flex flex-col gap-4 sm:gap-[1vh] items-center justify-between card-color border border-neutral-700 rounded-lg sm:rounded-[.7vw] mt-2 sm:mt-[2vh] p-4 sm:p-[1.2vw] mb-2 sm:mb-[2vh]">
+    <footer className="w-full flex flex-col gap-4 sm:gap-[1vh] items-center justify-between card-color border border-neutral-700 rounded-lg sm:rounded-[.7vw]  p-4 sm:p-[1.2vw] mb-2 sm:mb-[2vh]">
       <div className="flex justify-between items-center w-full bg-[#363736] p-4 sm:p-[.8vw] rounded-lg sm:rounded-[.8vw]">
         <h2>Stay Connected 😇</h2>
         <div className="flex gap-4 sm:gap-[.4vw] ">

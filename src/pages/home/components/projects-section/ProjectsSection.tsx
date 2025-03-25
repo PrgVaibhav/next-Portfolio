@@ -20,7 +20,7 @@ export const ProjectsSection = () => {
             "A podcast app that allows users to listen to their favorite podcasts, create playlists, and share them with friends.",
           isTagAvailable: true,
           tag: "Ongoing",
-          url: "/project/PodHead",
+          url: "/projects/PodHead",
         }}
       />
       <LongCard
@@ -31,7 +31,7 @@ export const ProjectsSection = () => {
             "An NPM package that generates unique IDs for your projects. It is easy to use and has a lot of customization options.",
           isTagAvailable: true,
           tag: "Completed",
-          url: "/project/QuickIDGen",
+          url: "/projects/QuickIDGen",
         }}
       />
     </section>

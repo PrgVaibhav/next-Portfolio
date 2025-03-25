@@ -14,7 +14,7 @@ export const Experiences = () => {
             description: data.description,
             role: data.role,
             duration: data.duration,
-            url: `/company/${data.name}`,
+            url: `/experience/${data.name}`,
           }}
           key={data.id}
         />

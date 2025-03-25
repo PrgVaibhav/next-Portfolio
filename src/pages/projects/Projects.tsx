@@ -16,7 +16,7 @@ export const Projects = () => {
               name: project.name,
               description: project.description,
               //   duration: project.duration,
-              url: `/project/${project.name}`,
+              url: `/projects/${project.name}`,
               isTagAvailable: true,
               tag: project.tag,
             }}

@@ -56,7 +56,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: peteye,
     tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
     tag: "Ongoing",
-    url: "/project/PetEye",
+    url: "/projects/PetEye",
   },
   {
     id: 1,
@@ -67,7 +67,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: PodHead,
     tech: ["ReactJS", "Node", "MongoDB", "Express", "Axios"],
     tag: "Ongoing",
-    url: "/project/PodHead",
+    url: "/projects/PodHead",
   },
   {
     id: 112,
@@ -76,9 +76,9 @@ export const ProjectData: PROJECT_DATA[] = [
     description:
       "CultUI is a modern component library offering a collection of reusable and customizable UI components, designed to help developers build elegant and responsive user interfaces effortlessly.",
     image: cultui,
-    tech: ["ReactJS", "TailwindCSS", "TypeScript", "Framer Motion"],
+    tech: ["ReactJS", "TailwindCSS", "TypeScript"],
     tag: "Ongoing",
-    url: "/project/CultUI",
+    url: "/projects/CultUI",
   },
 
   {
@@ -90,7 +90,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: quickidgen, // Replace with the actual image variable
     tech: ["JavaScript", "Node.js", "ES6", "NPM"],
     tag: "Completed",
-    url: "/project/QuickIDGen",
+    url: "/projects/QuickIDGen",
   },
 
   {
@@ -102,7 +102,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: devfort,
     tech: ["ReactJS", "SCSS"],
     tag: "Completed",
-    url: "/project/Dev%20Fort",
+    url: "/projects/Dev%20Fort",
   },
   {
     id: 4,
@@ -113,7 +113,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: dice,
     tech: ["HTML", "CSS", "JavaScript"],
     tag: "Completed",
-    url: "/project/Roll%20The%20Dice",
+    url: "/projects/Roll%20The%20Dice",
   },
 
   {
@@ -125,7 +125,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: moviegyaan,
     tech: ["ReactJS", "SCSS", "TMDB API"],
     tag: "Completed",
-    url: "/project/Movie%20Gyaaan",
+    url: "/projects/Movie%20Gyaaan",
   },
   {
     id: 6,
@@ -136,7 +136,7 @@ export const ProjectData: PROJECT_DATA[] = [
     image: password,
     tech: ["ReactJS", "SCSS"],
     tag: "Completed",
-    url: "/project/Password%20Generator",
+    url: "/projects/Password%20Generator",
   },
 ];
 
@@ -262,14 +262,14 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
 
   {
     id: 10,
-    tech: ["ReactJS", "TypeScript", "TailwindCSS", "ShadCN/UI"],
+    tech: ["ReactJS", "TypeScript", "TailwindCSS"],
     type: "Personal Project",
     name: "CultUI",
     link: "https://cultui.vercel.app",
     githubLink: "",
 
     projectDescription:
-      "CultUI is a modern, developer-friendly component library designed to streamline the UI development process. It offers a collection of high-quality, customizable, and accessible React components built with TailwindCSS and ShadCN/UI. The library aims to provide developers with a seamless experience, enabling them to integrate sleek UI elements with minimal effort.",
+      "CultUI is a modern, developer-friendly component library designed to streamline the UI development process. It offers a collection of high-quality, customizable, and accessible React components built with TailwindCSS. The library aims to provide developers with a seamless experience, enabling them to integrate sleek UI elements with minimal effort.",
     thumbnail: cultui,
     duration: "2024 - Present",
     aboutProject: [
@@ -284,14 +284,7 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
         id: 2,
         header: "Component Library",
         description:
-          "I built a wide range of UI components, including buttons, modals, input fields, dropdowns, and complex elements like data tables and multi-step forms. Each component is optimized for performance and follows best practices for UI development, ensuring a smooth user experience.",
-        image: "",
-      },
-      {
-        id: 3,
-        header: "Dark Mode & Theming",
-        description:
-          "I implemented a fully responsive dark mode and theming system, allowing users to switch between light and dark themes effortlessly. The theme is dynamically managed and provides a consistent experience across all components, enhancing user flexibility.",
+          "I built a wide range of UI components, including buttons, modals, input fields, dropdowns, and complex elements like data tables and multi-step forms. Currently there are only three component available. Each component is optimized for performance and follows best practices for UI development, ensuring a smooth user experience.",
         image: "",
       },
       {
@@ -306,13 +299,6 @@ export const DetailedProjectData: DETAILED_PROJECT_DATA[] = [
         header: "Component Documentation",
         description:
           "I created a well-structured documentation site that provides detailed usage instructions, code snippets, and customization guides for each component. The documentation ensures that developers can quickly understand and implement CultUI components with minimal effort.",
-        image: "",
-      },
-      {
-        id: 6,
-        header: "Optimized Performance & Best Practices",
-        description:
-          "I focused on performance optimization by implementing lazy loading, tree shaking, and efficient state management. CultUI follows best practices for React development, ensuring minimal re-renders and improved responsiveness.",
         image: "",
       },
     ],
