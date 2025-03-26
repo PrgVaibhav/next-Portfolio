@@ -2,9 +2,24 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const SOCIALS = [
-  { id: 1, icon: <Github />, link: "", name: "Github" },
-  { id: 2, icon: <Twitter />, link: "", name: "Twitter" },
-  { id: 3, icon: <Linkedin />, link: "", name: "Linkedin" },
+  {
+    id: 1,
+    icon: <Github />,
+    link: "https://github.com/PrgVaibhav",
+    name: "Github",
+  },
+  {
+    id: 2,
+    icon: <Twitter />,
+    link: "https://twitter.com/SyntaxError408",
+    name: "Twitter",
+  },
+  {
+    id: 3,
+    icon: <Linkedin />,
+    link: "https://www.linkedin.com/in/devxvaibhav",
+    name: "Linkedin",
+  },
 ];
 
 export const Footer: React.FC = () => {

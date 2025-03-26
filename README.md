@@ -18,7 +18,7 @@ I specialize in **frontend development, UI/UX, API integration, and performance 
 [🌐 Portfolio](https://kumarvaibhav.vercel.app) 
 [🐙 GitHub](https://github.com/PrgVaibhav) 
 [💼 LinkedIn](https://www.linkedin.com/in/devxvaibhav) 
-[🐦 Twitter](https://twitter.com/devxvaibhav)
+[🐦 Twitter](https://twitter.com/SyntaxError408)
 
 ---
 
