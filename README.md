@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# 👋 Hi, I'm Vaibhav Kumar  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm a **React.js Developer** passionate about building high-performance and visually appealing web applications.  
+I specialize in **frontend development, UI/UX, API integration, and performance optimization.**  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Skills  
+- **Frontend:** ReactJS, JavaScript (ES6+), Next.js  
+- **Styling:** TailwindCSS, SCSS, BootStrap  
+- **State Management:** Redux, React Query  
+- **Base:** HTML5, CSS3
+- **Learning:** TypeScript, NodeJS, Express, MongoDB
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔗 Connect With Me  
+[🌐 Portfolio](https://kumarvaibhav.vercel.app) 
+[🐙 GitHub](https://github.com/PrgVaibhav) 
+[💼 LinkedIn](https://www.linkedin.com/in/devxvaibhav) 
+[🐦 Twitter](https://twitter.com/devxvaibhav)
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📌 Some of My Projects  
+| Project          | Description                                    | Live Demo                                 |
+| ---------------- | ---------------------------------------------- | ----------------------------------------- |
+| **CultUI**       | A UI component library for frontend developers | [CultUI](https://cultui.vercel.app)       |
+| **PodHead** | PodHead aggregates and curates podcasts from platforms like YouTube, offering a seamless and unified listening experience.js            | [PodHead](https://podhead.netlify.app/)           |
+| **DevFort**    | Dev Fort is a dedicated platform for web developers, offering a rich collection of resources to boost productivity and skill development.              | [DevFort](https://devfort.vercel.app) |
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🔄 Future Updates (Portfolio Enhancements)  
+- 🎨 **Upgrading Portfolio UI** → Refining design for a more interactive experience  
+- 🏗 **Optimizing Structure** → Enhancing performance and code maintainability  
+- 📝 **Adding a Blog Section** → Sharing technical write-ups & insights  
+- 🎭 **Dark Mode Support** → Making the UI more accessible & user-friendly  
+- 📊 **Project Showcases** → Adding interactive previews for projects  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+**🔹 Made with ❤️ by Vaibhav Kumar**  
