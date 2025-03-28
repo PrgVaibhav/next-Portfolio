@@ -52,7 +52,7 @@ export const ProjectData: PROJECT_DATA[] = [
     name: "PetEye",
     duration: "May 2024 - Present",
     description:
-      "PodHead is a platform that aggregates podcasts from YouTube, Spotify, and more, offering a seamless listening experience in one place",
+      "Building a scalable pet management platform to enhance pet adoption and care by leveraging modern web technologies.",
     image: peteye,
     tech: ["ReactJS", "Redux", "TailwindCSS", "Axios", "Firebase"],
     tag: "Ongoing",
@@ -63,7 +63,7 @@ export const ProjectData: PROJECT_DATA[] = [
     name: "PodHead",
     duration: "May 2023 - Oct 2023",
     description:
-      "PodHead is a platform that aggregates podcasts from YouTube, Spotify, and more, offering a seamless listening experience in one place",
+      "PodHead is a platform that aggregates podcasts from YouTube, Spotify, and more, offering a seamless listening experience in one place.",
     image: PodHead,
     tech: ["ReactJS", "Node", "MongoDB", "Express", "Axios"],
     tag: "Ongoing",
