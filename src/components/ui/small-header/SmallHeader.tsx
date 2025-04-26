@@ -7,7 +7,7 @@ interface SMALL_HEADER_PROPS {
   secondaryTitle?: string;
   isSecondaryTitle?: boolean;
   isButton?: boolean;
-  url?: string; // Make url optional
+  url?: string;
 }
 
 export const SmallHeader: React.FC<SMALL_HEADER_PROPS> = ({
@@ -15,10 +15,10 @@ export const SmallHeader: React.FC<SMALL_HEADER_PROPS> = ({
   secondaryTitle,
   isSecondaryTitle = true,
   isButton = false,
-  url, // It remains optional
+  url,
 }) => {
   return (
-    <div className="flex justify-between items-center ">
+    <div className="flex justify-between items-center">
       <div className="flex items-center gap-2 sm:gap-[.5vw]">
         <Sparkles className="light-color" size={18} />
         <h1 className="text-[#dfdfdf] font-bold text-md sm:text-[clamp(1rem,1.4vw,3rem)]">

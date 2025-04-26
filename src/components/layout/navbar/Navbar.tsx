@@ -46,8 +46,6 @@ const ROUTES = [
 ];
 
 export const Navbar = () => {
-  // const [theme, setTheme] = useState("dark");
-
   return (
     <nav className="w-full flex items-center justify-between card-color border border-neutral-700 rounded-lg sm:rounded-[.7vw] mt-2 sm:mt-[2vh] p-4 sm:p-[1.2vw]">
       <div className="flex gap-5 sm:gap-[2vw]">
@@ -57,12 +55,13 @@ export const Navbar = () => {
               to={route.path}
               className={({ isActive }) =>
                 isActive
-                  ? "active"
-                  : "text-2xl sm:text-[clamp(1.4rem,1.4vw,3rem)] text-[#898989]"
+                  ? "text-white scale-[1.1] transition-transform"
+                  : "text-2xl sm:text-[clamp(1.4rem,1.4vw,3rem)] text-[#898989] hover:text-white hover:scale-[1.1] transition-all duration-200 ease-in-out"
               }
             >
               <span>{route.icon}</span>
             </NavLink>
+
             <p className="absolute top-[-2rem] left-1/2 transform -translate-x-1/2 bg-neutral-800 text-white text-xs sm:text-[clamp(.6rem,.8vw,1rem)] px-2 py-1 sm:px-[.4vw] sm:py-[.2vw] rounded-md sm:rounded-[.4vw] opacity-0 group-hover:opacity-100 transition-opacity">
               {route.name}
             </p>
@@ -70,30 +69,11 @@ export const Navbar = () => {
         ))}
       </div>
       <div className="flex items-center gap-5 sm:gap-[2vw]">
-        {/* <div>
-          <span className="text-2xl sm:text-[clamp(1.4rem,1.4vw,3rem)] text-[#898989]">
-            {theme === "light" ? (
-              <div className="relative group">
-                <Sun onClick={() => setTheme("dark")} />
-                <p className="absolute top-[-2rem] left-1/2 transform -translate-x-1/2 bg-neutral-800 text-white text-xs sm:text-[clamp(.6rem,.8vw,1rem)] px-2 py-1 sm:px-[.4vw] sm:py-[.2vw] rounded-md sm:rounded-[.4vw] opacity-0 group-hover:opacity-100 transition-opacity w-max">
-                  Light Mode
-                </p>
-              </div>
-            ) : (
-              <div className="relative group">
-                <SunMoon onClick={() => setTheme("light")} />
-                <p className="absolute top-[-2rem] left-1/2 transform -translate-x-1/2 bg-neutral-800 text-white text-xs sm:text-[clamp(.6rem,.8vw,1rem)] px-2 py-1 sm:px-[.4vw] sm:py-[.2vw] rounded-md sm:rounded-[.4vw] opacity-0 group-hover:opacity-100 transition-opacity w-max">
-                  Dark Mode
-                </p>
-              </div>
-            )}
-          </span>
-        </div> */}
         <div>
           <Link to={"/contact"}>
             <Button
               leftIcon={<Sparkles size={15} />}
-              cn="bg-[#393839]  px-2 py-2 sm:px-[.4vw] sm:py-[.4vw]"
+              cn="bg-[#393839]  px-4 py-2 sm:px-[.4vw] sm:py-[.4vw]"
             >
               Hire Me
             </Button>

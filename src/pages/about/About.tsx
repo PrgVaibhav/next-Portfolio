@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, SmallHeader } from "../../components";
+import { Button, Image, SmallHeader } from "../../components";
 // import AboutImage from "../../assets/images/welcome-img.svg";
 import Javascript from "../../assets/images/javascript.webp";
 import TypeScript from "../../assets/images/typescript.webp";
@@ -15,6 +15,9 @@ import postman from "../../assets/images/postman.webp";
 import hosting from "../../assets/images/hosting.webp";
 import vscode from "../../assets/images/vscoode.webp";
 import nextJs from "../../assets/images/nextjs.webp";
+import myImage from "../../assets/images/about_img.webp";
+import mood from "../../assets/images/mood.webp";
+
 import { Link } from "react-router-dom";
 import { FileUser, Sparkles, Unplug } from "lucide-react";
 import { useTitle } from "../../helper/hooks/useTitle";
@@ -24,6 +27,7 @@ const ABOUT = [
     title: "Hey, It’s Me, Vaibhav",
     description:
       "For the past 1.5 years, I've been focused on building user-centric web applications. My passion lies in creating seamless digital experiences that are both functional and engaging. I aim to bridge the gap between complex technical challenges and intuitive user interfaces.",
+    img: myImage,
   },
   {
     id: 2,
@@ -36,6 +40,7 @@ const ABOUT = [
     title: "Beyond Development:",
     description:
       "I'm a strong believer in continuous learning and collaboration. I actively explore new technologies and contribute to open-source projects. I also recognize the importance of maintaining a balanced lifestyle, which includes staying connected with the tech community.",
+    img: mood,
   },
   //   {
   //     id: 4,
@@ -99,18 +104,32 @@ export const About = () => {
   useTitle({ title: "About" });
 
   return (
-    <section className="card-color p-4 sm:p-[1.4vw] border border-neutral-700 rounded-lg sm:rounded-[.7vw] flex flex-col gap-8 sm:gap-[3vh]">
+    <section className="card-color p-4 sm:p-[1.4vw] border border-neutral-700 rounded-lg sm:rounded-[.7vw] flex flex-col gap-8 sm:gap-[3vh] w-full">
       <SmallHeader primaryTitle="About" isSecondaryTitle={false} />
 
-      <section className="flex flex-col gap-4 sm:gap-[2vh]">
+      <section className="flex flex-col gap-4 sm:gap-[2vh] w-full ">
         {ABOUT.map((about) => (
-          <div key={about.id} className="flex flex-col gap-4 sm:gap-[1vh]">
+          <div
+            key={about.id}
+            className="flex flex-col gap-4 sm:gap-[1vh] w-full overflow-hidden"
+          >
             <h1 className="text-xl sm:text-[clamp(1.4rem,1.8vw,3rem)] font-bold">
               {about.title}
             </h1>
             <p className="text-sm sm:text-[clamp(.85rem,1.1vw,1.7rem)] leading-relaxed text-[#b5b5b5]">
               {about.description}
             </p>
+
+            {about.img && (
+              <Image
+                url={about.img}
+                alt="User Avatar"
+                aspect="aspect-square"
+                objectFit="contain"
+                imgClassName="w-full h-full rounded-xl opacity-70 "
+                containerClassName="rounded-lg"
+              />
+            )}
           </div>
         ))}
         <div className="flex gap-4 sm:gap-[.7vw]">

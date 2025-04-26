@@ -1,4 +1,4 @@
-import { Button, SmallHeader } from "../../../../components";
+import { Button, Section, SmallHeader } from "../../../../components";
 import { Link } from "react-router-dom";
 import { MoveRight } from "lucide-react";
 
@@ -16,9 +16,9 @@ const PARAGRAPH = [
 
 export const AboutSection = () => {
   return (
-    <section className="bg-[#2c2c2c] p-4 sm:p-[1.4vw] rounded-lg sm:rounded-[.7vw]">
+    <Section label="Section having about me">
       <SmallHeader primaryTitle="About Me" isSecondaryTitle={false} />
-      <div className="flex flex-col gap-4 sm:gap-[.5vw] mt-[2vh] text-[#b5b5b5]">
+      <div className="flex flex-col gap-4 sm:gap-[.5vw]  text-[#b5b5b5]">
         {PARAGRAPH.map((para, index) => (
           <p
             key={index}
@@ -37,12 +37,6 @@ export const AboutSection = () => {
           </Button>
         </Link>
       </div>
-    </section>
+    </Section>
   );
 };
-
-// <p>
-//   Every project I work on is an opportunity to learn, experiment, and
-//   push my limits. For me, coding isn’t just about writing functions it’s
-//   about building something meaningful, one component at a time.
-// </p>;

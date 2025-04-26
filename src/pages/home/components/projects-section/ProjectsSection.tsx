@@ -1,11 +1,11 @@
-import { LongCard, SmallHeader } from "../../../../components";
+import { LongCard, Section, SmallHeader } from "../../../../components";
 // import podHead from "../../../../assets/images/logo.png";
 
 import podHead from "../../../../assets/images/assets/podhead.png";
 import quickId from "../../../../assets/images/assets/quickidgen.png";
 export const ProjectsSection = () => {
   return (
-    <section className="bg-[#2c2c2c] p-4 sm:p-[1.4vw] rounded-lg sm:rounded-[.7vw] flex flex-col gap-4 sm:gap-[1vw]">
+    <Section label="">
       <SmallHeader
         primaryTitle="Projects"
         isSecondaryTitle={false}
@@ -34,6 +34,6 @@ export const ProjectsSection = () => {
           url: "/projects/QuickIDGen",
         }}
       />
-    </section>
+    </Section>
   );
 };

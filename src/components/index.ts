@@ -7,3 +7,5 @@ export { SmallHeader } from "./ui/small-header/SmallHeader";
 export { LongCard } from "./ui/long-card/LongCard";
 export { Toast } from "./ui/toast/Toast";
 export { Loading } from "./ui/loading/Loading";
+export { Image } from "./ui/image/Image";
+export { Section } from "./ui/section/Section";

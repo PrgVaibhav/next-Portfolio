@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { DetailedCompanyData } from "../../../helper/data/CompanyData";
 import React from "react";
 import { useTitle } from "../../../helper/hooks/useTitle";
+import { Image } from "../../../components";
 
 export const Experience = () => {
   const { id } = useParams<string>();
@@ -60,13 +61,14 @@ export const Experience = () => {
       <div>
         {filterProjects.map((project) => (
           <div className="flex flex-col gap-4 sm:gap-[2vh]  ">
-            <div>
-              <img
-                src={project.thumbnail}
-                alt={project.name}
-                className="w-[15vw]  h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg  sm:rounded-[1vw] object-contain bg-black/30 p-2"
-              />
-            </div>
+            <Image
+              url={project.thumbnail}
+              alt="thumbnail"
+              aspect="aspect-video"
+              objectFit="contain"
+              imgClassName="w-full h-full rounded-lg  sm:rounded-[1vw] bg-white/60"
+              containerClassName="rounded-lg sm:rounded-[1vw] overflow-hidden w-[20vw] h-[10vh] sm:w-[10vw] sm:h-[10vh] "
+            />
             <div className="flex  flex-col gap-4 sm:gap-[1vh] ">
               <h1 className="text-2xl font-bold sm:text-[clamp(1.4rem,2vw,4rem)]">
                 {project.name}

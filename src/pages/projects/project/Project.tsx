@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { DetailedProjectData } from "../../../helper/data/ProjectData";
-import { Button } from "../../../components";
+import { Button, Image } from "../../../components";
 import { Github, MoveRight } from "lucide-react";
 import React from "react";
 import { useTitle } from "../../../helper/hooks/useTitle";
@@ -63,13 +63,20 @@ export const Project = () => {
       <div>
         {filterProjects.map((project) => (
           <div className="flex flex-col gap-4 sm:gap-[2vh]  ">
-            <div>
+            <Image
+              url={project.thumbnail}
+              alt={`${project.name} preview image`}
+              objectFit="contain"
+              imgClassName="w-[15vw] h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg sm:rounded-[.8vw] bg-white/40"
+              containerClassName=" p-4 sm:p-[.6vw] w-max sm:min-w-max h-max overflow-hidden rounded-lg sm:rounded-[.8vw]"
+            />
+            {/* <div>
               <img
                 src={project.thumbnail}
                 alt={project.name}
                 className="w-[15vw]  h-[15vw] sm:w-[5vw] sm:h-[5vw] rounded-lg  sm:rounded-[1vw] object-contain bg-black/30 p-2"
               />
-            </div>
+            </div> */}
             <div className="flex  flex-col gap-4 sm:gap-[1vh] ">
               <h1 className="text-2xl font-bold sm:text-[clamp(1.4rem,2vw,4rem)]">
                 {project.name}
@@ -97,7 +104,7 @@ export const Project = () => {
               )}
             </div>
 
-            <div className="flex flex-col gap-4 sm:gap-[1vh] ">
+            <div className="flex flex-col gap-4 sm:gap-[3vh] ">
               {project.aboutProject.map((about, index) => (
                 <React.Fragment key={index}>
                   <h1 className="text-xl sm:text-[clamp(1.4rem,1.5vw,3rem)] font-bold">

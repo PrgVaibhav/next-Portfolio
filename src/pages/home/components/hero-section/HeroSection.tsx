@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
-import { Button } from "../../../../components";
+import { Button, Image } from "../../../../components";
 import { FileUser, Sparkles, Unplug } from "lucide-react";
 import avatar from "../../../../assets/avataaars.svg";
+import { useTitle } from "../../../../helper/hooks/useTitle";
 export const HeroSection = () => {
+  useTitle({ title: "Home" });
+
   return (
     <section className="flex items-center justify-center sm:justify-between flex-col-reverse sm:flex-row gap-8 sm:gap-0">
       <div className="flex flex-col items-center sm:items-start gap-4 sm:gap-[.6vw]">
@@ -22,6 +25,7 @@ export const HeroSection = () => {
               Hire Me
             </Button>
           </Link>
+
           <a
             href="https://drive.google.com/file/d/1xAOFurUIVjT0UVclxI9INu_U1kb0UX3J/view?usp=drive_link"
             target="_blank"
@@ -45,13 +49,13 @@ export const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className="bg-black/30 backdrop-blur-lg border border-white/10 rounded-full p-4 sm:p-[.6vw]">
-        <img
-          src={avatar}
-          alt=""
-          className="w-[40vw]  h-[40vw] sm:w-[10vw] sm:h-[10vw] rounded-full bg-white"
-        />
-      </div>
+      <Image
+        url={avatar}
+        alt="User Avatar"
+        objectFit="contain"
+        imgClassName="w-[40vw] h-[40vw] sm:w-[10vw] sm:h-[10vw] rounded-full bg-white"
+        containerClassName="rounded-full p-4 sm:p-[.6vw]"
+      />
     </section>
   );
 };

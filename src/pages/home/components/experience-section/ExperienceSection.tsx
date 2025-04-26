@@ -1,10 +1,14 @@
-import { LongCard, SmallHeader } from "../../../../components";
+import { LongCard, Section, SmallHeader } from "../../../../components";
 import { SmallCompanyData } from "../../../../helper/data/CompanyData";
 
 export const ExperienceSection = () => {
   const latestCompanyData = SmallCompanyData[SmallCompanyData.length - 1];
+  const lastTwoCompanyData = SmallCompanyData.slice(-2);
+
+  console.log(`lastTwoCompanyData`, lastTwoCompanyData);
+
   return (
-    <section className="bg-[#2c2c2c] p-4 sm:p-[1.4vw] rounded-lg sm:rounded-[.7vw] flex flex-col gap-4 sm:gap-[1vw]">
+    <Section label="Experience section">
       <SmallHeader
         primaryTitle="Experience"
         isSecondaryTitle={false}
@@ -12,6 +16,6 @@ export const ExperienceSection = () => {
         url="/experience"
       />
       <LongCard data={latestCompanyData} />
-    </section>
+    </Section>
   );
 };

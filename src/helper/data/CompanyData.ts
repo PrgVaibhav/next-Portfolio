@@ -30,7 +30,7 @@ import petEye from "../../assets/images/peteye.webp";
 import GrayAcumen from "../../assets/images/assets/GrayAcumen.png";
 import mile from "../../assets/images/assets/24thMile.png";
 import infozIT from "../../assets/images/assets/infozit.png";
-
+import busyBrains from "../../assets/images/busybrains.webp";
 export const SmallCompanyData: COMPANY_DATA[] = [
   {
     id: 2,
@@ -75,6 +75,17 @@ export const SmallCompanyData: COMPANY_DATA[] = [
       "Developing and optimizing a scalable pet management platform using React.js, improving user experience, performance, and real-time data handling.",
     image: petEye,
     url: "/experience/PetEye",
+  },
+  {
+    id: 6,
+    name: "BusyBrains",
+    location: "Hyderabad, Telangana",
+    role: "Associate React Developer",
+    duration: "April 2024 - Present",
+    description:
+      "Working on creating a ai based job portal, focusing on enhancing user experience, performance, and real-time data handling.",
+    image: busyBrains,
+    url: "/experience/BusyBrains",
   },
 ];
 
