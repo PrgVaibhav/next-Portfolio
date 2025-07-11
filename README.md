@@ -1,43 +1,36 @@
-# 👋 Hi, I'm Vaibhav Kumar  
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-I'm a **React.js Developer** passionate about building high-performance and visually appealing web applications.  
-I specialize in **frontend development, UI/UX, API integration, and performance optimization.**  
+## Getting Started
 
----
+First, run the development server:
 
-## 🚀 Skills  
-- **Frontend:** ReactJS, JavaScript (ES6+), Next.js  
-- **Styling:** TailwindCSS, SCSS, BootStrap  
-- **State Management:** Redux, React Query  
-- **Base:** HTML5, CSS3
-- **Learning:** TypeScript, NodeJS, Express, MongoDB
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🔗 Connect With Me  
-[🌐 Portfolio](https://kumarvaibhav.vercel.app) 
-[🐙 GitHub](https://github.com/PrgVaibhav) 
-[💼 LinkedIn](https://www.linkedin.com/in/devxvaibhav) 
-[🐦 Twitter](https://twitter.com/SyntaxError408)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 📌 Some of My Projects  
-| Project          | Description                                    | Live Demo                                 |
-| ---------------- | ---------------------------------------------- | ----------------------------------------- |
-| **CultUI**       | A UI component library for frontend developers | [CultUI](https://cultui.vercel.app)       |
-| **PodHead** | PodHead aggregates and curates podcasts from platforms like YouTube, offering a seamless and unified listening experience.js            | [PodHead](https://podhead.netlify.app/)           |
-| **DevFort**    | Dev Fort is a dedicated platform for web developers, offering a rich collection of resources to boost productivity and skill development.              | [DevFort](https://devfort.vercel.app) |
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-## 🔄 Future Updates (Portfolio Enhancements)  
-- 🎨 **Upgrading Portfolio UI** → Refining design for a more interactive experience  
-- 🏗 **Optimizing Structure** → Enhancing performance and code maintainability  
-- 📝 **Adding a Blog Section** → Sharing technical write-ups & insights  
-- 🎭 **Dark Mode Support** → Making the UI more accessible & user-friendly  
-- 📊 **Project Showcases** → Adding interactive previews for projects  
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-**🔹 Made with ❤️ by Vaibhav Kumar**  
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
