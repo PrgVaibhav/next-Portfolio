@@ -27,7 +27,8 @@ interface SIZE_STYLE_VALUE {
 }
 
 const VARIANT_STYLE: VARIANT_STYLE_VALUE = {
-  primary: "bg-gradient-to-r from-black  to-gray-700 text-white hover:bg-black",
+  primary:
+    "bg-gradient-to-r from-gray-800  to-gray-900 text-white hover:bg-black",
   outline: "bg-transparent text-gray-600 hover:bg-zinc-100 ring ring-gray-200",
   ghost: "bg-transparent text-gray-600 hover:bg-gray-100",
 };

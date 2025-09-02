@@ -7,12 +7,15 @@ interface ParagraphProps {
 }
 
 const Paragraph: React.FC<ParagraphProps> = ({
-  cn = "text-md font-open font-regular text-gray-500",
+  cn = "text-gray-500 text-md",
   label,
   children,
 }) => {
   return (
-    <p className={`${cn} transition-all duration-200`} aria-label={label}>
+    <p
+      className={`${cn} transition-all duration-200  body `}
+      aria-label={label}
+    >
       {children}
     </p>
   );

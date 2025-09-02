@@ -9,14 +9,14 @@ interface HeadingProps {
 
 const Heading: React.FC<HeadingProps> = ({
   tag = "h1",
-  cn = "text-2xl font-medium leading-none ",
+  cn = "header",
   label,
   children,
 }) => {
   const Tag = tag;
 
   return (
-    <Tag className={`${cn && cn}`} aria-label={label}>
+    <Tag className={`${cn && cn} text-2xl leading-none `} aria-label={label}>
       {children}
     </Tag>
   );

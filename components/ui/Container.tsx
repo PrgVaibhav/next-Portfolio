@@ -15,22 +15,10 @@ const Container: React.FC<ContainerProps> = ({
 }) => {
   return (
     <section
-      className={`${cn} flex flex-col justify-center items-center p-6 sm:p-4`}
+      className={`${cn} container mx-auto max-w-6xl flex flex-col justify-center items-center p-6 sm:p-4`}
       aria-label={label}
     >
-      {/* tag */}
-      {tag && (
-        <div className="text-gray-600 opacity-40 self-start p-8">
-          &lt;{tag}&gt;
-        </div>
-      )}
       {children}
-      {/* tag */}
-      {tag && (
-        <div className="text-gray-600 opacity-50 self-end p-8">
-          &lt;/{tag}&gt;
-        </div>
-      )}
     </section>
   );
 };
