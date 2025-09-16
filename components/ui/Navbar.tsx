@@ -5,6 +5,7 @@ import Heading from "./Heading";
 import Paragraph from "./Paragraph";
 import Link from "next/link";
 import { Github, Linkedin, Menu, Twitter, X } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 const LINKS = [
   { id: 1, name: "About Me", url: "/about" },
@@ -14,13 +15,22 @@ const LINKS = [
 ];
 
 const SOCIALS = [
-  { id: 1, url: "/about", icon: <Twitter size={20} /> },
-  { id: 2, url: "/projects", icon: <Linkedin size={20} /> },
-  { id: 3, url: "/experience", icon: <Github size={20} /> },
+  {
+    id: 1,
+    url: "https://twitter.com/SyntaxError408",
+    icon: <Twitter size={20} />,
+  },
+  {
+    id: 2,
+    url: "https://www.linkedin.com/in/devxvaibhav",
+    icon: <Linkedin size={20} />,
+  },
+  { id: 3, url: "https://github.com/PrgVaibhav", icon: <Github size={20} /> },
 ];
 
 const Navbar = () => {
   const [date, setDate] = useState("");
+  const pathname = usePathname();
 
   useEffect(() => {
     const today = new Date();
@@ -48,15 +58,21 @@ const Navbar = () => {
       <div className="flex items-center justify-between border-t-2 border-b-2 border-black p-3">
         {/* Desktop Links */}
         <ul className="hidden md:flex items-center gap-3">
-          {LINKS.map((link) => (
-            <Link
-              href={link.url}
-              key={link.id}
-              className="sans hover:underline transition-all duration-300"
-            >
-              {link.name}
-            </Link>
-          ))}
+          {LINKS.map((link) => {
+            const isActive = pathname === link.url;
+
+            return (
+              <Link
+                href={link.url}
+                key={link.id}
+                className={`body hover:underline transition-all duration-300 ${
+                  isActive ? "font-bold" : ""
+                }`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
         </ul>
 
         {/* Mobile Menu Toggle */}

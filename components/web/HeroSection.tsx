@@ -8,9 +8,19 @@ import Button from "../ui/Button";
 import { Scroll } from "lucide-react";
 import Link from "next/link";
 
+const SKILLS = [
+  { id: 1, name: "HTML", img: "/skills/html.webp" },
+  { id: 2, name: "CSS", img: "/skills/css.webp" },
+  { id: 3, name: "JavaScript", img: "/skills/js.webp" },
+  { id: 4, name: "ReactJS", img: "/skills/react.webp" },
+  { id: 5, name: "NextJS", img: "/skills/next.webp" },
+  { id: 6, name: "TypeScript", img: "/skills/ts.webp" },
+  { id: 7, name: "TailwindCSS", img: "/skills/tailwindcss.webp" },
+];
+
 const HeroSection = () => {
   return (
-    <Container cn="border-b-2 border-black py-8 sm:py-16">
+    <Container>
       <div className="flex gap-10  flex-col md:flex-row">
         <div className="w-full md:w-[25%]">
           <Image
@@ -23,20 +33,23 @@ const HeroSection = () => {
           />
         </div>
         <div className="flex flex-col gap-4 w-full md:w-[75%]">
-          <Pills status="info" cn="w-max">
-            Special Edition
-          </Pills>
+          <div className="flex items-center justify-between">
+            <Pills status="info" cn="w-max">
+              Special Edition
+            </Pills>
+
+            <Paragraph cn="text-balance text-gray-500 text-sm self-end">
+              Published: 02/09/2025
+            </Paragraph>
+          </div>
 
           <div className="flex flex-wrap flex-col gap-3">
             <Heading
               tag="h1"
-              cn="text-3xl lg:text-7xl header bg-[#2f2f2f] px-2 text-white w-max break-words"
+              cn="text-3xl md:text-4xl lg:text-5xl xl:text-7xl header bg-[#2f2f2f] px-2 text-white w-max break-words"
             >
               React Developer in town!!
             </Heading>
-            <Paragraph cn="text-balance text-gray-500 text-sm self-end">
-              Published: 02/09/2025
-            </Paragraph>
           </div>
 
           <div className="flex flex-col gap-4  ">
@@ -53,15 +66,45 @@ const HeroSection = () => {
               powered by caffeine and curiosity. It’s not just code anymore it’s
               my way of making life.
             </Paragraph>
-            <Paragraph cn="text-balance text-gray-600">
+            {/* <Paragraph cn="text-balance text-gray-600">
               In my role, I’ve built full projects from scratch shaping the UI,
               structuring the code, and watching ideas grow into working
               products. Every project pushed me to think deeper, solve real
               problems, and deliver something people can actually use.
-            </Paragraph>
+            </Paragraph> */}
           </div>
 
-          <div className="flex flex-wrap flex-col md:flex-row  gap-4">
+          <div>
+            <Heading
+              tag="h1"
+              cn="text-3xl font-serif font-bold tracking-wide uppercase border-b-2 border-gray-800 inline-block pb-1"
+            >
+              Skills
+            </Heading>
+
+            <div className="flex flex-wrap items-stretch gap-4 mt-6">
+              {SKILLS.map((skill) => (
+                <div
+                  key={skill.id}
+                  className="flex items-center gap-3 px-4 py-1 bg-[#fcfcfa] border-2 border-dotted border-gray-700  transition-all duration-300 cursor-default"
+                >
+                  <Image
+                    src={skill.img}
+                    alt={skill.name + " icon"}
+                    width={22}
+                    height={22}
+                    priority
+                    className="group-hover:grayscale-0 transition duration-300"
+                  />
+                  <Paragraph cn="text-gray-700 font-serif text-xs font-medium tracking-tight">
+                    {skill.name}
+                  </Paragraph>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-4 mt-4">
             <Link
               href={
                 "https://drive.google.com/file/d/150koLzSA1XvwjKbDMNNTqypAGwS-f7to/view?usp=sharing"

@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = ({
   label,
 }) => {
   return (
-    <div className={` ring ring-gray-300  px-4 py-2  ${cn ? cn : ""}`}>
+    <div className={` ring ring-black  px-4 py-2  ${cn ? cn : ""}`}>
       {children}
     </div>
   );

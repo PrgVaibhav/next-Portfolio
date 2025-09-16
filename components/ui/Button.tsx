@@ -34,10 +34,10 @@ const VARIANT_STYLE: VARIANT_STYLE_VALUE = {
 };
 
 const SIZE_STYLE: SIZE_STYLE_VALUE = {
-  sm: "h-8 px-3 py-1 text-sm rounded-md",
-  md: "h-10 px-4 py-2 text-base rounded-md",
-  lg: "h-12 px-5 py-2.5 text-lg rounded-lg",
-  xl: "h-14 px-6 py-3 text-xl rounded-xl",
+  sm: "h-8 px-3 py-1 text-sm ",
+  md: "h-10 px-4 py-2 text-base ",
+  lg: "h-12 px-5 py-2.5 text-lg ",
+  xl: "h-14 px-6 py-3 text-xl ",
 };
 
 const Button: React.FC<ButtonProps> = ({

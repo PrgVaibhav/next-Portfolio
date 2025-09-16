@@ -15,7 +15,7 @@ const Container: React.FC<ContainerProps> = ({
 }) => {
   return (
     <section
-      className={`${cn} container mx-auto max-w-6xl flex flex-col justify-center items-center p-6 sm:p-4`}
+      className={`${cn} container mx-auto max-w-6xl flex flex-col justify-center items-center px-6 sm:px-4 py-10 border-b-2 border-black`}
       aria-label={label}
     >
       {children}
