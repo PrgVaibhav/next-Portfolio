@@ -2,13 +2,38 @@ import type { Metadata } from "next";
 import "./globals.css";
 import RootLayoutClient from "./RootLayoutClient";
 
+// ✅ Import optimized Google Fonts
+import { Inter, Roboto, Fleur_De_Leah } from "next/font/google";
+
+// Example: configure fonts
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-roboto",
+  display: "swap",
+});
+
+const fleur = Fleur_De_Leah({
+  subsets: ["latin"],
+  variable: "--font-fleur",
+  display: "swap",
+  weight: "400",
+});
+
+// ✅ Metadata
 export const metadata: Metadata = {
-  title: "Vaibhav Kumar | React.js Developer",
+  title: "Vaibhav Kumar | ReactJS Developer",
   description:
-    "Vaibhav Kumar is a React.js developer passionate about building innovative, scalable, and user friendly web applications. Focused on delivering clean, efficient, and modern front-end experiences.",
+    "Vaibhav Kumar is a ReactJS developer passionate about building innovative, scalable, and user friendly web applications. Focused on delivering clean, efficient, and modern front-end experiences.",
   keywords: [
     "Vaibhav Kumar",
-    "React.js Developer",
+    "ReactJS Developer",
     "Frontend Developer",
     "JavaScript",
     "Next.js",
@@ -21,9 +46,9 @@ export const metadata: Metadata = {
   applicationName: "Portfolio - Vaibhav Kumar",
 
   openGraph: {
-    title: "Vaibhav Kumar | React.js Developer",
+    title: "Vaibhav Kumar | ReactJS Developer",
     description:
-      "React.js Developer with experience building modern, high-performance, and user-focused applications. Passionate about creating seamless front-end experiences.",
+      "ReactJS Developer with experience building modern, high-performance, and user-focused applications. Passionate about creating seamless front-end experiences.",
     url: "https://kumarvaibhav.xyz",
     siteName: "Vaibhav Kumar Portfolio",
     images: [
@@ -41,7 +66,7 @@ export const metadata: Metadata = {
   // ✅ Twitter card
   twitter: {
     card: "summary_large_image",
-    title: "Vaibhav Kumar | React.js Developer",
+    title: "Vaibhav Kumar | ReactJS Developer",
     description:
       "React.js Developer with experience building modern, high-performance, and user-focused applications.",
     creator: "@SyntaxError408",
@@ -64,13 +89,17 @@ export const metadata: Metadata = {
   },
 };
 
+// ✅ Root layout with fonts applied
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${inter.variable} ${roboto.variable} ${fleur.variable}`}
+    >
       <body>
         <RootLayoutClient>{children}</RootLayoutClient>
       </body>
