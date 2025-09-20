@@ -49,6 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <Link
           href={`/projects/${project.slug}`}
           className="body text-xs uppercase border-t border-black pt-1 inline-block hover:text-red-600 transition"
+          aria-label={`Read full story about project ${project.title}`}
         >
           Read Full Story →
         </Link>

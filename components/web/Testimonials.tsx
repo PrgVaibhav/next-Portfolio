@@ -180,6 +180,7 @@ const Testimonials = () => {
           <a
             href="mailto:vaibhav.pandey1508@gmail.com"
             className="px-4 py-2 bg-black text-white text-xs md:text-sm tracking-wide uppercase rounded-none hover:bg-gray-800 transition"
+            aria-label="Contact Vaibhav through his email"
           >
             Email Contact
           </a>
@@ -188,6 +189,7 @@ const Testimonials = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 border border-black text-xs md:text-sm tracking-wide uppercase rounded-none hover:bg-gray-100 transition"
+            aria-label="Contact Vaibhav through LinkedIn"
           >
             LinkedIn
           </a>

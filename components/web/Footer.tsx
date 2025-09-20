@@ -25,26 +25,29 @@ const Footer = () => {
         <div className="text-sm flex flex-col items-start md:items-end gap-3">
           <div className="flex gap-4 text-lg">
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/PrgVaibhav"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
+              aria-label="View Vaibhav Kumar's Github account"
             >
               <Github />
             </a>
             <a
-              href="https://linkedin.com/in/yourlinkedin"
+              href="https://www.linkedin.com/in/devxvaibhav"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
+              aria-label="View Vaibhav Kumar's LinkedIn account"
             >
               <Linkedin />
             </a>
             <a
-              href="https://twitter.com/yourtwitter"
+              href="https://twitter.com/SyntaxError408"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
+              aria-label="View Vaibhav Kumar's Twitter account"
             >
               <Twitter />
             </a>

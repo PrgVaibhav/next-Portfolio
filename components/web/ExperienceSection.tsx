@@ -84,12 +84,18 @@ const ExperienceSection = () => {
           </Paragraph>
 
           <div className="flex items-center gap-4">
-            <a href={"https://bitsndbricks.com"}>
+            <a
+              href={"https://bitsndbricks.com"}
+              aria-label="View Vaibhav Kumar's BitsndBricks project live"
+            >
               <Button size="sm" rightIcon={<Link2 size={16} />}>
                 Live
               </Button>
             </a>
-            <Link href="/experience/busybrains">
+            <Link
+              href="/experience/busybrains"
+              aria-label="Read more about Vaibhav Kumar's BitsndBricks project"
+            >
               <Button
                 variant="ghost"
                 size="sm"

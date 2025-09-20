@@ -19,7 +19,10 @@ const RecentWork = () => {
           Recent Work
         </Heading>
 
-        <Link href={"/projects"}>
+        <Link
+          href={"/projects"}
+          aria-label="View Vaibhav Kumar's all projects page"
+        >
           <Paragraph cn="text-sm font-serif text-gray-800 leading-relaxed self-end">
             View More →
           </Paragraph>

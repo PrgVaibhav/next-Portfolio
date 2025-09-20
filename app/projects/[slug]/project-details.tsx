@@ -43,6 +43,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
       {/* Back button */}
       <div className="flex items-start mb-8">
         <Link
+          aria-label={`Go back to projects`}
           href="/projects"
           className="flex items-center text-sm text-gray-500 hover:text-gray-800 transition"
         >
@@ -192,6 +193,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-gray-900 text-white rounded-md text-sm font-medium hover:bg-gray-800 transition flex items-center gap-2"
+                aria-label={`View ${projectToShow.title} project on Github`}
               >
                 <Github size={18} />
                 View on GitHub
@@ -203,6 +205,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-gray-900 text-white rounded-md text-sm font-medium hover:bg-gray-800 transition flex items-center gap-2"
+                aria-label={`View ${projectToShow.title} project live`}
               >
                 Live Demo
                 <Link2 size={18} />
