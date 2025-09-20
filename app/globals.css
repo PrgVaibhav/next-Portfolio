@@ -3,14 +3,9 @@
 :root {
   --primary: #ebebeb;
   --foreground: #171717;
-  --font-header: "Geist", sans-serif;
-  --font-body: "Inter",
-    sans-serif;
-  --font-title: "Fleur De Leah",
-    cursive;
-
-  --font-sans: "DM Sans",
-    sans-serif;
+  --font-header: var(--font-roboto);
+  --font-body: var(--font-inter);
+  --font-title: var(--font-fleur);
 }
 
 body {
