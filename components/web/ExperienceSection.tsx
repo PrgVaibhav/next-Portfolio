@@ -21,7 +21,7 @@ const ExperienceSection = () => {
       <div className="flex items-start justify-start self-start mb-8">
         <Heading
           tag="h1"
-          cn="text-3xl header bg-[#2f2f2f] px-2 text-white w-max break-words h-[40px] flex items-center"
+          cn="text-2xl sm:text-3xl header bg-[#2f2f2f] px-2 text-white w-max break-words h-[40px] flex items-center"
         >
           Experience
         </Heading>
@@ -40,7 +40,7 @@ const ExperienceSection = () => {
 
           <Heading
             tag="h2"
-            cn="text-lg md:text-xl font-semibold bg-[#2f2f2f] text-white px-4 py-2 w-max"
+            cn="text-sm md:text-xl font-semibold bg-[#2f2f2f] text-white px-4 py-2 w-max"
           >
             React Developer – BusyBrains
           </Heading>

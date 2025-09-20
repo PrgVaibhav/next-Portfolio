@@ -14,7 +14,7 @@ const RecentWork = () => {
       <div className="flex items-start justify-between w-full self-start mb-8">
         <Heading
           tag="h1"
-          cn="text-3xl header bg-[#2f2f2f] px-2 text-white w-max break-words h-[40px] flex items-center"
+          cn="text-2xl sm:text-3xl header bg-[#2f2f2f] px-2 text-white w-max break-words h-[40px] flex items-center"
         >
           Recent Work
         </Heading>

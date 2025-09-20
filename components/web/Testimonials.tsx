@@ -98,7 +98,7 @@ const Testimonials = () => {
         </div>
 
         <div className="max-w-lg w-full flex flex-col gap-4">
-          <Paragraph cn="text-md text-gray-800 text-balance leading-relaxed body border-b border-black/40 pb-2">
+          <Paragraph cn="text-md text-gray-800 text-balance leading-relaxed body border-b border-black/20 pb-2">
             "{currentTestimonial.appreciation}"
           </Paragraph>
 
@@ -149,7 +149,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="relative bg-transparent border-2 border-black px-5 py-6 mt-12 w-full max-w-2xl mx-auto shadow-sm font-serif">
+      <div className="relative bg-transparent border-2 border-black px-5 py-6 mt-12 w-full max-w-2xl mx-auto font-serif shadow-[4px_4px_0px_#000] hover:shadow-[6px_6px_0px_#000]">
         {/* Header strip */}
         <div className="border-b border-black/40 pb-2 mb-4 flex items-center justify-between">
           <span className="uppercase text-xs tracking-widest text-gray-700">
@@ -161,7 +161,7 @@ const Testimonials = () => {
         {/* Headline */}
         <Heading
           tag="h1"
-          cn="text-xl md:text-2xl h font-bold text-center text-gray-900 mb-3"
+          cn="text-xl md:text-2xl  font-bold text-center text-gray-900 mb-3"
         >
           Frontend Developer Available
         </Heading>
@@ -176,10 +176,10 @@ const Testimonials = () => {
         <div className="border-t border-dashed border-black/30 mb-4"></div>
 
         {/* CTA */}
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-wrap gap-3">
           <a
             href="mailto:vaibhav.pandey1508@gmail.com"
-            className="px-4 py-2 bg-black text-white text-xs md:text-sm tracking-wide uppercase rounded-none hover:bg-gray-800 transition"
+            className="flex-1 text-center px-4 py-2 bg-black text-white text-xs sm:text-sm tracking-wide uppercase rounded-none hover:bg-gray-800 transition "
             aria-label="Contact Vaibhav through his email"
           >
             Email Contact
@@ -188,7 +188,7 @@ const Testimonials = () => {
             href="https://www.linkedin.com/in/devxvaibhav"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 border border-black text-xs md:text-sm tracking-wide uppercase rounded-none hover:bg-gray-100 transition"
+            className="flex-1 text-center px-4 py-2 border border-black text-xs sm:text-sm tracking-wide uppercase rounded-none hover:bg-gray-100 transition"
             aria-label="Contact Vaibhav through LinkedIn"
           >
             LinkedIn

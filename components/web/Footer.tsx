@@ -60,7 +60,7 @@ const Footer = () => {
 
       {/* Bottom Strip */}
       <div className="border-t border-black text-center text-xs py-2 tracking-widest uppercase ">
-        © {new Date().getFullYear()} Vaibhav Kumar — All Rights Reserved
+        © {new Date().getFullYear()} Vaibhav Kumar
       </div>
     </footer>
   );
