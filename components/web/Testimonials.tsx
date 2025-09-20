@@ -168,8 +168,8 @@ const Testimonials = () => {
 
         {/* Description */}
         <Paragraph cn="text-sm md:text-base text-gray-600 leading-relaxed text-balance text-center mb-4">
-          React.js & Next.js developer. Experienced in building apps from
-          scratch, now seeking a full-time role.
+          ReactJS & NextJS developer. Experienced in building apps from scratch,
+          now seeking a full-time role.
         </Paragraph>
 
         {/* Divider */}

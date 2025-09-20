@@ -19,9 +19,11 @@ const RecentWork = () => {
           Recent Work
         </Heading>
 
-        <Paragraph cn="text-sm font-serif text-gray-800 leading-relaxed self-end">
-          View More →
-        </Paragraph>
+        <Link href={"/projects"}>
+          <Paragraph cn="text-sm font-serif text-gray-800 leading-relaxed self-end">
+            View More →
+          </Paragraph>
+        </Link>
       </div>
       <div className="flex flex-wrap flex-col md:flex-row gap-6">
         {PROJECTS.slice(0, 2).map((project) => (

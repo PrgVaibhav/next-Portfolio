@@ -1,18 +1,18 @@
 import React from "react";
 import Container from "../ui/Container";
 import Heading from "../ui/Heading";
-import { BrainCircuit, ChevronRight, Link } from "lucide-react";
+import { BrainCircuit, ChevronRight, Link2 } from "lucide-react";
 import Paragraph from "../ui/Paragraph";
 import Button from "../ui/Button";
 import { ImageCarousel } from "../ui/ImageCarousel";
-
+import Link from "next/link";
 const IMAGES = [
-  "/projects/busybrains/home.png",
-  "/projects/busybrains/login.png",
-  "/projects/busybrains/signup.png",
-  "/projects/busybrains/dashboard.png",
-  "/projects/busybrains/user-management.png",
-  "/projects/busybrains/work-page.png",
+  "/projects/busybrains/home.webp",
+  "/projects/busybrains/login.webp",
+  "/projects/busybrains/signup.webp",
+  "/projects/busybrains/dashboard.webp",
+  "/projects/busybrains/user-management.webp",
+  "/projects/busybrains/work-page.webp",
 ];
 
 const ExperienceSection = () => {
@@ -84,16 +84,20 @@ const ExperienceSection = () => {
           </Paragraph>
 
           <div className="flex items-center gap-4">
-            <Button size="sm" rightIcon={<Link size={16} />}>
-              Live
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              rightIcon={<ChevronRight size={16} />}
-            >
-              Read More
-            </Button>
+            <a href={"https://bitsndbricks.com"}>
+              <Button size="sm" rightIcon={<Link2 size={16} />}>
+                Live
+              </Button>
+            </a>
+            <Link href="/experience/busybrains">
+              <Button
+                variant="ghost"
+                size="sm"
+                rightIcon={<ChevronRight size={16} />}
+              >
+                Read More
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

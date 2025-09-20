@@ -8,10 +8,12 @@ import { Github, Linkedin, Menu, Twitter, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 const LINKS = [
-  { id: 1, name: "About Me", url: "/about" },
+  // { id: 1, name: "About Me", url: "/about" },
+  { id: 1, name: "Home", url: "/" },
+
   { id: 2, name: "Projects", url: "/projects" },
   { id: 3, name: "Experience", url: "/experience" },
-  { id: 4, name: "Logs", url: "/logs" },
+  // { id: 4, name: "Logs", url: "/logs" },
 ];
 
 const SOCIALS = [
@@ -46,13 +48,15 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <nav className="w-full p-4 flex flex-col gap-4">
+    <nav className="container mx-auto px-4 w-full pt-3 flex flex-col gap-4">
       <div className="flex items-center justify-between mt-4">
-        <Heading tag="h1" cn="title text-2xl md:text-4xl">
+        <Heading tag="h1" cn="title text-xl md:text-4xl">
           Developer Times
         </Heading>
 
-        <Paragraph cn="self-end italic text-sm text-gray-500">{date}</Paragraph>
+        <Paragraph cn="self-end italic text-xs sm:text-sm text-gray-500">
+          {date}
+        </Paragraph>
       </div>
 
       <div className="flex items-center justify-between border-t-2 border-b-2 border-black p-3">
@@ -101,15 +105,21 @@ const Navbar = () => {
         ${isMenuOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}`}
       >
         <ul className="flex flex-col items-start gap-3 px-3 py-3">
-          {LINKS.map((link) => (
-            <Link
-              href={link.url}
-              key={link.id}
-              className="sans hover:underline transition-all duration-300 text-xl"
-            >
-              {link.name}
-            </Link>
-          ))}
+          {LINKS.map((link) => {
+            const isActive = pathname === link.url;
+
+            return (
+              <Link
+                href={link.url}
+                key={link.id}
+                className={`body hover:underline transition-all duration-300 ${
+                  isActive ? "font-bold" : ""
+                }`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
         </ul>
       </div>
     </nav>

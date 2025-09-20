@@ -112,14 +112,14 @@ const HeroSection = () => {
               target="_blank"
             >
               <Button rightIcon={<Scroll size={14} />} size="md">
-                Front Page: Resume{" "}
+                Resume{" "}
               </Button>
             </Link>
-            <Link href={"/about-me"}>
-              <Button variant="ghost" size="md">
-                Know the Author
-              </Button>
-            </Link>
+            {/* <Link href={"/about-me"}>
+                <Button variant="ghost" size="md">
+                  Know the Author
+                </Button>
+              </Link> */}
           </div>
         </div>
       </div>

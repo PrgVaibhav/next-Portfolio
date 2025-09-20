@@ -1,21 +1,22 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Paragraph from "../ui/Paragraph";
 import Heading from "../ui/Heading";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className=" mt-12 ">
+    <footer className=" mt-12 w-full ">
       <div className="max-w-6xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-800">
         {/* Left Column - Newspaper style issue info */}
-        <div className="text-sm">
-          <Heading tag="h1" cn="uppercase title font-bold tracking-wide">
+        <div className="text-sm flex flex-col gap-2">
+          <Heading tag="h1" cn="title text-2xl md:text-4xl">
             Developer Times
           </Heading>
+
           <Paragraph cn="italic text-xs mt-1">
             Edition {new Date().getFullYear()} • Published by Vaibhav Kumar
           </Paragraph>
-          <Paragraph cn="text-xs text-gray-600 mt-2 text-balance">
+          <Paragraph cn="text-xs text-gray-600  text-balance">
             All articles & projects are personally hand-crafted with Next, & ☕.
           </Paragraph>
         </div>
@@ -29,7 +30,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-black"
             >
-              <FaGithub />
+              <Github />
             </a>
             <a
               href="https://linkedin.com/in/yourlinkedin"
@@ -37,7 +38,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-black"
             >
-              <FaLinkedin />
+              <Linkedin />
             </a>
             <a
               href="https://twitter.com/yourtwitter"
@@ -45,7 +46,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-black"
             >
-              <FaTwitter />
+              <Twitter />
             </a>
           </div>
           <p className="italic text-xs text-gray-600">

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/ui/Navbar";
-import Footer from "@/components/web/Footer";
+import RootLayoutClient from "./RootLayoutClient";
 
 export const metadata: Metadata = {
   title: "Vaibhav Kumar | React.js Developer",
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
     title: "Vaibhav Kumar | React.js Developer",
     description:
       "React.js Developer with experience building modern, high-performance, and user-focused applications. Passionate about creating seamless front-end experiences.",
-    url: "https://kumarvaibhav.xyz", // replace with your actual domain
+    url: "https://kumarvaibhav.xyz",
     siteName: "Vaibhav Kumar Portfolio",
     images: [
       {
@@ -55,17 +54,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className="container mx-auto max-w-6xl relative antialiased">
-        <header className="sticky top-0 z-[999] bg-[#ebebeb]">
-          <Navbar />
-        </header>
-        <main className="min-h-screen">{children}</main>
-        <Footer />
+      <body>
+        <RootLayoutClient>{children}</RootLayoutClient>
       </body>
     </html>
   );
