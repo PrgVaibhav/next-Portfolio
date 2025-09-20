@@ -57,7 +57,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       disabled={isLoading}
-      aria-label={label}
+      aria-label={label || "button element"}
       className={`
         inline-flex items-center justify-center gap-2 
         font-medium transition-all duration-200 ease-in-out cursor-pointer active:scale-90 font-open
