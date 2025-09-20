@@ -48,7 +48,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <nav className="container mx-auto px-4 w-full pt-3 flex flex-col gap-4">
+    <nav className=" px-4 w-full  flex flex-col gap-4">
       <div className="flex items-center justify-between mt-4">
         <Heading tag="h1" cn="title text-xl md:text-4xl">
           Developer Times
