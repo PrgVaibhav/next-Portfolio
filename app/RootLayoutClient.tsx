@@ -32,14 +32,12 @@ export default function RootLayoutClient({
           loading ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
       >
-        <header className="sticky top-0 z-[50] bg-[#ebebeb] max-w-6xl w-full mx-auto">
+        <header className="sticky top-0 z-[50] bg-[#ebebeb] md:max-w-6xl w-full mx-auto pt-2">
           <Navbar />
         </header>
-        <Container>
-          <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen">{children}</main>
 
-          <Footer />
-        </Container>
+        <Footer />
       </div>
     </>
   );
