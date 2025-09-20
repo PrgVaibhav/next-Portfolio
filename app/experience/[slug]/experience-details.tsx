@@ -8,9 +8,7 @@ import Heading from "@/components/ui/Heading";
 import Paragraph from "@/components/ui/Paragraph";
 import Link from "next/link";
 import { ArrowLeft, Building2, Calendar } from "lucide-react";
-import LoadingScreen from "@/components/ui/LoadingScreen";
 
-// Reusable Section component
 const SectionCard = ({
   title,
   children,
