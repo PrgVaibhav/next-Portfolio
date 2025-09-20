@@ -111,6 +111,7 @@ const HeroSection = () => {
                 "https://drive.google.com/file/d/150koLzSA1XvwjKbDMNNTqypAGwS-f7to/view?usp=sharing"
               }
               target="_blank"
+              aria-label="View Vaibhav Kumar's resume PDF on Google Drive"
             >
               <Button rightIcon={<Scroll size={14} />} size="md">
                 Resume{" "}

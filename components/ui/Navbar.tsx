@@ -72,6 +72,7 @@ const Navbar = () => {
                 className={`body hover:underline transition-all duration-300 ${
                   isActive ? "font-bold" : ""
                 }`}
+                aria-label={`View page ${link.name}`}
               >
                 {link.name}
               </Link>
@@ -92,7 +93,12 @@ const Navbar = () => {
         {/* Social Icons → stays fixed */}
         <div className="flex items-center gap-4">
           {SOCIALS.map((social) => (
-            <Link key={social.id} href={social.url} target="_blank">
+            <Link
+              key={social.id}
+              href={social.url}
+              target="_blank"
+              aria-label={`View Vaibhav Kumar's ${social.id} account`}
+            >
               {social.icon}
             </Link>
           ))}
@@ -115,6 +121,7 @@ const Navbar = () => {
                 className={`body hover:underline transition-all duration-300 ${
                   isActive ? "font-bold" : ""
                 }`}
+                aria-label={`View page ${link.name}`}
               >
                 {link.name}
               </Link>

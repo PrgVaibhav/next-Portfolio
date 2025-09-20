@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <Container cn=" items-start">
       <div className="flex items-start justify-between w-full self-start mb-8">
-        <Link href={"/"}>
+        <Link href={"/"} aria-label={`Go back to projects page`}>
           <span className="flex items-center gap-2">
             <ChevronLeft />
             Go back
