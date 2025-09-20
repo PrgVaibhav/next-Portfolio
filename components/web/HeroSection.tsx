@@ -25,10 +25,11 @@ const HeroSection = () => {
         <div className="w-1/2 md:w-1/3 lg:w-1/4 max-w-sm mx-auto md:mx-0">
           <Image
             src="/hero-img.webp"
-            alt="hero image"
-            width={400}
-            height={100}
+            alt="Hero image of Vaibhav Kumar"
+            width={400} // maximum width you expect
+            height={400} // adjust to maintain aspect ratio
             className="w-full h-auto object-cover grayscale-75 hover:grayscale-0 duration-300 transition-colors ring ring-[#2f2f2f] rounded-md"
+            sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
             priority
           />
         </div>
@@ -47,7 +48,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap flex-col gap-3">
             <Heading
               tag="h1"
-              cn="text-3xl md:text-4xl lg:text-5xl xl:text-7xl header bg-[#2f2f2f] px-2 text-white w-max break-words"
+              cn="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl header bg-[#2f2f2f] px-2 text-white w-max break-words"
             >
               React Developer in town!!
             </Heading>
