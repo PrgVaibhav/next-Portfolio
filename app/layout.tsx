@@ -5,7 +5,7 @@ import RootLayoutClient from "./RootLayoutClient";
 export const metadata: Metadata = {
   title: "Vaibhav Kumar | React.js Developer",
   description:
-    "Vaibhav Kumar is a React.js developer passionate about building innovative, scalable, and user-friendly web applications. Focused on delivering clean, efficient, and modern front-end experiences.",
+    "Vaibhav Kumar is a React.js developer passionate about building innovative, scalable, and user friendly web applications. Focused on delivering clean, efficient, and modern front-end experiences.",
   keywords: [
     "Vaibhav Kumar",
     "React.js Developer",
@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   creator: "Vaibhav Kumar",
   publisher: "Vaibhav Kumar",
   applicationName: "Portfolio - Vaibhav Kumar",
+
   openGraph: {
     title: "Vaibhav Kumar | React.js Developer",
     description:
@@ -27,15 +28,26 @@ export const metadata: Metadata = {
     siteName: "Vaibhav Kumar Portfolio",
     images: [
       {
-        url: "/favicon.ico",
-        width: 512,
-        height: 512,
+        url: "/banner.png",
+        width: 1200,
+        height: 630,
         alt: "Vaibhav Kumar Portfolio",
       },
     ],
     locale: "en_US",
     type: "website",
   },
+
+  // ✅ Twitter card
+  twitter: {
+    card: "summary_large_image",
+    title: "Vaibhav Kumar | React.js Developer",
+    description:
+      "React.js Developer with experience building modern, high-performance, and user-focused applications.",
+    creator: "@SyntaxError408",
+    images: ["/banner.png"],
+  },
+
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
