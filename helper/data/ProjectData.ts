@@ -19,7 +19,7 @@ export interface ProjectData {
 export const PROJECTS: ProjectData[] = [
   {
     id: 1,
-    cover: "/projects/cover/bitsndbricks.jpg",
+    cover: "/projects/cover/bitsndbricks.webp",
     title: "BitsndBricks",
     snippet:
       "A platform where property professionals companies or individuals sign up, register, and start building or applying for work. My very first big project, crafted entirely from scratch, laying the foundation for scalable, user friendly real estate solutions.",
@@ -80,7 +80,7 @@ export const PROJECTS: ProjectData[] = [
 
   {
     id: 2,
-    cover: "/projects/cover/cultui.jpg",
+    cover: "/projects/cover/cultui.webp",
     title: "CultUI",
     snippet:
       "CultUI is a modern, developer-friendly component library designed to streamline the UI development process. It offers a collection of high-quality, customizable, and accessible React components built with TailwindCSS.",
@@ -126,7 +126,7 @@ export const PROJECTS: ProjectData[] = [
 
   {
     id: 3,
-    cover: "/projects/cover/peteye.jpg",
+    cover: "/projects/cover/peteye.webp",
     title: "PetEye",
     snippet:
       "PetEye is an all-in-one platform catering to pet owners, providing innovative solutions for pet data management, e-commerce, tracking, and community engagement.",
@@ -179,7 +179,7 @@ export const PROJECTS: ProjectData[] = [
 
   {
     id: 4,
-    cover: "/projects/cover/movie-gyaan.jpg",
+    cover: "/projects/cover/movie-gyaan.webp",
     title: "Movie Gyaan",
     snippet:
       "Movie Gyaan is a go to platform for movie enthusiasts, offering detailed insights into a wide range of films. From ratings to budgets, this site provides everything you need to explore the world of cinema.",
@@ -223,7 +223,7 @@ export const PROJECTS: ProjectData[] = [
 
   {
     id: 5,
-    cover: "/projects/cover/redditwrap.jpg",
+    cover: "/projects/cover/redditwrap.webp",
     title: "RedditWrap",
     snippet:
       "RedditWrap is your curated gateway to the best of Reddit for developers. No spam. No distractions. Just the most insightful discussions, tips, and resources tailored for the coding community.",

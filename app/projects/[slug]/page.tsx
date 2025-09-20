@@ -2,6 +2,6 @@
 import React from "react";
 import ProjectDetails from "./project-details";
 
-export default function Page({ params }: { params: { slug: string } }) {
-  return <ProjectDetails slug={params.slug} />;
+export default function Page() {
+  return <ProjectDetails />;
 }

@@ -8,26 +8,31 @@ import { ProjectData, PROJECTS } from "@/helper/data/ProjectData";
 import { ChevronLeft, Github, Link2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useParams, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { FaTools, FaUserTie, FaFlagCheckered } from "react-icons/fa";
 
 interface ProjectDetailsProps {
-  slug: string;
+  slug?: string;
 }
 
 const ProjectDetails: React.FC<ProjectDetailsProps> = ({ slug }) => {
+  const params = useParams();
+  const router = useRouter();
   const [projectToShow, setProjectToShow] = useState<ProjectData | undefined>(
     undefined
   );
   const [loading, setLoading] = useState<boolean>(false);
 
   useEffect(() => {
-    setLoading(true);
-    const findProjectFromData =
-      PROJECTS.find((project) => project.slug === slug) || undefined;
-    setProjectToShow(findProjectFromData);
-    setLoading(false);
-  }, [slug]);
+    if (params.slug) {
+      const expData =
+        PROJECTS.find((prj) => prj.slug.split("/").pop() === params.slug) ||
+        null;
+      if (!expData) router.push("/experience");
+      else setProjectToShow(expData);
+    }
+  }, [params.slug, router]);
 
   if (loading || !projectToShow) {
     return <p className="text-center mt-10">Loading...</p>;
