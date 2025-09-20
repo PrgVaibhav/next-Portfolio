@@ -83,7 +83,7 @@ const ExperienceSection = () => {
             solution, turning complex workflows into a smooth user experience.
           </Paragraph>
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
             <a
               href={"https://bitsndbricks.com"}
               aria-label="View Vaibhav Kumar's BitsndBricks project live"
@@ -101,7 +101,7 @@ const ExperienceSection = () => {
                 size="sm"
                 rightIcon={<ChevronRight size={16} />}
               >
-                Read More
+                Read More about BitsndBricks
               </Button>
             </Link>
           </div>

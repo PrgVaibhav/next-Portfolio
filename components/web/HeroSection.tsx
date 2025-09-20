@@ -40,7 +40,7 @@ const HeroSection = () => {
               Special Edition
             </Pills>
 
-            <Paragraph cn="text-balance text-gray-500 text-sm self-end">
+            <Paragraph cn="text-balance text-gray-600 text-sm self-end">
               Published: 02/09/2025
             </Paragraph>
           </div>
