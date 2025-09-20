@@ -88,7 +88,7 @@ const Testimonials = () => {
 
       <div className="flex items-start flex-wrap justify-between w-full gap-4">
         <div className="max-w-md w-full flex flex-col gap-4">
-          <Heading tag="h3" cn="text-xl header text-black w-max font-semibold">
+          <Heading tag="h2" cn="text-xl header text-black w-max font-semibold">
             What people say
           </Heading>
           <Paragraph cn="text-sm text-gray-600 leading-relaxed">
@@ -109,7 +109,7 @@ const Testimonials = () => {
                 <Paragraph cn="text-sm text-gray-800 leading-relaxed">
                   {currentTestimonial.user.name}
                 </Paragraph>
-                <Paragraph cn="text-xs text-gray-400 leading-relaxed">
+                <Paragraph cn="text-xs text-gray-600 leading-relaxed">
                   {currentTestimonial.user.designation},{" "}
                   {currentTestimonial.user.company}
                 </Paragraph>
@@ -155,7 +155,7 @@ const Testimonials = () => {
           <span className="uppercase text-xs tracking-widest text-gray-700">
             Classified
           </span>
-          <span className="text-xs italic text-gray-500">Open Role Notice</span>
+          <span className="text-xs italic text-gray-600">Open Role Notice</span>
         </div>
 
         {/* Headline */}

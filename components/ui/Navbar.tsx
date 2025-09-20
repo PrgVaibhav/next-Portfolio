@@ -54,7 +54,7 @@ const Navbar = () => {
           Developer Times
         </Heading>
 
-        <Paragraph cn="self-end italic text-xs sm:text-sm text-gray-500">
+        <Paragraph cn="self-end italic text-xs sm:text-sm text-gray-600">
           {date}
         </Paragraph>
       </div>
@@ -66,16 +66,17 @@ const Navbar = () => {
             const isActive = pathname === link.url;
 
             return (
-              <Link
-                href={link.url}
-                key={link.id}
-                className={`body hover:underline transition-all duration-300 ${
-                  isActive ? "font-bold" : ""
-                }`}
-                aria-label={`View page ${link.name}`}
-              >
-                {link.name}
-              </Link>
+              <li key={link.id}>
+                <Link
+                  href={link.url}
+                  className={`body hover:underline transition-all duration-300 ${
+                    isActive ? "font-bold" : ""
+                  }`}
+                  aria-label={`View page ${link.name}`}
+                >
+                  {link.name}
+                </Link>
+              </li>
             );
           })}
         </ul>
@@ -110,21 +111,22 @@ const Navbar = () => {
         className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out border-b-2 border-black
         ${isMenuOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}`}
       >
-        <ul className="flex flex-col items-start gap-3 px-3 py-3">
+        <ul className="hidden md:flex items-center gap-3">
           {LINKS.map((link) => {
             const isActive = pathname === link.url;
 
             return (
-              <Link
-                href={link.url}
-                key={link.id}
-                className={`body hover:underline transition-all duration-300 ${
-                  isActive ? "font-bold" : ""
-                }`}
-                aria-label={`View page ${link.name}`}
-              >
-                {link.name}
-              </Link>
+              <li key={link.id}>
+                <Link
+                  href={link.url}
+                  className={`body hover:underline transition-all duration-300 ${
+                    isActive ? "font-bold" : ""
+                  }`}
+                  aria-label={`View page ${link.name}`}
+                >
+                  {link.name}
+                </Link>
+              </li>
             );
           })}
         </ul>
